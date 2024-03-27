@@ -1,0 +1,88 @@
+.footer {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.footer .section-title-61 {
+  color: var(--dark-blue);
+  position: relative;
+}
+
+.footer .section-title-62 {
+  color: var(--dark-blue);
+  position: relative;
+}
+
+.footer .BAAQMD-logo-2 {
+  object-fit: cover;
+  position: relative;
+}
+
+.footer.resolution-107-desktop {
+  gap: 246px;
+  height: 200px;
+  width: 1920px;
+}
+
+.footer.resolution-107-mobile {
+  flex-direction: column;
+  gap: 20px;
+  padding: 36px 0px;
+  width: 375px;
+}
+
+.footer.resolution-107-desktop .section-title-61 {
+  font-family: var(--caption-desktop-font-family);
+  font-size: var(--caption-desktop-font-size);
+  font-style: var(--caption-desktop-font-style);
+  font-weight: var(--caption-desktop-font-weight);
+  letter-spacing: var(--caption-desktop-letter-spacing);
+  line-height: var(--caption-desktop-line-height);
+  width: 312px;
+}
+
+.footer.resolution-107-mobile .section-title-61 {
+  font-family: var(--caption-mobile-font-family);
+  font-size: var(--caption-mobile-font-size);
+  font-style: var(--caption-mobile-font-style);
+  font-weight: var(--caption-mobile-font-weight);
+  letter-spacing: var(--caption-mobile-letter-spacing);
+  line-height: var(--caption-mobile-line-height);
+  margin-top: -1px;
+  text-align: center;
+  width: fit-content;
+}
+
+.footer.resolution-107-desktop .section-title-62 {
+  font-family: var(--caption-desktop-font-family);
+  font-size: var(--caption-desktop-font-size);
+  font-style: var(--caption-desktop-font-style);
+  font-weight: var(--caption-desktop-font-weight);
+  letter-spacing: var(--caption-desktop-letter-spacing);
+  line-height: var(--caption-desktop-line-height);
+  width: 609px;
+}
+
+.footer.resolution-107-mobile .section-title-62 {
+  font-family: var(--caption-mobile-font-family);
+  font-size: var(--caption-mobile-font-size);
+  font-style: var(--caption-mobile-font-style);
+  font-weight: var(--caption-mobile-font-weight);
+  letter-spacing: var(--caption-mobile-letter-spacing);
+  line-height: var(--caption-mobile-line-height);
+  text-align: center;
+  width: fit-content;
+}
+
+.footer.resolution-107-desktop .BAAQMD-logo-2 {
+  height: 55.51px;
+  width: 321px;
+}
+
+.footer.resolution-107-mobile .BAAQMD-logo-2 {
+  height: 49.46px;
+  width: 286px;
+}

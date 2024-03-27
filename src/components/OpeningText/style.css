@@ -1,0 +1,95 @@
+.opening-text {
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+}
+
+.opening-text .frame-3 {
+  align-items: flex-start;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+}
+
+.opening-text .AB-community {
+  color: var(--dark-blue);
+  margin-top: -1px;
+  position: relative;
+}
+
+.opening-text .we-continued-to-work {
+  color: var(--dark-blue);
+  font-family: "Poppins", Helvetica;
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: 1.04px;
+  line-height: 39px;
+  position: relative;
+}
+
+.opening-text .span {
+  font-family: var(--pull-quote-desktop-font-family);
+  font-size: var(--pull-quote-desktop-font-size);
+  font-style: var(--pull-quote-desktop-font-style);
+  font-weight: var(--pull-quote-desktop-font-weight);
+  letter-spacing: var(--pull-quote-desktop-letter-spacing);
+  line-height: var(--pull-quote-desktop-line-height);
+}
+
+.opening-text .text-wrapper-2 {
+  font-family: var(--pull-quote-desktop-bold-font-family);
+  font-size: var(--pull-quote-desktop-bold-font-size);
+  font-style: var(--pull-quote-desktop-bold-font-style);
+  font-weight: var(--pull-quote-desktop-bold-font-weight);
+  letter-spacing: var(--pull-quote-desktop-bold-letter-spacing);
+  line-height: var(--pull-quote-desktop-bold-line-height);
+}
+
+.opening-text.resolution-5-desktop {
+  display: inline-flex;
+}
+
+.opening-text.resolution-5-mobile {
+  display: flex;
+  width: 327px;
+}
+
+.opening-text.resolution-5-desktop .frame-3 {
+  display: inline-flex;
+}
+
+.opening-text.resolution-5-mobile .frame-3 {
+  align-self: stretch;
+  display: flex;
+  width: 100%;
+}
+
+.opening-text.resolution-5-desktop .AB-community {
+  font-family: var(--h2-desktop-font-family);
+  font-size: var(--h2-desktop-font-size);
+  font-style: var(--h2-desktop-font-style);
+  font-weight: var(--h2-desktop-font-weight);
+  letter-spacing: var(--h2-desktop-letter-spacing);
+  line-height: var(--h2-desktop-line-height);
+  width: 841px;
+}
+
+.opening-text.resolution-5-mobile .AB-community {
+  align-self: stretch;
+  font-family: var(--h2-mobile-font-family);
+  font-size: var(--h2-mobile-font-size);
+  font-style: var(--h2-mobile-font-style);
+  font-weight: var(--h2-mobile-font-weight);
+  letter-spacing: var(--h2-mobile-letter-spacing);
+  line-height: var(--h2-mobile-line-height);
+}
+
+.opening-text.resolution-5-desktop .we-continued-to-work {
+  width: 855px;
+}
+
+.opening-text.resolution-5-mobile .we-continued-to-work {
+  align-self: stretch;
+}

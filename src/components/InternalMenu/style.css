@@ -1,0 +1,109 @@
+.internal-menu {
+  align-items: center;
+  background-color: var(--dark-blue);
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.internal-menu .arrow-element-2 {
+  flex: 0 0 auto !important;
+  position: relative !important;
+}
+
+.internal-menu .group-15 {
+  height: 44px;
+  position: relative;
+  width: 44px;
+}
+
+.internal-menu .rectangle-10 {
+  background-color: var(--white);
+  height: 11px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 13px;
+}
+
+.internal-menu .rectangle-11 {
+  background-color: var(--white);
+  height: 11px;
+  left: 0;
+  position: absolute;
+  top: 16px;
+  width: 13px;
+}
+
+.internal-menu .rectangle-12 {
+  background-color: var(--white);
+  height: 11px;
+  left: 0;
+  position: absolute;
+  top: 33px;
+  width: 13px;
+}
+
+.internal-menu .rectangle-13 {
+  background-color: var(--white);
+  height: 11px;
+  left: 16px;
+  position: absolute;
+  top: 0;
+  width: 13px;
+}
+
+.internal-menu .rectangle-14 {
+  background-color: var(--white);
+  height: 11px;
+  left: 16px;
+  position: absolute;
+  top: 16px;
+  width: 13px;
+}
+
+.internal-menu .rectangle-15 {
+  background-color: var(--white);
+  height: 11px;
+  left: 16px;
+  position: absolute;
+  top: 33px;
+  width: 13px;
+}
+
+.internal-menu .rectangle-16 {
+  background-color: var(--white);
+  height: 11px;
+  left: 31px;
+  position: absolute;
+  top: 0;
+  width: 13px;
+}
+
+.internal-menu .rectangle-17 {
+  background-color: var(--white);
+  height: 11px;
+  left: 31px;
+  position: absolute;
+  top: 16px;
+  width: 13px;
+}
+
+.internal-menu .rectangle-18 {
+  background-color: var(--white);
+  height: 11px;
+  left: 31px;
+  position: absolute;
+  top: 33px;
+  width: 13px;
+}
+
+.internal-menu.resolution-106-desktop {
+  padding: 40px 60px;
+  width: 1920px;
+}
+
+.internal-menu.resolution-106-mobile {
+  padding: 40px 20px;
+  width: 375px;
+}

@@ -1,0 +1,82 @@
+.block-of-text {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+  padding: 24px;
+  position: relative;
+}
+
+.block-of-text .text {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+  position: relative;
+}
+
+.block-of-text .section-title {
+  color: var(--white);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.block-of-text .element-annual-report {
+  color: var(--white);
+  position: relative;
+}
+
+.block-of-text .resolution-1-desktop {
+  font-family: var(--h1-desktop-font-family);
+  font-size: var(--h1-desktop-font-size);
+  font-style: var(--h1-desktop-font-style);
+  font-weight: var(--h1-desktop-font-weight);
+  letter-spacing: var(--h1-desktop-letter-spacing);
+  line-height: var(--h1-desktop-line-height);
+}
+
+.block-of-text .resolution-1-mobile {
+  font-family: var(--h1-mobile-font-family);
+  font-size: var(--h1-mobile-font-size);
+  font-style: var(--h1-mobile-font-style);
+  font-weight: var(--h1-mobile-font-weight);
+  letter-spacing: var(--h1-mobile-letter-spacing);
+  line-height: var(--h1-mobile-line-height);
+}
+
+.block-of-text .two-lines {
+  width: 1097px;
+}
+
+.block-of-text .resolution-2-desktop {
+  font-family: var(--h6-desktop-font-family);
+  font-size: var(--h6-desktop-font-size);
+  font-style: var(--h6-desktop-font-style);
+  font-weight: var(--h6-desktop-font-weight);
+  letter-spacing: var(--h6-desktop-letter-spacing);
+  line-height: var(--h6-desktop-line-height);
+}
+
+.block-of-text .no {
+  width: fit-content;
+}
+
+.block-of-text .yes {
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.block-of-text .resolution-2-mobile {
+  font-family: var(--h6-mobile-font-family);
+  font-size: var(--h6-mobile-font-size);
+  font-style: var(--h6-mobile-font-style);
+  font-weight: var(--h6-mobile-font-weight);
+  letter-spacing: var(--h6-mobile-letter-spacing);
+  line-height: var(--h6-mobile-line-height);
+}

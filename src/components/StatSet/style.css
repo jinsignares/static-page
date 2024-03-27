@@ -1,0 +1,10 @@
+.stat-set {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 36px;
+  position: relative;
+}
+
+.stat-set.resolution-13-mobile {
+  flex-direction: column;
+}

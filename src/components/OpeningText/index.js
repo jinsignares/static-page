@@ -1,0 +1,1 @@
+export { OpeningText } from "./OpeningText";

@@ -1,0 +1,29 @@
+.graph-chart-total {
+  align-items: flex-start;
+  border-color: var(--dark-blue);
+  border-top-style: solid;
+  border-top-width: 1px;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px 0px 0px;
+  position: relative;
+}
+
+.graph-chart-total .class-9 {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.graph-chart-total .class-10 {
+  flex: 0 0 auto !important;
+}
+
+.graph-chart-total.resolution-101-desktop {
+  display: inline-flex;
+}
+
+.graph-chart-total.resolution-101-mobile {
+  display: flex;
+  width: 375px;
+}

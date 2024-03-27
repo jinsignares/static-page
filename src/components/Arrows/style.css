@@ -1,0 +1,10 @@
+.arrows {
+  align-items: flex-start;
+  display: inline-flex;
+  position: relative;
+}
+
+.arrows .arrow-element {
+  flex: 0 0 auto !important;
+  position: relative !important;
+}

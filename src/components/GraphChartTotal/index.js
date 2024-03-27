@@ -1,0 +1,1 @@
+export { GraphChartTotal } from "./GraphChartTotal";

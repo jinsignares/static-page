@@ -1,0 +1,879 @@
+.graph-chart-line {
+  align-items: flex-start;
+  position: relative;
+}
+
+.graph-chart-line .div-2 {
+  display: flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.graph-chart-line .section-title-15 {
+  color: var(--dark-gray);
+  margin-top: -1px;
+  position: relative;
+}
+
+.graph-chart-line .frame-22 {
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.graph-chart-line .section-title-16 {
+  color: var(--dark-gray);
+  font-family: var(--h5-desktop-font-family);
+  font-size: var(--h5-desktop-font-size);
+  font-style: var(--h5-desktop-font-style);
+  font-weight: var(--h5-desktop-font-weight);
+  letter-spacing: var(--h5-desktop-letter-spacing);
+  line-height: var(--h5-desktop-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: right;
+  width: 68.98px;
+}
+
+.graph-chart-line .section-title-17 {
+  color: var(--dark-gray);
+  font-family: var(--h5-desktop-font-family);
+  font-size: var(--h5-desktop-font-size);
+  font-style: var(--h5-desktop-font-style);
+  font-weight: var(--h5-desktop-font-weight);
+  letter-spacing: var(--h5-desktop-letter-spacing);
+  line-height: var(--h5-desktop-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: right;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.graph-chart-line .frame-23 {
+  position: relative;
+}
+
+.graph-chart-line .frame-24 {
+  position: relative;
+}
+
+.graph-chart-line .frame-25 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.graph-chart-line .section-title-18 {
+  color: var(--dark-gray);
+  font-family: var(--h5-mobile-font-family);
+  font-size: var(--h5-mobile-font-size);
+  font-style: var(--h5-mobile-font-style);
+  font-weight: var(--h5-mobile-font-weight);
+  letter-spacing: var(--h5-mobile-letter-spacing);
+  line-height: var(--h5-mobile-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: 68.98px;
+}
+
+.graph-chart-line .section-title-19 {
+  color: var(--dark-gray);
+  font-family: var(--h5-mobile-font-family);
+  font-size: var(--h5-mobile-font-size);
+  font-style: var(--h5-mobile-font-style);
+  font-weight: var(--h5-mobile-font-weight);
+  letter-spacing: var(--h5-mobile-letter-spacing);
+  line-height: var(--h5-mobile-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.graph-chart-line .div-3 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  position: relative;
+  width: 100%;
+}
+
+.graph-chart-line .section-title-20 {
+  color: var(--dark-gray);
+  font-family: var(--h5-mobile-font-family);
+  font-size: var(--h5-mobile-font-size);
+  font-style: var(--h5-mobile-font-style);
+  font-weight: var(--h5-mobile-font-weight);
+  letter-spacing: var(--h5-mobile-letter-spacing);
+  line-height: var(--h5-mobile-line-height);
+  margin-right: -28px;
+  margin-top: -1px;
+  position: relative;
+  width: 403px;
+}
+
+.graph-chart-line .frame-26 {
+  flex: 1;
+  flex-grow: 1;
+  margin-right: -29px;
+  position: relative;
+}
+
+.graph-chart-line .div-4 {
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.graph-chart-line .section-title-21 {
+  color: var(--dark-gray);
+  margin-top: -1px;
+  position: relative;
+}
+
+.graph-chart-line .frame-27 {
+  position: relative;
+}
+
+.graph-chart-line .section-title-22 {
+  color: var(--dark-gray);
+  margin-top: -1px;
+  position: relative;
+  width: 68.98px;
+}
+
+.graph-chart-line .section-title-23 {
+  color: var(--dark-gray);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.graph-chart-line .section-title-24 {
+  color: var(--dark-gray);
+  font-family: var(--h5-mobile-font-family);
+  font-size: var(--h5-mobile-font-size);
+  font-style: var(--h5-mobile-font-style);
+  font-weight: var(--h5-mobile-font-weight);
+  letter-spacing: var(--h5-mobile-letter-spacing);
+  line-height: var(--h5-mobile-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: right;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.graph-chart-line .div-5 {
+  display: flex;
+  position: relative;
+}
+
+.graph-chart-line .section-title-25 {
+  color: var(--dark-gray);
+  margin-top: -1px;
+  position: relative;
+}
+
+.graph-chart-line .frame-28 {
+  align-items: center;
+  position: relative;
+}
+
+.graph-chart-line .frame-29 {
+  position: relative;
+}
+
+.graph-chart-line .frame-30 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 24px;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.graph-chart-line.resolution-47-desktop_1 {
+  display: inline-flex;
+  gap: 8px;
+}
+
+.graph-chart-line.input-title {
+  flex-direction: column;
+  padding: 0px 0px 16px;
+}
+
+.graph-chart-line.resolution-47-desktop {
+  display: inline-flex;
+}
+
+.graph-chart-line.resolution-47-mobile {
+  display: flex;
+}
+
+.graph-chart-line.input-total {
+  flex-direction: column;
+}
+
+.graph-chart-line.input-default {
+  flex-direction: column;
+}
+
+.graph-chart-line.input-title.resolution-47-desktop {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--dark-blue);
+  gap: 8px;
+}
+
+.graph-chart-line.resolution-47-desktop.input-total {
+  gap: 8px;
+}
+
+.graph-chart-line.columns-1-two.resolution-47-desktop {
+  gap: 8px;
+}
+
+.graph-chart-line.resolution-47-desktop.input-default {
+  gap: 8px;
+}
+
+.graph-chart-line.resolution-47-desktop.input-total-sl {
+  width: 375px;
+}
+
+.graph-chart-line.input-total-sl.lines-one {
+  width: 375px;
+}
+
+.graph-chart-line.resolution-47-desktop.lines-two {
+  gap: 8px;
+}
+
+.graph-chart-line.columns-1-three.input-total {
+  gap: 8px;
+}
+
+.graph-chart-line.lines-two.resolution-47-mobile {
+  width: 360px;
+}
+
+.graph-chart-line.resolution-47-desktop_1.input-total-sl {
+  width: 375px;
+}
+
+.graph-chart-line.columns-1-three.input-default.resolution-47-mobile {
+  gap: 4px;
+  width: 360px;
+}
+
+.graph-chart-line.input-total.lines-one.resolution-47-mobile {
+  width: 375px;
+}
+
+.graph-chart-line.input-title.lines-one.resolution-47-mobile {
+  gap: 16px;
+  width: 375px;
+}
+
+.graph-chart-line.input-title.lines-two.resolution-47-mobile {
+  gap: 4px;
+}
+
+.graph-chart-line.input-default.lines-two.resolution-47-mobile {
+  gap: 4px;
+}
+
+.graph-chart-line.columns-1-two.lines-one.resolution-47-mobile {
+  width: 375px;
+}
+
+.graph-chart-line.columns-1-two.input-default.lines-one {
+  gap: 8px;
+}
+
+.graph-chart-line.columns-1-two.lines-two.resolution-47-mobile {
+  gap: 4px;
+}
+
+.graph-chart-line.input-total-sl.lines-two.resolution-47-mobile {
+  gap: 4px;
+}
+
+.graph-chart-line.input-title .div-2 {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--dark-blue);
+  gap: 10px;
+}
+
+.graph-chart-line.resolution-47-desktop .div-2 {
+  align-items: center;
+  width: 697.54px;
+}
+
+.graph-chart-line.resolution-47-mobile .div-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  flex-direction: column;
+  width: 100%;
+}
+
+.graph-chart-line.columns-1-three.lines-one .div-2 {
+  padding: 0px 0px 16px;
+}
+
+.graph-chart-line.lines-two.resolution-47-mobile .div-2 {
+  justify-content: center;
+}
+
+.graph-chart-line.columns-1-two.lines-one .div-2 {
+  padding: 0px 0px 8px;
+}
+
+.graph-chart-line.resolution-47-desktop .section-title-15 {
+  font-family: var(--body-text-desktop-font-family);
+  font-size: var(--body-text-desktop-font-size);
+  font-style: var(--body-text-desktop-font-style);
+  font-weight: var(--body-text-desktop-font-weight);
+  letter-spacing: var(--body-text-desktop-letter-spacing);
+  line-height: var(--body-text-desktop-line-height);
+  width: 403px;
+}
+
+.graph-chart-line.resolution-47-mobile .section-title-15 {
+  align-self: stretch;
+  font-family: var(--body-text-mobile-font-family);
+  font-size: var(--body-text-mobile-font-size);
+  font-style: var(--body-text-mobile-font-style);
+  font-weight: var(--body-text-mobile-font-weight);
+  letter-spacing: var(--body-text-mobile-letter-spacing);
+  line-height: var(--body-text-mobile-line-height);
+}
+
+.graph-chart-line.resolution-47-desktop .frame-22 {
+  flex: 1;
+  flex-grow: 1;
+  gap: 60px;
+  justify-content: flex-end;
+}
+
+.graph-chart-line.resolution-47-mobile .frame-22 {
+  align-self: stretch;
+  flex: 0 0 auto;
+  gap: 10px;
+  width: 100%;
+}
+
+.graph-chart-line.columns-1-three .frame-23 {
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 60px;
+}
+
+.graph-chart-line.resolution-47-desktop .frame-23 {
+  color: var(--dark-gray);
+  font-family: var(--h5-desktop-font-family);
+  font-size: var(--h5-desktop-font-size);
+  font-style: var(--h5-desktop-font-style);
+  font-weight: var(--h5-desktop-font-weight);
+  letter-spacing: var(--h5-desktop-letter-spacing);
+  line-height: var(--h5-desktop-line-height);
+  margin-top: -1px;
+  text-align: right;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.graph-chart-line.resolution-47-mobile .frame-23 {
+  align-items: center;
+}
+
+.graph-chart-line.columns-1-two.resolution-47-mobile .frame-23 {
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 24px;
+}
+
+.graph-chart-line.columns-1-three .frame-24 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 24px;
+  justify-content: flex-end;
+}
+
+.graph-chart-line.columns-1-two .frame-24 {
+  color: var(--dark-gray);
+  font-family: var(--h5-mobile-font-family);
+  font-size: var(--h5-mobile-font-size);
+  font-style: var(--h5-mobile-font-style);
+  font-weight: var(--h5-mobile-font-weight);
+  letter-spacing: var(--h5-mobile-letter-spacing);
+  line-height: var(--h5-mobile-line-height);
+  margin-top: -1px;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.graph-chart-line.input-title .div-4 {
+  align-items: center;
+  display: inline-flex;
+  gap: 60px;
+}
+
+.graph-chart-line.resolution-47-desktop .div-4 {
+  align-items: center;
+  padding: 0px 0px 0px 36px;
+  width: 697.54px;
+}
+
+.graph-chart-line.input-default .div-4 {
+  display: flex;
+}
+
+.graph-chart-line.lines-two.resolution-47-mobile .div-4 {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.graph-chart-line.columns-1-two.lines-one .div-4 {
+  justify-content: flex-end;
+}
+
+.graph-chart-line.input-total.lines-two.resolution-47-mobile .div-4 {
+  align-items: flex-start;
+}
+
+.graph-chart-line.input-default.lines-two.resolution-47-mobile .div-4 {
+  align-items: flex-start;
+}
+
+.graph-chart-line.input-total-sl.lines-two.resolution-47-mobile .div-4 {
+  align-items: flex-start;
+}
+
+.graph-chart-line.resolution-47-desktop .section-title-21 {
+  font-family: var(--body-text-desktop-font-family);
+  font-size: var(--body-text-desktop-font-size);
+  font-style: var(--body-text-desktop-font-style);
+  font-weight: var(--body-text-desktop-font-weight);
+  letter-spacing: var(--body-text-desktop-letter-spacing);
+  line-height: var(--body-text-desktop-line-height);
+  width: 403px;
+}
+
+.graph-chart-line.input-title.resolution-47-mobile .section-title-21 {
+  width: 68.98px;
+}
+
+.graph-chart-line.lines-two.resolution-47-mobile .section-title-21 {
+  align-self: stretch;
+  font-family: var(--body-text-mobile-font-family);
+  font-size: var(--body-text-mobile-font-size);
+  font-style: var(--body-text-mobile-font-style);
+  font-weight: var(--body-text-mobile-font-weight);
+  letter-spacing: var(--body-text-mobile-letter-spacing);
+  line-height: var(--body-text-mobile-line-height);
+}
+
+.graph-chart-line.input-title.resolution-47-desktop_1 .section-title-21 {
+  font-family: var(--h5-mobile-font-family);
+  font-size: var(--h5-mobile-font-size);
+  font-style: var(--h5-mobile-font-style);
+  font-weight: var(--h5-mobile-font-weight);
+  letter-spacing: var(--h5-mobile-letter-spacing);
+  line-height: var(--h5-mobile-line-height);
+  width: 68.98px;
+}
+
+.graph-chart-line.input-title.lines-one.resolution-47-mobile .section-title-21 {
+  font-family: var(--h5-mobile-font-family);
+  font-size: var(--h5-mobile-font-size);
+  font-style: var(--h5-mobile-font-style);
+  font-weight: var(--h5-mobile-font-weight);
+  letter-spacing: var(--h5-mobile-letter-spacing);
+  line-height: var(--h5-mobile-line-height);
+}
+
+.graph-chart-line.input-title .frame-27 {
+  color: var(--dark-gray);
+  font-family: var(--h5-mobile-font-family);
+  font-size: var(--h5-mobile-font-size);
+  font-style: var(--h5-mobile-font-style);
+  font-weight: var(--h5-mobile-font-weight);
+  letter-spacing: var(--h5-mobile-letter-spacing);
+  line-height: var(--h5-mobile-line-height);
+  margin-top: -1px;
+  white-space: nowrap;
+}
+
+.graph-chart-line.resolution-47-desktop .frame-27 {
+  flex: 1;
+  flex-grow: 1;
+  gap: 60px;
+  justify-content: flex-end;
+}
+
+.graph-chart-line.input-default .frame-27 {
+  align-items: center;
+  display: flex;
+}
+
+.graph-chart-line.input-title.resolution-47-desktop .frame-27 {
+  width: fit-content;
+}
+
+.graph-chart-line.input-title.lines-one .frame-27 {
+  width: fit-content;
+}
+
+.graph-chart-line.lines-two.resolution-47-mobile .frame-27 {
+  align-self: stretch;
+  flex: 0 0 auto;
+  gap: 24px;
+  width: 100%;
+}
+
+.graph-chart-line.input-title.resolution-47-desktop_1 .frame-27 {
+  width: fit-content;
+}
+
+.graph-chart-line.resolution-47-desktop .section-title-22 {
+  font-family: var(--h5-desktop-font-family);
+  font-size: var(--h5-desktop-font-size);
+  font-style: var(--h5-desktop-font-style);
+  font-weight: var(--h5-desktop-font-weight);
+  letter-spacing: var(--h5-desktop-letter-spacing);
+  line-height: var(--h5-desktop-line-height);
+  text-align: right;
+}
+
+.graph-chart-line.resolution-47-mobile .section-title-22 {
+  font-family: var(--h5-mobile-font-family);
+  font-size: var(--h5-mobile-font-size);
+  font-style: var(--h5-mobile-font-style);
+  font-weight: var(--h5-mobile-font-weight);
+  letter-spacing: var(--h5-mobile-letter-spacing);
+  line-height: var(--h5-mobile-line-height);
+}
+
+.graph-chart-line.resolution-47-desktop .section-title-23 {
+  font-family: var(--h5-desktop-font-family);
+  font-size: var(--h5-desktop-font-size);
+  font-style: var(--h5-desktop-font-style);
+  font-weight: var(--h5-desktop-font-weight);
+  letter-spacing: var(--h5-desktop-letter-spacing);
+  line-height: var(--h5-desktop-line-height);
+  text-align: right;
+}
+
+.graph-chart-line.resolution-47-mobile .section-title-23 {
+  font-family: var(--h5-mobile-font-family);
+  font-size: var(--h5-mobile-font-size);
+  font-style: var(--h5-mobile-font-style);
+  font-weight: var(--h5-mobile-font-weight);
+  letter-spacing: var(--h5-mobile-letter-spacing);
+  line-height: var(--h5-mobile-line-height);
+}
+
+.graph-chart-line.resolution-47-desktop_1 .div-5 {
+  align-items: center;
+  width: 697.54px;
+}
+
+.graph-chart-line.input-title .div-5 {
+  align-items: center;
+  flex: 0 0 auto;
+}
+
+.graph-chart-line.input-total-sl .div-5 {
+  align-items: center;
+  flex: 1;
+  flex-grow: 1;
+  gap: 12px;
+}
+
+.graph-chart-line.resolution-47-desktop .div-5 {
+  align-items: center;
+  width: 697.54px;
+}
+
+.graph-chart-line.input-total .div-5 {
+  flex: 0 0 auto;
+}
+
+.graph-chart-line.input-default .div-5 {
+  flex: 0 0 auto;
+}
+
+.graph-chart-line.input-default.resolution-47-mobile .div-5 {
+  align-items: flex-start;
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.graph-chart-line.input-total.resolution-47-mobile .div-5 {
+  align-items: flex-start;
+  align-self: stretch;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+  width: 100%;
+}
+
+.graph-chart-line.resolution-47-desktop_1 .section-title-25 {
+  flex: 1;
+  font-family: var(--body-text-desktop-font-family);
+  font-size: var(--body-text-desktop-font-size);
+  font-style: var(--body-text-desktop-font-style);
+  font-weight: var(--body-text-desktop-font-weight);
+  letter-spacing: var(--body-text-desktop-letter-spacing);
+  line-height: var(--body-text-desktop-line-height);
+}
+
+.graph-chart-line.input-total-sl .section-title-25 {
+  flex: 1;
+}
+
+.graph-chart-line.input-title.resolution-47-mobile .section-title-25 {
+  font-family: var(--h5-desktop-font-family);
+  font-size: var(--h5-desktop-font-size);
+  font-style: var(--h5-desktop-font-style);
+  font-weight: var(--h5-desktop-font-weight);
+  letter-spacing: var(--h5-desktop-letter-spacing);
+  line-height: var(--h5-desktop-line-height);
+}
+
+.graph-chart-line.input-title.resolution-47-desktop .section-title-25 {
+  font-family: var(--h5-desktop-font-family);
+  font-size: var(--h5-desktop-font-size);
+  font-style: var(--h5-desktop-font-style);
+  font-weight: var(--h5-desktop-font-weight);
+  letter-spacing: var(--h5-desktop-letter-spacing);
+  line-height: var(--h5-desktop-line-height);
+  width: 403px;
+}
+
+.graph-chart-line.input-total.resolution-47-mobile .section-title-25 {
+  align-self: stretch;
+  font-family: var(--h5-mobile-font-family);
+  font-size: var(--h5-mobile-font-size);
+  font-style: var(--h5-mobile-font-style);
+  font-weight: var(--h5-mobile-font-weight);
+  letter-spacing: var(--h5-mobile-letter-spacing);
+  line-height: var(--h5-mobile-line-height);
+}
+
+.graph-chart-line.resolution-47-desktop.input-total .section-title-25 {
+  font-family: var(--h5-desktop-font-family);
+  font-size: var(--h5-desktop-font-size);
+  font-style: var(--h5-desktop-font-style);
+  font-weight: var(--h5-desktop-font-weight);
+  letter-spacing: var(--h5-desktop-letter-spacing);
+  line-height: var(--h5-desktop-line-height);
+  width: 403px;
+}
+
+.graph-chart-line.input-total-sl.resolution-47-mobile .section-title-25 {
+  font-family: var(--h5-mobile-font-family);
+  font-size: var(--h5-mobile-font-size);
+  font-style: var(--h5-mobile-font-style);
+  font-weight: var(--h5-mobile-font-weight);
+  letter-spacing: var(--h5-mobile-letter-spacing);
+  line-height: var(--h5-mobile-line-height);
+}
+
+.graph-chart-line.columns-1-two.input-title .section-title-25 {
+  width: 403px;
+}
+
+.graph-chart-line.resolution-47-desktop.input-default .section-title-25 {
+  font-family: var(--body-text-desktop-font-family);
+  font-size: var(--body-text-desktop-font-size);
+  font-style: var(--body-text-desktop-font-style);
+  font-weight: var(--body-text-desktop-font-weight);
+  letter-spacing: var(--body-text-desktop-letter-spacing);
+  line-height: var(--body-text-desktop-line-height);
+}
+
+.graph-chart-line.resolution-47-desktop.input-total-sl .section-title-25 {
+  font-family: var(--h5-mobile-font-family);
+  font-size: var(--h5-mobile-font-size);
+  font-style: var(--h5-mobile-font-style);
+  font-weight: var(--h5-mobile-font-weight);
+  letter-spacing: var(--h5-mobile-letter-spacing);
+  line-height: var(--h5-mobile-line-height);
+}
+
+.graph-chart-line.columns-1-three.resolution-47-desktop .section-title-25 {
+  width: 403px;
+}
+
+.graph-chart-line.input-default.resolution-47-mobile .section-title-25 {
+  align-self: stretch;
+  font-family: var(--body-text-mobile-font-family);
+  font-size: var(--body-text-mobile-font-size);
+  font-style: var(--body-text-mobile-font-style);
+  font-weight: var(--body-text-mobile-font-weight);
+  letter-spacing: var(--body-text-mobile-letter-spacing);
+  line-height: var(--body-text-mobile-line-height);
+}
+
+.graph-chart-line.columns-1-two.resolution-47-desktop.input-default .section-title-25 {
+  flex: 1;
+}
+
+.graph-chart-line.resolution-47-desktop_1 .frame-28 {
+  flex: 0 0 auto;
+  gap: 60px;
+  justify-content: flex-end;
+}
+
+.graph-chart-line.input-title .frame-28 {
+  display: flex;
+}
+
+.graph-chart-line.columns-1-three .frame-28 {
+  display: flex;
+}
+
+.graph-chart-line.resolution-47-desktop .frame-28 {
+  gap: 60px;
+  justify-content: flex-end;
+}
+
+.graph-chart-line.resolution-47-mobile .frame-28 {
+  flex: 0 0 auto;
+}
+
+.graph-chart-line.columns-1-two .frame-28 {
+  gap: 60px;
+  justify-content: flex-end;
+}
+
+.graph-chart-line.input-title.resolution-47-desktop .frame-28 {
+  flex: 1;
+  flex-grow: 1;
+}
+
+.graph-chart-line.resolution-47-desktop.input-total .frame-28 {
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.graph-chart-line.columns-1-three.resolution-47-mobile .frame-28 {
+  align-self: stretch;
+  gap: 10px;
+  width: 100%;
+}
+
+.graph-chart-line.columns-1-two.input-title .frame-28 {
+  flex-grow: 1;
+}
+
+.graph-chart-line.columns-1-three.resolution-47-desktop .frame-28 {
+  flex: 1;
+  flex-grow: 1;
+}
+
+.graph-chart-line.columns-1-two.input-default .frame-28 {
+  display: inline-flex;
+  flex: 0 0 auto;
+}
+
+.graph-chart-line.columns-1-two.input-total-sl.resolution-47-mobile .frame-28 {
+  display: inline-flex;
+}
+
+.graph-chart-line.columns-1-two.input-total.resolution-47-mobile .frame-28 {
+  display: inline-flex;
+}
+
+.graph-chart-line.columns-1-two.resolution-47-desktop_1.input-total .frame-28 {
+  display: inline-flex;
+}
+
+.graph-chart-line.columns-1-two.resolution-47-desktop_1.input-total-sl .frame-28 {
+  display: inline-flex;
+}
+
+.graph-chart-line.resolution-47-desktop_1 .frame-29 {
+  font-family: var(--h5-desktop-font-family);
+  font-size: var(--h5-desktop-font-size);
+  font-style: var(--h5-desktop-font-style);
+  font-weight: var(--h5-desktop-font-weight);
+  letter-spacing: var(--h5-desktop-letter-spacing);
+  line-height: var(--h5-desktop-line-height);
+}
+
+.graph-chart-line.input-title .frame-29 {
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.graph-chart-line.columns-1-three .frame-29 {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 60px;
+}
+
+.graph-chart-line.resolution-47-desktop .frame-29 {
+  font-family: var(--h5-desktop-font-family);
+  font-size: var(--h5-desktop-font-size);
+  font-style: var(--h5-desktop-font-style);
+  font-weight: var(--h5-desktop-font-weight);
+  letter-spacing: var(--h5-desktop-letter-spacing);
+  line-height: var(--h5-desktop-line-height);
+}
+
+.graph-chart-line.columns-1-two .frame-29 {
+  color: var(--dark-gray);
+  margin-top: -1px;
+  text-align: right;
+}
+
+.graph-chart-line.resolution-47-desktop.input-total .frame-29 {
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.graph-chart-line.resolution-47-desktop.input-default .frame-29 {
+  width: 84px;
+}
+
+.graph-chart-line.resolution-47-desktop_1.input-total-sl .frame-29 {
+  width: 28px;
+}
+
+.graph-chart-line.resolution-47-desktop_1.input-total .frame-29 {
+  width: 28px;
+}
+
+.graph-chart-line.columns-1-two.resolution-47-mobile .frame-29 {
+  font-family: var(--h5-mobile-font-family);
+  font-size: var(--h5-mobile-font-size);
+  font-style: var(--h5-mobile-font-style);
+  font-weight: var(--h5-mobile-font-weight);
+  letter-spacing: var(--h5-mobile-letter-spacing);
+  line-height: var(--h5-mobile-line-height);
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.graph-chart-line.resolution-47-desktop_1.input-default .frame-29 {
+  width: 28px;
+}

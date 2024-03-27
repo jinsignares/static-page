@@ -1,0 +1,519 @@
+.hightlight-blurb {
+  align-items: center;
+  position: relative;
+}
+
+.hightlight-blurb .topics-wrapper {
+  align-items: flex-start;
+  flex-direction: column;
+  position: relative;
+}
+
+.hightlight-blurb .topics-2 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+}
+
+.hightlight-blurb .frame-11 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.hightlight-blurb .james-cary-smith-3 {
+  align-self: stretch;
+  color: var(--white);
+  margin-top: -1px;
+  position: relative;
+}
+
+.hightlight-blurb .the-grant-program-3 {
+  align-self: stretch;
+  color: var(--white);
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  position: relative;
+}
+
+.hightlight-blurb .topics-instance {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.hightlight-blurb .topics-3 {
+  color: var(--white) !important;
+}
+
+.hightlight-blurb .image-square {
+  object-fit: cover;
+  position: relative;
+}
+
+.hightlight-blurb .class-5 {
+  border-color: var(--black) !important;
+}
+
+.hightlight-blurb .class-6 {
+  align-self: stretch !important;
+  border-radius: 0px 20px 20px 0px !important;
+  height: unset !important;
+}
+
+.hightlight-blurb .class-7 {
+  align-self: stretch !important;
+  border-radius: 20px 0px 0px 20px !important;
+  height: unset !important;
+}
+
+.hightlight-blurb .frame-12 {
+  align-items: flex-start;
+  border-radius: 0px 20px 20px 0px;
+  flex-direction: column;
+  position: relative;
+}
+
+.hightlight-blurb .topics-4 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+}
+
+.hightlight-blurb .james-cary-smith-4 {
+  align-self: stretch;
+  color: var(--white);
+  margin-top: -1px;
+  position: relative;
+}
+
+.hightlight-blurb .the-grant-program-4 {
+  align-self: stretch;
+  color: var(--white);
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  position: relative;
+}
+
+.hightlight-blurb.resolution-21-desktop {
+  display: inline-flex;
+}
+
+.hightlight-blurb.resolution-21-mobile {
+  background-color: var(--blue);
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  justify-content: center;
+  padding: 60px 24px;
+  width: 375px;
+}
+
+.hightlight-blurb .image-top {
+  display: flex;
+}
+
+.hightlight-blurb .image-left {
+  display: flex;
+}
+
+.hightlight-blurb .default {
+  flex: 0 0 auto;
+}
+
+.hightlight-blurb .image-right {
+  background-color: var(--blue);
+  padding: 60px;
+}
+
+.hightlight-blurb .image-bottom {
+  align-self: stretch;
+  display: flex;
+}
+
+.hightlight-blurb .resolution-22-mobile {
+  border-radius: 0px 20px 20px 0px;
+  width: 100%;
+}
+
+.hightlight-blurb .carrousel {
+  align-self: stretch;
+  display: flex;
+}
+
+.hightlight-blurb .resolution-22-desktop.image-right {
+  border-radius: 20px 0px 0px 20px;
+}
+
+.hightlight-blurb .default.image-right {
+  display: inline-flex;
+}
+
+.hightlight-blurb .resolution-22-desktop.carrousel {
+  width: 920px;
+}
+
+.hightlight-blurb .image-6-top {
+  align-self: stretch;
+}
+
+.hightlight-blurb .image-6-bottom {
+  width: 327px;
+}
+
+.hightlight-blurb .resolution-29-mobile {
+  height: 350px;
+}
+
+.hightlight-blurb .resolution-29-desktop.image-6-left {
+  width: 460px;
+}
+
+.hightlight-blurb .resolution-29-desktop.image-6-right {
+  width: 460px;
+}
+
+.hightlight-blurb .type-default.image-6-right {
+  align-self: stretch;
+}
+
+.hightlight-blurb .resolution-29-desktop.type-carrousel {
+  height: 460px;
+}
+
+.hightlight-blurb .image-6-top.resolution-29-mobile {
+  width: 100%;
+}
+
+.hightlight-blurb .type-default.image-6-left {
+  align-self: stretch;
+}
+
+.hightlight-blurb .resolution-29-desktop.image-6-top {
+  width: 460px;
+}
+
+.hightlight-blurb .image-7-top {
+  align-self: stretch;
+  display: flex;
+}
+
+.hightlight-blurb .image-7-left {
+  background-color: var(--blue);
+  padding: 60px;
+}
+
+.hightlight-blurb .type-0-default {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.hightlight-blurb .image-7-right {
+  display: flex;
+}
+
+.hightlight-blurb .image-7-bottom {
+  display: flex;
+}
+
+.hightlight-blurb .type-0-carrousel {
+  align-self: stretch;
+  display: flex;
+  width: 920px;
+}
+
+.hightlight-blurb .type-0-default.image-7-left {
+  display: inline-flex;
+}
+
+.hightlight-blurb .image-8-top {
+  width: 100%;
+}
+
+.hightlight-blurb .image-8-left {
+  width: 1047px;
+}
+
+.hightlight-blurb .image-8-right {
+  width: 100%;
+}
+
+.hightlight-blurb .image-8-bottom {
+  width: 100%;
+}
+
+.hightlight-blurb .resolution-30-mobile {
+  align-self: stretch;
+}
+
+.hightlight-blurb .topics-wrapper.resolution-22-mobile .topics-2 {
+  align-self: stretch;
+  width: 100%;
+}
+
+.hightlight-blurb .topics-wrapper.resolution-22-desktop.image-right .topics-2 {
+  width: 1047px;
+}
+
+.hightlight-blurb .topics-wrapper.resolution-22-mobile .james-cary-smith-3 {
+  font-family: var(--h3-mobile-font-family);
+  font-size: var(--h3-mobile-font-size);
+  font-style: var(--h3-mobile-font-style);
+  font-weight: var(--h3-mobile-font-weight);
+  letter-spacing: var(--h3-mobile-letter-spacing);
+  line-height: var(--h3-mobile-line-height);
+}
+
+.hightlight-blurb .topics-wrapper.resolution-22-desktop.image-right .james-cary-smith-3 {
+  font-family: var(--h2-desktop-font-family);
+  font-size: var(--h2-desktop-font-size);
+  font-style: var(--h2-desktop-font-style);
+  font-weight: var(--h2-desktop-font-weight);
+  letter-spacing: var(--h2-desktop-letter-spacing);
+  line-height: var(--h2-desktop-line-height);
+}
+
+.hightlight-blurb .topics-wrapper.resolution-22-mobile .the-grant-program-3 {
+  font-size: 15px;
+  letter-spacing: 0.6px;
+  line-height: 25.5px;
+}
+
+.hightlight-blurb .topics-wrapper.resolution-22-desktop.image-right .the-grant-program-3 {
+  font-size: 21px;
+  letter-spacing: 0.84px;
+  line-height: 35.7px;
+}
+
+.hightlight-blurb .topics-wrapper.resolution-22-mobile .text-wrapper-19 {
+  font-family: var(--body-text-mobile-font-family);
+  font-size: var(--body-text-mobile-font-size);
+  font-style: var(--body-text-mobile-font-style);
+  font-weight: var(--body-text-mobile-font-weight);
+  letter-spacing: var(--body-text-mobile-letter-spacing);
+  line-height: var(--body-text-mobile-line-height);
+}
+
+.hightlight-blurb .topics-wrapper.resolution-22-desktop.image-right .text-wrapper-19 {
+  font-family: var(--body-text-desktop-font-family);
+  font-size: var(--body-text-desktop-font-size);
+  font-style: var(--body-text-desktop-font-style);
+  font-weight: var(--body-text-desktop-font-weight);
+  letter-spacing: var(--body-text-desktop-letter-spacing);
+  line-height: var(--body-text-desktop-line-height);
+}
+
+.hightlight-blurb .topics-wrapper.resolution-22-mobile .text-wrapper-19 {
+  font-family: var(--body-text-mobile-bold-font-family);
+  font-size: var(--body-text-mobile-bold-font-size);
+  font-style: var(--body-text-mobile-bold-font-style);
+  font-weight: var(--body-text-mobile-bold-font-weight);
+  letter-spacing: var(--body-text-mobile-bold-letter-spacing);
+  line-height: var(--body-text-mobile-bold-line-height);
+}
+
+.hightlight-blurb .topics-wrapper.resolution-22-desktop.image-right .text-wrapper-19 {
+  font-family: var(--body-text-desktop-bold-font-family);
+  font-size: var(--body-text-desktop-bold-font-size);
+  font-style: var(--body-text-desktop-bold-font-style);
+  font-weight: var(--body-text-desktop-bold-font-weight);
+  letter-spacing: var(--body-text-desktop-bold-letter-spacing);
+  line-height: var(--body-text-desktop-bold-line-height);
+}
+
+.hightlight-blurb .topics-wrapper.resolution-22-mobile .text-wrapper-19 {
+  font-family: var(--body-text-mobile-font-family);
+  font-size: var(--body-text-mobile-font-size);
+  font-style: var(--body-text-mobile-font-style);
+  font-weight: var(--body-text-mobile-font-weight);
+  letter-spacing: var(--body-text-mobile-letter-spacing);
+  line-height: var(--body-text-mobile-line-height);
+}
+
+.hightlight-blurb .topics-wrapper.resolution-22-desktop.image-right .text-wrapper-19 {
+  font-family: var(--body-text-desktop-font-family);
+  font-size: var(--body-text-desktop-font-size);
+  font-style: var(--body-text-desktop-font-style);
+  font-weight: var(--body-text-desktop-font-weight);
+  letter-spacing: var(--body-text-desktop-letter-spacing);
+  line-height: var(--body-text-desktop-line-height);
+}
+
+.hightlight-blurb .topics-4.image-8-right .james-cary-smith-4 {
+  font-family: var(--h3-mobile-font-family);
+  font-size: var(--h3-mobile-font-size);
+  font-style: var(--h3-mobile-font-style);
+  font-weight: var(--h3-mobile-font-weight);
+  letter-spacing: var(--h3-mobile-letter-spacing);
+  line-height: var(--h3-mobile-line-height);
+}
+
+.hightlight-blurb .topics-4.image-8-top .james-cary-smith-4 {
+  font-family: var(--h3-mobile-font-family);
+  font-size: var(--h3-mobile-font-size);
+  font-style: var(--h3-mobile-font-style);
+  font-weight: var(--h3-mobile-font-weight);
+  letter-spacing: var(--h3-mobile-letter-spacing);
+  line-height: var(--h3-mobile-line-height);
+}
+
+.hightlight-blurb .topics-4.image-8-bottom .james-cary-smith-4 {
+  font-family: var(--h3-mobile-font-family);
+  font-size: var(--h3-mobile-font-size);
+  font-style: var(--h3-mobile-font-style);
+  font-weight: var(--h3-mobile-font-weight);
+  letter-spacing: var(--h3-mobile-letter-spacing);
+  line-height: var(--h3-mobile-line-height);
+}
+
+.hightlight-blurb .topics-4.image-8-left .james-cary-smith-4 {
+  font-family: var(--h2-desktop-font-family);
+  font-size: var(--h2-desktop-font-size);
+  font-style: var(--h2-desktop-font-style);
+  font-weight: var(--h2-desktop-font-weight);
+  letter-spacing: var(--h2-desktop-letter-spacing);
+  line-height: var(--h2-desktop-line-height);
+}
+
+.hightlight-blurb .topics-4.image-8-right .the-grant-program-4 {
+  font-size: 15px;
+  letter-spacing: 0.6px;
+  line-height: 25.5px;
+}
+
+.hightlight-blurb .topics-4.image-8-top .the-grant-program-4 {
+  font-size: 15px;
+  letter-spacing: 0.6px;
+  line-height: 25.5px;
+}
+
+.hightlight-blurb .topics-4.image-8-bottom .the-grant-program-4 {
+  font-size: 15px;
+  letter-spacing: 0.6px;
+  line-height: 25.5px;
+}
+
+.hightlight-blurb .topics-4.image-8-left .the-grant-program-4 {
+  font-size: 21px;
+  letter-spacing: 0.84px;
+  line-height: 35.7px;
+}
+
+.hightlight-blurb .topics-4.image-8-right .text-wrapper-19 {
+  font-family: var(--body-text-mobile-font-family);
+  font-size: var(--body-text-mobile-font-size);
+  font-style: var(--body-text-mobile-font-style);
+  font-weight: var(--body-text-mobile-font-weight);
+  letter-spacing: var(--body-text-mobile-letter-spacing);
+  line-height: var(--body-text-mobile-line-height);
+}
+
+.hightlight-blurb .topics-4.image-8-top .text-wrapper-19 {
+  font-family: var(--body-text-mobile-font-family);
+  font-size: var(--body-text-mobile-font-size);
+  font-style: var(--body-text-mobile-font-style);
+  font-weight: var(--body-text-mobile-font-weight);
+  letter-spacing: var(--body-text-mobile-letter-spacing);
+  line-height: var(--body-text-mobile-line-height);
+}
+
+.hightlight-blurb .topics-4.image-8-bottom .text-wrapper-19 {
+  font-family: var(--body-text-mobile-font-family);
+  font-size: var(--body-text-mobile-font-size);
+  font-style: var(--body-text-mobile-font-style);
+  font-weight: var(--body-text-mobile-font-weight);
+  letter-spacing: var(--body-text-mobile-letter-spacing);
+  line-height: var(--body-text-mobile-line-height);
+}
+
+.hightlight-blurb .topics-4.image-8-left .text-wrapper-19 {
+  font-family: var(--body-text-desktop-font-family);
+  font-size: var(--body-text-desktop-font-size);
+  font-style: var(--body-text-desktop-font-style);
+  font-weight: var(--body-text-desktop-font-weight);
+  letter-spacing: var(--body-text-desktop-letter-spacing);
+  line-height: var(--body-text-desktop-line-height);
+}
+
+.hightlight-blurb .topics-4.image-8-right .text-wrapper-19 {
+  font-family: var(--body-text-mobile-bold-font-family);
+  font-size: var(--body-text-mobile-bold-font-size);
+  font-style: var(--body-text-mobile-bold-font-style);
+  font-weight: var(--body-text-mobile-bold-font-weight);
+  letter-spacing: var(--body-text-mobile-bold-letter-spacing);
+  line-height: var(--body-text-mobile-bold-line-height);
+}
+
+.hightlight-blurb .topics-4.image-8-top .text-wrapper-19 {
+  font-family: var(--body-text-mobile-bold-font-family);
+  font-size: var(--body-text-mobile-bold-font-size);
+  font-style: var(--body-text-mobile-bold-font-style);
+  font-weight: var(--body-text-mobile-bold-font-weight);
+  letter-spacing: var(--body-text-mobile-bold-letter-spacing);
+  line-height: var(--body-text-mobile-bold-line-height);
+}
+
+.hightlight-blurb .topics-4.image-8-bottom .text-wrapper-19 {
+  font-family: var(--body-text-mobile-bold-font-family);
+  font-size: var(--body-text-mobile-bold-font-size);
+  font-style: var(--body-text-mobile-bold-font-style);
+  font-weight: var(--body-text-mobile-bold-font-weight);
+  letter-spacing: var(--body-text-mobile-bold-letter-spacing);
+  line-height: var(--body-text-mobile-bold-line-height);
+}
+
+.hightlight-blurb .topics-4.image-8-left .text-wrapper-19 {
+  font-family: var(--body-text-desktop-bold-font-family);
+  font-size: var(--body-text-desktop-bold-font-size);
+  font-style: var(--body-text-desktop-bold-font-style);
+  font-weight: var(--body-text-desktop-bold-font-weight);
+  letter-spacing: var(--body-text-desktop-bold-letter-spacing);
+  line-height: var(--body-text-desktop-bold-line-height);
+}
+
+.hightlight-blurb .topics-4.image-8-right .text-wrapper-19 {
+  font-family: var(--body-text-mobile-font-family);
+  font-size: var(--body-text-mobile-font-size);
+  font-style: var(--body-text-mobile-font-style);
+  font-weight: var(--body-text-mobile-font-weight);
+  letter-spacing: var(--body-text-mobile-letter-spacing);
+  line-height: var(--body-text-mobile-line-height);
+}
+
+.hightlight-blurb .topics-4.image-8-top .text-wrapper-19 {
+  font-family: var(--body-text-mobile-font-family);
+  font-size: var(--body-text-mobile-font-size);
+  font-style: var(--body-text-mobile-font-style);
+  font-weight: var(--body-text-mobile-font-weight);
+  letter-spacing: var(--body-text-mobile-letter-spacing);
+  line-height: var(--body-text-mobile-line-height);
+}
+
+.hightlight-blurb .topics-4.image-8-bottom .text-wrapper-19 {
+  font-family: var(--body-text-mobile-font-family);
+  font-size: var(--body-text-mobile-font-size);
+  font-style: var(--body-text-mobile-font-style);
+  font-weight: var(--body-text-mobile-font-weight);
+  letter-spacing: var(--body-text-mobile-letter-spacing);
+  line-height: var(--body-text-mobile-line-height);
+}
+
+.hightlight-blurb .topics-4.image-8-left .text-wrapper-19 {
+  font-family: var(--body-text-desktop-font-family);
+  font-size: var(--body-text-desktop-font-size);
+  font-style: var(--body-text-desktop-font-style);
+  font-weight: var(--body-text-desktop-font-weight);
+  letter-spacing: var(--body-text-desktop-letter-spacing);
+  line-height: var(--body-text-desktop-line-height);
+}

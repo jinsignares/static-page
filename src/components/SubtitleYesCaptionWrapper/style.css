@@ -1,0 +1,103 @@
+.subtitle-yes-caption-wrapper {
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 36px;
+  position: relative;
+}
+
+.subtitle-yes-caption-wrapper .section-title-48 {
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.subtitle-yes-caption-wrapper .frame-36 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+}
+
+.subtitle-yes-caption-wrapper .section-title-49 {
+  align-self: stretch;
+  color: var(--black);
+  margin-top: -1px;
+  position: relative;
+}
+
+.subtitle-yes-caption-wrapper.caption-false {
+  display: inline-flex;
+}
+
+.subtitle-yes-caption-wrapper.subtitle-0-false.resolution-97-desktop {
+  display: inline-flex;
+}
+
+.subtitle-yes-caption-wrapper.caption-true.resolution-97-mobile {
+  display: flex;
+  width: 375px;
+}
+
+.subtitle-yes-caption-wrapper.subtitle-0-true.caption-true {
+  display: flex;
+}
+
+.subtitle-yes-caption-wrapper.resolution-97-desktop.subtitle-0-true.caption-true {
+  width: 464px;
+}
+
+.subtitle-yes-caption-wrapper.resolution-97-desktop .section-title-48 {
+  font-family: var(--h5-desktop-font-family);
+  font-size: var(--h5-desktop-font-size);
+  font-style: var(--h5-desktop-font-style);
+  font-weight: var(--h5-desktop-font-weight);
+  letter-spacing: var(--h5-desktop-letter-spacing);
+  line-height: var(--h5-desktop-line-height);
+}
+
+.subtitle-yes-caption-wrapper.caption-true .section-title-48 {
+  color: var(--dark-blue);
+}
+
+.subtitle-yes-caption-wrapper.caption-false .section-title-48 {
+  color: var(--black);
+}
+
+.subtitle-yes-caption-wrapper.resolution-97-mobile .section-title-48 {
+  font-family: var(--h5-mobile-font-family);
+  font-size: var(--h5-mobile-font-size);
+  font-style: var(--h5-mobile-font-style);
+  font-weight: var(--h5-mobile-font-weight);
+  letter-spacing: var(--h5-mobile-letter-spacing);
+  line-height: var(--h5-mobile-line-height);
+}
+
+.subtitle-yes-caption-wrapper.resolution-97-desktop .frame-36 {
+  width: 447px;
+}
+
+.subtitle-yes-caption-wrapper.resolution-97-mobile .frame-36 {
+  align-self: stretch;
+  width: 100%;
+}
+
+.subtitle-yes-caption-wrapper.resolution-97-desktop .section-title-49 {
+  font-family: var(--caption-desktop-font-family);
+  font-size: var(--caption-desktop-font-size);
+  font-style: var(--caption-desktop-font-style);
+  font-weight: var(--caption-desktop-font-weight);
+  letter-spacing: var(--caption-desktop-letter-spacing);
+  line-height: var(--caption-desktop-line-height);
+}
+
+.subtitle-yes-caption-wrapper.resolution-97-mobile .section-title-49 {
+  font-family: var(--caption-mobile-font-family);
+  font-size: var(--caption-mobile-font-size);
+  font-style: var(--caption-mobile-font-style);
+  font-weight: var(--caption-mobile-font-weight);
+  letter-spacing: var(--caption-mobile-letter-spacing);
+  line-height: var(--caption-mobile-line-height);
+}

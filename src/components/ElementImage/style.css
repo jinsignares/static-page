@@ -1,0 +1,35 @@
+.element-image {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.element-image .rectangle-8 {
+  position: relative;
+}
+
+.element-image.resolution-35-mobile {
+  align-items: center;
+  height: 350px;
+  justify-content: center;
+  width: 375px;
+}
+
+.element-image.resolution-35-destop {
+  align-items: flex-end;
+  width: 1920px;
+}
+
+.element-image.resolution-35-mobile .rectangle-8 {
+  align-self: stretch;
+  flex: 1;
+  flex-grow: 1;
+  object-fit: cover;
+  width: 100%;
+}
+
+.element-image.resolution-35-destop .rectangle-8 {
+  height: 531px;
+  width: 1440px;
+}

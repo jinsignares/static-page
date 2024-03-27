@@ -1,0 +1,1 @@
+export { SubTopicTitle } from "./SubTopicTitle";

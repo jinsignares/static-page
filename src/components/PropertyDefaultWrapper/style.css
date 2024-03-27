@@ -1,0 +1,24 @@
+.property-default-wrapper {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: 1920px;
+}
+
+.property-default-wrapper .class-11 {
+  font-family: var(--body-text-mobile-font-family) !important;
+  font-size: var(--body-text-mobile-font-size) !important;
+  font-style: var(--body-text-mobile-font-style) !important;
+  font-weight: var(--body-text-mobile-font-weight) !important;
+  letter-spacing: var(--body-text-mobile-letter-spacing) !important;
+  line-height: var(--body-text-mobile-line-height) !important;
+}
+
+.property-default-wrapper .class-12 {
+  font-size: 15px !important;
+  letter-spacing: 0.6px !important;
+  line-height: 25.5px !important;
+}
