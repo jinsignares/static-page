@@ -22,4 +22,4 @@ parcel-bundle-reports/
 .verdaccio_storage/
 sourcemap-info.json
 .parcel-cache/
-dist
+.dist/
