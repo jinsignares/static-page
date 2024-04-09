@@ -22,13 +22,13 @@ export const OpeningText = ({
   ABCommunityClassName,
 }) => {
   return (
-    <div className={`opening-text resolution-5-${resolution} ${className}`}>
+    <div className={`opening-text resolution-6-${resolution} ${className}`}>
       <div className={`frame-3 ${frameClassName}`}>
         <p className={`AB-community ${ABCommunityClassName}`}>{text}</p>
         <p className={`we-continued-to-work ${weContinuedToWorkClassName}`}>
-          <span className={`span ${spanClassName}`}>{text1}</span>
-          <span className={`text-wrapper-2 ${spanClassNameOverride}`}>{text2}</span>
-          <span className={`span ${spanClassName1}`}>{text3}</span>
+          <span className={`text-wrapper-39 ${spanClassName}`}>{text1}</span>
+          <span className={`text-wrapper-39 ${spanClassNameOverride}`}>{text2}</span>
+          <span className={`text-wrapper-39 ${spanClassName1}`}>{text3}</span>
         </p>
       </div>
     </div>
@@ -36,7 +36,7 @@ export const OpeningText = ({
 };
 
 OpeningText.propTypes = {
-  resolution: PropTypes.oneOf(["desktop", "mobile"]),
+  resolution: PropTypes.oneOf(["desktop", "tablet", "mobile"]),
   text: PropTypes.string,
   text1: PropTypes.string,
   text2: PropTypes.string,

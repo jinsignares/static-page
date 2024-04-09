@@ -5,6 +5,27 @@
   position: relative;
 }
 
-.stat-set.resolution-13-mobile {
+.stat-set.resolution-21-desktop {
+  left: 20px;
+}
+
+.stat-set.resolution-21-mobile {
   flex-direction: column;
+}
+
+.stat-set.set-of-3 {
+  top: 20px;
+}
+
+.stat-set.set-of-2.resolution-21-mobile {
+  left: 2282px;
+  top: 30px;
+}
+
+.stat-set.set-of-3.resolution-21-mobile {
+  left: 1796px;
+}
+
+.stat-set.resolution-21-desktop.set-of-2 {
+  top: 493px;
 }

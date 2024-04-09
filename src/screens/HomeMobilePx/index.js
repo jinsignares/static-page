@@ -1,0 +1,1 @@
+export { HomeMobilePx } from "./HomeMobilePx";

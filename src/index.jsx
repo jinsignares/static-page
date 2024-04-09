@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOMClient from "react-dom/client";
-import { ElementPx } from "./screens/ElementPx";
+import { App } from "./App";
 
 const app = document.getElementById("app");
 const root = ReactDOMClient.createRoot(app);
-root.render(<ElementPx />);
+root.render(<App />);

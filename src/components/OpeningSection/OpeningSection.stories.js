@@ -5,7 +5,7 @@ export default {
   component: OpeningSection,
   argTypes: {
     resolution: {
-      options: ["desktop", "mobile"],
+      options: ["desktop", "tablet", "mobile"],
       control: { type: "select" },
     },
     font: {
@@ -25,13 +25,14 @@ export const Default = {
     font: "body-text",
     headline: "large",
     className: {},
-    openingTextText: " as part of statewide AB 617 implementation.",
-    openingTextText1: "We continued to work in collaboration with community members and other stakeholders to ",
-    openingTextText2: "develop and implement health-protective measures in highly impacted communities",
-    openingTextText3: "AB 617 COMMUNITY HEALTH PROTECTION PROGRAM",
-    openingTextWeContinuedToWorkClassName: {},
-    openingTextAbCommunityClassName: {},
-    openingTextFrameClassName: {},
+    openingTextText: "AB 617 COMMUNITY HEALTH PROTECTION PROGRAM",
     openingTextResolutionDesktopClassName: {},
+    openingTextText1: "develop and implement health-protective measures in highly impacted communities",
+    openingTextText2: " as part of statewide AB 617 implementation.",
+    openingTextText3: "We continued to work in collaboration with community members and other stakeholders to ",
+    openingTextSpanClassName: {},
+    text: "AB 617 COMMUNITY HEALTH PROTECTION PROGRAM",
+    text1:
+      "We continued to work in collaboration with community members and other stakeholders to develop and implement health-protective measures in highly impacted communities as part of statewide AB 617 implementation.",
   },
 };

@@ -5,14 +5,14 @@
   position: relative;
 }
 
-.subtitle-yes-caption-wrapper .section-title-48 {
+.subtitle-yes-caption-wrapper .section-title-50 {
   margin-top: -1px;
   position: relative;
   white-space: nowrap;
   width: fit-content;
 }
 
-.subtitle-yes-caption-wrapper .frame-36 {
+.subtitle-yes-caption-wrapper .frame-38 {
   align-items: flex-start;
   display: flex;
   flex: 0 0 auto;
@@ -21,7 +21,7 @@
   position: relative;
 }
 
-.subtitle-yes-caption-wrapper .section-title-49 {
+.subtitle-yes-caption-wrapper .section-title-51 {
   align-self: stretch;
   color: var(--black);
   margin-top: -1px;
@@ -32,24 +32,61 @@
   display: inline-flex;
 }
 
-.subtitle-yes-caption-wrapper.subtitle-0-false.resolution-97-desktop {
+.subtitle-yes-caption-wrapper.resolution-108-desktop.subtitle-1-true {
+  top: 20px;
+}
+
+.subtitle-yes-caption-wrapper.subtitle-1-true.resolution-108-mobile {
+  left: 3357px;
+  top: 27px;
+}
+
+.subtitle-yes-caption-wrapper.subtitle-1-false.resolution-108-desktop {
   display: inline-flex;
 }
 
-.subtitle-yes-caption-wrapper.caption-true.resolution-97-mobile {
+.subtitle-yes-caption-wrapper.caption-true.resolution-108-mobile {
   display: flex;
   width: 375px;
 }
 
-.subtitle-yes-caption-wrapper.subtitle-0-true.caption-true {
+.subtitle-yes-caption-wrapper.resolution-108-desktop.caption-true {
+  top: 20px;
+}
+
+.subtitle-yes-caption-wrapper.subtitle-1-true.caption-true {
   display: flex;
 }
 
-.subtitle-yes-caption-wrapper.resolution-97-desktop.subtitle-0-true.caption-true {
+.subtitle-yes-caption-wrapper.resolution-108-desktop.subtitle-1-true.caption-true {
+  left: 20px;
   width: 464px;
 }
 
-.subtitle-yes-caption-wrapper.resolution-97-desktop .section-title-48 {
+.subtitle-yes-caption-wrapper.subtitle-1-false.caption-true.resolution-108-mobile {
+  left: 2868px;
+  top: 40px;
+}
+
+.subtitle-yes-caption-wrapper.subtitle-1-false.resolution-108-desktop.caption-true {
+  left: 648px;
+}
+
+.subtitle-yes-caption-wrapper.subtitle-1-false.resolution-108-desktop.caption-false {
+  left: 1830px;
+  top: 34px;
+}
+
+.subtitle-yes-caption-wrapper.subtitle-1-false.caption-false.resolution-108-mobile {
+  left: 2379px;
+  top: 39px;
+}
+
+.subtitle-yes-caption-wrapper.resolution-108-desktop.subtitle-1-true.caption-false {
+  left: 1276px;
+}
+
+.subtitle-yes-caption-wrapper.resolution-108-desktop .section-title-50 {
   font-family: var(--h5-desktop-font-family);
   font-size: var(--h5-desktop-font-size);
   font-style: var(--h5-desktop-font-style);
@@ -58,15 +95,15 @@
   line-height: var(--h5-desktop-line-height);
 }
 
-.subtitle-yes-caption-wrapper.caption-true .section-title-48 {
+.subtitle-yes-caption-wrapper.caption-true .section-title-50 {
   color: var(--dark-blue);
 }
 
-.subtitle-yes-caption-wrapper.caption-false .section-title-48 {
+.subtitle-yes-caption-wrapper.caption-false .section-title-50 {
   color: var(--black);
 }
 
-.subtitle-yes-caption-wrapper.resolution-97-mobile .section-title-48 {
+.subtitle-yes-caption-wrapper.resolution-108-mobile .section-title-50 {
   font-family: var(--h5-mobile-font-family);
   font-size: var(--h5-mobile-font-size);
   font-style: var(--h5-mobile-font-style);
@@ -75,16 +112,16 @@
   line-height: var(--h5-mobile-line-height);
 }
 
-.subtitle-yes-caption-wrapper.resolution-97-desktop .frame-36 {
+.subtitle-yes-caption-wrapper.resolution-108-desktop .frame-38 {
   width: 447px;
 }
 
-.subtitle-yes-caption-wrapper.resolution-97-mobile .frame-36 {
+.subtitle-yes-caption-wrapper.resolution-108-mobile .frame-38 {
   align-self: stretch;
   width: 100%;
 }
 
-.subtitle-yes-caption-wrapper.resolution-97-desktop .section-title-49 {
+.subtitle-yes-caption-wrapper.resolution-108-desktop .section-title-51 {
   font-family: var(--caption-desktop-font-family);
   font-size: var(--caption-desktop-font-size);
   font-style: var(--caption-desktop-font-style);
@@ -93,7 +130,7 @@
   line-height: var(--caption-desktop-line-height);
 }
 
-.subtitle-yes-caption-wrapper.resolution-97-mobile .section-title-49 {
+.subtitle-yes-caption-wrapper.resolution-108-mobile .section-title-51 {
   font-family: var(--caption-mobile-font-family);
   font-size: var(--caption-mobile-font-size);
   font-style: var(--caption-mobile-font-style);

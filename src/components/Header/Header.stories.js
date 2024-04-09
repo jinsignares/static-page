@@ -5,7 +5,7 @@ export default {
   component: Header,
   argTypes: {
     resolution: {
-      options: ["tablet", "desktop-1920", "mobile"],
+      options: ["tablet", "desktop-1920", "desktop-1025", "mobile"],
       control: { type: "select" },
     },
   },

@@ -5,7 +5,7 @@ export default {
   component: BlockOfText,
   argTypes: {
     resolution: {
-      options: ["desktop", "mobile"],
+      options: ["tablet", "desktop", "mobile"],
       control: { type: "select" },
     },
     subtitle: {
@@ -17,13 +17,14 @@ export default {
 
 export const Default = {
   args: {
-    resolution: "desktop",
+    resolution: "tablet",
     subtitle: "two-lines",
     className: {},
+    textClassName: {},
     sectionTitleClassName: {},
     text: "CLIMATE ACTION",
     elementAnnualReportClassName: {},
     text1: "2023 ANNUAL REPORT",
-    textClassName: {},
+    text2: "HOW DO WE REDUCE EMISSIONS AND PROTECT COMMUNITIES AND THE CLIMATE?",
   },
 };

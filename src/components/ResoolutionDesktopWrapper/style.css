@@ -5,3 +5,13 @@
   gap: 8px;
   position: relative;
 }
+
+.resoolution-desktop-wrapper.resoolution-mobile {
+  left: 526px;
+  top: 25px;
+}
+
+.resoolution-desktop-wrapper.resoolution-desktop {
+  left: 20px;
+  top: 20px;
+}

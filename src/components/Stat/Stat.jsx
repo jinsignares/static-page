@@ -11,25 +11,24 @@ export const Stat = ({
   type,
   color,
   resolution,
+  className,
   text = "$381M",
   text1 = "for Clean Cars For All Program and Clean School Bus Program",
-  className,
+  sectionTitleClassName,
+  sectionTitleClassNameOverride,
+  text2 = "One of the most comprehensive air quality monitoring networks in the country.",
 }) => {
   return (
-    <div className={`stat ${color} ${type} resolution-11-${resolution} ${className}`}>
-      <div className="section-title-4">
+    <div className={`stat ${color} type-${type} resolution-19-${resolution} ${className}`}>
+      <div className={`section-title-5 ${sectionTitleClassName}`}>
         {type === "numbers" && <>{text}</>}
 
         {type === "quote" && <>“</>}
       </div>
-      <div className="section-title-5">
-        {type === "numbers" && <p className="text-wrapper-19">{text1}</p>}
+      <div className={`section-title-6 ${sectionTitleClassNameOverride}`}>
+        {type === "numbers" && <p className="text-wrapper-39">{text1}</p>}
 
-        {type === "quote" && (
-          <p className="text-wrapper-19">
-            One of the most comprehensive air quality monitoring networks in the country.
-          </p>
-        )}
+        {type === "quote" && <p className="text-wrapper-39">{text2}</p>}
       </div>
     </div>
   );
@@ -41,4 +40,5 @@ Stat.propTypes = {
   resolution: PropTypes.oneOf(["desktop", "mobile"]),
   text: PropTypes.string,
   text1: PropTypes.string,
+  text2: PropTypes.string,
 };

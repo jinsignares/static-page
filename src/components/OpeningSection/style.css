@@ -5,7 +5,16 @@
   position: relative;
 }
 
-.opening-section .class {
+.opening-section .class-4 {
+  font-family: var(--body-text-tablet-font-family) !important;
+  font-size: var(--body-text-tablet-font-size) !important;
+  font-style: var(--body-text-tablet-font-style) !important;
+  font-weight: var(--body-text-tablet-font-weight) !important;
+  letter-spacing: var(--body-text-tablet-letter-spacing) !important;
+  line-height: var(--body-text-tablet-line-height) !important;
+}
+
+.opening-section .class-5 {
   font-family: var(--body-text-mobile-font-family) !important;
   font-size: var(--body-text-mobile-font-size) !important;
   font-style: var(--body-text-mobile-font-style) !important;
@@ -14,7 +23,7 @@
   line-height: var(--body-text-mobile-line-height) !important;
 }
 
-.opening-section .class-2 {
+.opening-section .class-6 {
   font-family: var(--body-text-desktop-font-family) !important;
   font-size: var(--body-text-desktop-font-size) !important;
   font-style: var(--body-text-desktop-font-style) !important;
@@ -23,32 +32,57 @@
   line-height: var(--body-text-desktop-line-height) !important;
 }
 
-.opening-section .class-3 {
-  font-family: var(--body-text-mobile-bold-font-family) !important;
-  font-size: var(--body-text-mobile-bold-font-size) !important;
-  font-style: var(--body-text-mobile-bold-font-style) !important;
-  font-weight: var(--body-text-mobile-bold-font-weight) !important;
-  letter-spacing: var(--body-text-mobile-bold-letter-spacing) !important;
-  line-height: var(--body-text-mobile-bold-line-height) !important;
+.opening-section .class-7 {
+  align-self: stretch !important;
+  width: unset !important;
 }
 
-.opening-section .class-4 {
-  font-family: var(--body-text-desktop-bold-font-family) !important;
-  font-size: var(--body-text-desktop-bold-font-size) !important;
-  font-style: var(--body-text-desktop-bold-font-style) !important;
-  font-weight: var(--body-text-desktop-bold-font-weight) !important;
-  letter-spacing: var(--body-text-desktop-bold-letter-spacing) !important;
-  line-height: var(--body-text-desktop-bold-line-height) !important;
+.opening-section .class-8 {
+  align-self: stretch !important;
+  font-size: 18px !important;
+  letter-spacing: 0.72px !important;
+  line-height: 30.6px !important;
+  width: unset !important;
+}
+
+.opening-section .class-9 {
+  color: var(--dark-gray) !important;
+  font-size: 15px !important;
+  letter-spacing: 0.6px !important;
+  line-height: 25.5px !important;
+}
+
+.opening-section .class-10 {
+  color: var(--dark-gray) !important;
+  font-size: 21px !important;
+  letter-spacing: 0.84px !important;
+  line-height: 35.7px !important;
+}
+
+.opening-section .class-11 {
+  align-self: stretch !important;
+  display: flex !important;
+  width: 100% !important;
+}
+
+.opening-section .class-12 {
+  font-family: var(--h3-desktop-font-family) !important;
+  font-size: var(--h3-desktop-font-size) !important;
+  font-style: var(--h3-desktop-font-style) !important;
+  font-weight: var(--h3-desktop-font-weight) !important;
+  letter-spacing: var(--h3-desktop-letter-spacing) !important;
+  line-height: var(--h3-desktop-line-height) !important;
 }
 
 .opening-section .frame-wrapper {
   align-items: flex-start;
+  align-self: stretch;
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
   gap: 40px;
   position: relative;
-  width: 327px;
+  width: 100%;
 }
 
 .opening-section .frame-4 {
@@ -75,7 +109,7 @@
   position: relative;
 }
 
-.opening-section .text-wrapper-3 {
+.opening-section .we-continued-to-work-2 {
   align-self: stretch;
   color: var(--dark-blue);
   font-family: var(--pull-quote-mobile-font-family);
@@ -87,13 +121,57 @@
   position: relative;
 }
 
-.opening-section.resolution-9-desktop {
+.opening-section.resolution-13-tablet {
+  display: flex;
+  padding: 90px 0px 50px 60px;
+  width: 768px;
+}
+
+.opening-section.opening {
+  display: flex;
+}
+
+.opening-section.resolution-13-desktop {
   display: flex;
   padding: 160px 0px 80px 145px;
+  top: 20px;
   width: 1920px;
 }
 
-.opening-section.resolution-9-mobile {
-  display: inline-flex;
+.opening-section.resolution-13-mobile {
   padding: 100px 24px 24px;
+}
+
+.opening-section.resolution-13-tablet.body-text {
+  left: 1245px;
+  top: 650px;
+}
+
+.opening-section.resolution-13-tablet.opening {
+  left: 447px;
+  top: 652px;
+}
+
+.opening-section.body-text.resolution-13-mobile {
+  display: inline-flex;
+  left: 2179px;
+  top: 625px;
+}
+
+.opening-section.resolution-13-desktop.opening {
+  left: 20px;
+}
+
+.opening-section.opening.resolution-13-mobile {
+  left: 20px;
+  top: 660px;
+  width: 375px;
+}
+
+.opening-section.resolution-13-desktop.large.body-text {
+  left: 2179px;
+}
+
+.opening-section.resolution-13-desktop.body-text.medium {
+  left: 4338px;
 }

@@ -1,10 +1,16 @@
 .arrows {
   align-items: flex-start;
   display: inline-flex;
+  left: -903px;
   position: relative;
+  top: -1914px;
 }
 
-.arrows .arrow-element {
+.arrows .arrow-element-instance {
   flex: 0 0 auto !important;
+  height: unset !important;
+  left: unset !important;
   position: relative !important;
+  top: unset !important;
+  width: unset !important;
 }

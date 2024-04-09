@@ -2,16 +2,15 @@
   align-items: center;
   background-color: var(--white);
   display: flex;
-  justify-content: center;
   position: relative;
 }
 
-.footer .section-title-61 {
+.footer .section-title-65 {
   color: var(--dark-blue);
   position: relative;
 }
 
-.footer .section-title-62 {
+.footer .section-title-66 {
   color: var(--dark-blue);
   position: relative;
 }
@@ -21,20 +20,57 @@
   position: relative;
 }
 
-.footer.resolution-107-desktop {
+.footer.resolution-119-tablet {
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  left: 576px;
+  padding: 36px 0px;
+  top: 694px;
+  width: 768px;
+}
+
+.footer.resolution-119-desktop {
   gap: 246px;
   height: 200px;
+  justify-content: center;
+  left: 20px;
+  top: 20px;
   width: 1920px;
 }
 
-.footer.resolution-107-mobile {
+.footer.resolution-119-mobile {
   flex-direction: column;
   gap: 20px;
+  justify-content: center;
+  left: 20px;
   padding: 36px 0px;
+  top: 694px;
   width: 375px;
 }
 
-.footer.resolution-107-desktop .section-title-61 {
+.footer.resolution-119-desktop-1025 {
+  height: 200px;
+  justify-content: space-between;
+  left: 20px;
+  padding: 0px 16px;
+  top: 250px;
+  width: 1025px;
+}
+
+.footer.resolution-119-tablet .section-title-65 {
+  font-family: var(--caption-tablet-font-family);
+  font-size: var(--caption-tablet-font-size);
+  font-style: var(--caption-tablet-font-style);
+  font-weight: var(--caption-tablet-font-weight);
+  letter-spacing: var(--caption-tablet-letter-spacing);
+  line-height: var(--caption-tablet-line-height);
+  margin-top: -1px;
+  text-align: center;
+  width: fit-content;
+}
+
+.footer.resolution-119-desktop .section-title-65 {
   font-family: var(--caption-desktop-font-family);
   font-size: var(--caption-desktop-font-size);
   font-style: var(--caption-desktop-font-style);
@@ -44,7 +80,7 @@
   width: 312px;
 }
 
-.footer.resolution-107-mobile .section-title-61 {
+.footer.resolution-119-mobile .section-title-65 {
   font-family: var(--caption-mobile-font-family);
   font-size: var(--caption-mobile-font-size);
   font-style: var(--caption-mobile-font-style);
@@ -56,7 +92,28 @@
   width: fit-content;
 }
 
-.footer.resolution-107-desktop .section-title-62 {
+.footer.resolution-119-desktop-1025 .section-title-65 {
+  font-family: var(--caption-tablet-font-family);
+  font-size: var(--caption-tablet-font-size);
+  font-style: var(--caption-tablet-font-style);
+  font-weight: var(--caption-tablet-font-weight);
+  letter-spacing: var(--caption-tablet-letter-spacing);
+  line-height: var(--caption-tablet-line-height);
+  width: fit-content;
+}
+
+.footer.resolution-119-tablet .section-title-66 {
+  font-family: var(--caption-tablet-font-family);
+  font-size: var(--caption-tablet-font-size);
+  font-style: var(--caption-tablet-font-style);
+  font-weight: var(--caption-tablet-font-weight);
+  letter-spacing: var(--caption-tablet-letter-spacing);
+  line-height: var(--caption-tablet-line-height);
+  text-align: center;
+  width: fit-content;
+}
+
+.footer.resolution-119-desktop .section-title-66 {
   font-family: var(--caption-desktop-font-family);
   font-size: var(--caption-desktop-font-size);
   font-style: var(--caption-desktop-font-style);
@@ -66,7 +123,7 @@
   width: 609px;
 }
 
-.footer.resolution-107-mobile .section-title-62 {
+.footer.resolution-119-mobile .section-title-66 {
   font-family: var(--caption-mobile-font-family);
   font-size: var(--caption-mobile-font-size);
   font-style: var(--caption-mobile-font-style);
@@ -77,12 +134,32 @@
   width: fit-content;
 }
 
-.footer.resolution-107-desktop .BAAQMD-logo-2 {
+.footer.resolution-119-desktop-1025 .section-title-66 {
+  font-family: var(--caption-tablet-font-family);
+  font-size: var(--caption-tablet-font-size);
+  font-style: var(--caption-tablet-font-style);
+  font-weight: var(--caption-tablet-font-weight);
+  letter-spacing: var(--caption-tablet-letter-spacing);
+  line-height: var(--caption-tablet-line-height);
+  width: fit-content;
+}
+
+.footer.resolution-119-tablet .BAAQMD-logo-2 {
+  height: 49.46px;
+  width: 286px;
+}
+
+.footer.resolution-119-desktop .BAAQMD-logo-2 {
   height: 55.51px;
   width: 321px;
 }
 
-.footer.resolution-107-mobile .BAAQMD-logo-2 {
+.footer.resolution-119-mobile .BAAQMD-logo-2 {
   height: 49.46px;
   width: 286px;
+}
+
+.footer.resolution-119-desktop-1025 .BAAQMD-logo-2 {
+  height: 31.1px;
+  width: 215px;
 }

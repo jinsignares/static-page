@@ -4,7 +4,7 @@
   position: relative;
 }
 
-.graph-pie .frame-31 {
+.graph-pie .frame-33 {
   display: flex;
   position: relative;
 }
@@ -33,7 +33,7 @@
   width: 197px;
 }
 
-.graph-pie .section-title-26 {
+.graph-pie .section-title-28 {
   color: var(--dark-blue);
   font-family: var(--h2-desktop-font-family);
   font-size: var(--h2-desktop-font-size);
@@ -47,7 +47,7 @@
   white-space: nowrap;
 }
 
-.graph-pie .section-title-27 {
+.graph-pie .section-title-29 {
   color: var(--dark-blue);
   font-family: var(--h2-desktop-font-family);
   font-size: var(--h2-desktop-font-size);
@@ -62,6 +62,43 @@
 }
 
 .graph-pie .overlap-group-3 {
+  height: 168px;
+  position: relative;
+  top: 8px;
+  width: 274px;
+}
+
+.graph-pie .vector-3 {
+  height: 164px;
+  left: 55px;
+  position: absolute;
+  top: 4px;
+  width: 164px;
+}
+
+.graph-pie .vector-4 {
+  height: 163px;
+  left: 55px;
+  position: absolute;
+  top: 4px;
+  width: 82px;
+}
+
+.graph-pie .section-title-30 {
+  color: var(--dark-blue);
+  font-family: var(--h2-desktop-font-family);
+  font-size: var(--h2-desktop-font-size);
+  font-style: var(--h2-desktop-font-style);
+  font-weight: var(--h2-desktop-font-weight);
+  left: 219px;
+  letter-spacing: var(--h2-desktop-letter-spacing);
+  line-height: var(--h2-desktop-line-height);
+  position: absolute;
+  top: 130px;
+  white-space: nowrap;
+}
+
+.graph-pie .overlap-group-4 {
   position: absolute;
   top: 0;
 }
@@ -98,15 +135,6 @@
   position: absolute;
 }
 
-.graph-pie .text-wrapper-4 {
-  color: var(--dark-blue);
-  font-family: "Anton", Helvetica;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-}
-
 .graph-pie .element-4 {
   color: var(--dark-blue);
   font-family: "Anton", Helvetica;
@@ -120,59 +148,12 @@
   color: var(--dark-blue);
   font-family: "Anton", Helvetica;
   font-weight: 400;
-  left: 0;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
 }
 
 .graph-pie .element-6 {
-  color: var(--dark-blue);
-  font-family: "Anton", Helvetica;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-}
-
-.graph-pie .overlap-group-4 {
-  height: 168px;
-  position: relative;
-  top: 8px;
-  width: 274px;
-}
-
-.graph-pie .vector-3 {
-  height: 164px;
-  left: 55px;
-  position: absolute;
-  top: 4px;
-  width: 164px;
-}
-
-.graph-pie .vector-4 {
-  height: 163px;
-  left: 55px;
-  position: absolute;
-  top: 4px;
-  width: 82px;
-}
-
-.graph-pie .section-title-28 {
-  color: var(--dark-blue);
-  font-family: var(--h2-desktop-font-family);
-  font-size: var(--h2-desktop-font-size);
-  font-style: var(--h2-desktop-font-style);
-  font-weight: var(--h2-desktop-font-weight);
-  left: 219px;
-  letter-spacing: var(--h2-desktop-letter-spacing);
-  line-height: var(--h2-desktop-line-height);
-  position: absolute;
-  top: 130px;
-  white-space: nowrap;
-}
-
-.graph-pie .text-wrapper-5 {
   color: var(--dark-blue);
   font-family: "Anton", Helvetica;
   font-weight: 400;
@@ -186,7 +167,7 @@
   position: absolute;
 }
 
-.graph-pie .section-title-29 {
+.graph-pie .section-title-31 {
   color: var(--dark-blue);
   font-family: var(--caption-desktop-bold-font-family);
   font-size: var(--caption-desktop-bold-font-size);
@@ -200,7 +181,7 @@
   white-space: nowrap;
 }
 
-.graph-pie .section-title-30 {
+.graph-pie .section-title-32 {
   color: var(--dark-blue);
   font-family: var(--caption-desktop-bold-font-family);
   font-size: var(--caption-desktop-bold-font-size);
@@ -220,7 +201,7 @@
   top: 0;
 }
 
-.graph-pie .section-title-31 {
+.graph-pie .section-title-33 {
   color: var(--dark-blue);
   font-family: "Poppins", Helvetica;
   font-size: 12.3px;
@@ -233,7 +214,7 @@
   white-space: nowrap;
 }
 
-.graph-pie .section-title-32 {
+.graph-pie .section-title-34 {
   color: var(--dark-blue);
   font-family: "Poppins", Helvetica;
   font-size: 12.3px;
@@ -246,28 +227,24 @@
   white-space: nowrap;
 }
 
+.graph-pie .element-7 {
+  color: var(--dark-blue);
+  font-family: "Anton", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+}
+
 .graph-pie .layer-2 {
   position: absolute;
   top: 0;
 }
 
-.graph-pie .section-title-33 {
+.graph-pie .section-title-35 {
   color: var(--dark-blue);
   left: 0;
   position: absolute;
-  white-space: nowrap;
-}
-
-.graph-pie .section-title-34 {
-  color: var(--dark-blue);
-  position: absolute;
-  white-space: nowrap;
-}
-
-.graph-pie .section-title-35 {
-  color: var(--dark-blue);
-  position: absolute;
-  top: 0;
   white-space: nowrap;
 }
 
@@ -277,14 +254,27 @@
   white-space: nowrap;
 }
 
-.graph-pie .frame-32 {
+.graph-pie .section-title-37 {
+  color: var(--dark-blue);
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.graph-pie .section-title-38 {
+  color: var(--dark-blue);
+  position: absolute;
+  white-space: nowrap;
+}
+
+.graph-pie .frame-34 {
   align-items: flex-start;
   flex: 0 0 auto;
   flex-direction: column;
   position: relative;
 }
 
-.graph-pie .section-title-37 {
+.graph-pie .section-title-39 {
   color: var(--dark-blue);
   margin-top: -1px;
   position: relative;
@@ -292,7 +282,7 @@
   width: fit-content;
 }
 
-.graph-pie .frame-33 {
+.graph-pie .frame-35 {
   align-items: flex-start;
   border-bottom-style: solid;
   border-bottom-width: 1px;
@@ -306,7 +296,7 @@
   width: 697.54px;
 }
 
-.graph-pie .section-title-38 {
+.graph-pie .section-title-40 {
   color: var(--dark-blue);
   font-family: "Anton", Helvetica;
   font-size: 28.3px;
@@ -319,7 +309,7 @@
   width: fit-content;
 }
 
-.graph-pie .frame-34 {
+.graph-pie .frame-36 {
   align-items: flex-start;
   display: flex;
   flex: 0 0 auto;
@@ -329,7 +319,7 @@
   width: 447px;
 }
 
-.graph-pie .section-title-39 {
+.graph-pie .section-title-41 {
   align-self: stretch;
   color: var(--dark-gray);
   font-family: var(--caption-desktop-font-family);
@@ -342,7 +332,7 @@
   position: relative;
 }
 
-.graph-pie .frame-35 {
+.graph-pie .frame-37 {
   align-items: flex-start;
   align-self: stretch;
   border-bottom-style: solid;
@@ -357,7 +347,7 @@
   width: 100%;
 }
 
-.graph-pie .section-title-40 {
+.graph-pie .section-title-42 {
   color: var(--dark-blue);
   font-family: var(--h5-mobile-font-family);
   font-size: var(--h5-mobile-font-size);
@@ -371,7 +361,7 @@
   width: fit-content;
 }
 
-.graph-pie .section-title-41 {
+.graph-pie .section-title-43 {
   align-self: stretch;
   color: var(--dark-gray);
   font-family: var(--caption-mobile-font-family);
@@ -399,13 +389,13 @@
   position: absolute;
 }
 
-.graph-pie .section-title-42 {
+.graph-pie .section-title-44 {
   color: var(--dark-blue);
   position: absolute;
   white-space: nowrap;
 }
 
-.graph-pie .section-title-43 {
+.graph-pie .section-title-45 {
   color: var(--dark-blue);
   left: 0;
   position: absolute;
@@ -428,23 +418,10 @@
   top: 0;
 }
 
-.graph-pie .section-title-44 {
+.graph-pie .section-title-46 {
   color: var(--dark-blue);
   left: 0;
   position: absolute;
-  white-space: nowrap;
-}
-
-.graph-pie .section-title-45 {
-  color: var(--dark-blue);
-  position: absolute;
-  white-space: nowrap;
-}
-
-.graph-pie .section-title-46 {
-  color: var(--dark-blue);
-  position: absolute;
-  top: 0;
   white-space: nowrap;
 }
 
@@ -452,6 +429,23 @@
   color: var(--dark-blue);
   position: absolute;
   white-space: nowrap;
+}
+
+.graph-pie .section-title-48 {
+  color: var(--dark-blue);
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.graph-pie .section-title-49 {
+  color: var(--dark-blue);
+  position: absolute;
+  white-space: nowrap;
+}
+
+.graph-pie.resolution-73-mobile-sm {
+  width: 257px;
 }
 
 .graph-pie.demo-gender {
@@ -470,7 +464,7 @@
   display: flex;
 }
 
-.graph-pie.resolution-61-desktop {
+.graph-pie.resolution-73-desktop {
   display: flex;
   width: 930px;
 }
@@ -479,80 +473,174 @@
   display: flex;
 }
 
-.graph-pie.title-0-true {
+.graph-pie.resolution-73-desktop.chart-1 {
+  left: 1762px;
+  top: 20px;
+}
+
+.graph-pie.demo-race.title-2-false {
+  top: 22px;
+}
+
+.graph-pie.chart-1.resolution-73-mobile {
+  left: 2892px;
+  top: 25px;
+  width: 375px;
+}
+
+.graph-pie.chart-3.resolution-73-mobile {
+  left: 2892px;
+  top: 1078px;
+  width: 375px;
+}
+
+.graph-pie.title-2-true.example {
+  top: 576px;
+}
+
+.graph-pie.chart-2.resolution-73-mobile-sm {
+  left: 2896px;
+  top: 795px;
+}
+
+.graph-pie.resolution-73-desktop.chart-2 {
+  left: 1762px;
+  top: 549px;
+}
+
+.graph-pie.chart-2.resolution-73-mobile {
+  left: 2892px;
+  top: 536px;
+  width: 375px;
+}
+
+.graph-pie.resolution-73-desktop.example {
+  left: 20px;
+}
+
+.graph-pie.demo-race.resolution-73-mobile {
+  width: 375px;
+}
+
+.graph-pie.demo-gender.resolution-73-mobile {
+  width: 375px;
+}
+
+.graph-pie.resolution-73-desktop.chart-3 {
+  left: 1769px;
+  top: 1078px;
+}
+
+.graph-pie.title-2-true.resolution-73-mobile {
   display: flex;
-}
-
-.graph-pie.chart-1.resolution-61-mobile {
   width: 375px;
 }
 
-.graph-pie.chart-3.resolution-61-mobile {
-  width: 375px;
+.graph-pie.resolution-73-desktop.demo-gender {
+  left: 5279px;
 }
 
-.graph-pie.chart-2.resolution-61-mobile {
-  width: 375px;
+.graph-pie.resolution-73-mobile-sm.chart-3 {
+  left: 2892px;
+  top: 1334px;
 }
 
-.graph-pie.demo-race.resolution-61-mobile {
-  width: 375px;
+.graph-pie.chart-1.resolution-73-mobile-sm {
+  left: 2896px;
+  top: 279px;
 }
 
-.graph-pie.demo-gender.resolution-61-mobile {
-  width: 375px;
-}
-
-.graph-pie.title-0-true.resolution-61-mobile {
-  width: 375px;
-}
-
-.graph-pie.example.title-0-false.resolution-61-mobile {
+.graph-pie.example.title-2-false.resolution-73-mobile {
   display: inline-flex;
+  left: 1034px;
+  top: 25px;
 }
 
-.graph-pie .subtitle-false {
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-color: var(--dark-blue);
-  display: flex;
-  gap: 10px;
-  padding: 0px 0px 16px;
+.graph-pie.resolution-73-desktop.demo-race.title-2-false {
+  left: 3504px;
 }
 
-.graph-pie .resolution-82-mobile {
+.graph-pie.title-2-true.example.resolution-73-mobile {
+  left: 1022px;
+}
+
+.graph-pie.title-2-false.demo-race.resolution-73-mobile {
+  left: 4478px;
+}
+
+.graph-pie.demo-gender.title-2-true.resolution-73-mobile {
+  left: 6304px;
+}
+
+.graph-pie.resolution-73-desktop.example.title-2-false {
+  top: 20px;
+}
+
+.graph-pie.demo-gender.title-2-true.subtitle-false {
+  top: 707px;
+}
+
+.graph-pie.demo-gender.title-2-false.resolution-73-mobile {
+  left: 6282px;
+  top: 41px;
+}
+
+.graph-pie.resolution-73-desktop.subtitle-true.demo-gender {
+  top: 1297px;
+}
+
+.graph-pie.title-2-true.subtitle-true.demo-race.resolution-73-mobile {
+  left: 4508px;
+  top: 1065px;
+}
+
+.graph-pie.subtitle-false.title-2-true.demo-race.resolution-73-mobile {
+  left: 4519px;
+  top: 581px;
+}
+
+.graph-pie.demo-gender.title-2-true.subtitle-true.resolution-73-mobile {
+  top: 1118px;
+}
+
+.graph-pie.resolution-73-desktop.title-2-true.subtitle-false.demo-race {
+  left: 3501px;
+  top: 590px;
+}
+
+.graph-pie.resolution-73-desktop.subtitle-false.demo-gender.title-2-false {
+  top: 46px;
+}
+
+.graph-pie.resolution-73-desktop.title-2-true.subtitle-true.demo-race {
+  left: 3511px;
+  top: 1297px;
+}
+
+.graph-pie.resolution-73-mobile-sm .frame-33 {
   align-self: stretch;
+  flex: 0 0 auto;
+  gap: 24px;
+  padding: 24px 40px;
   width: 100%;
 }
 
-.graph-pie .subtitle-true {
-  display: inline-flex;
-  gap: 24px;
-  justify-content: center;
-}
-
-.graph-pie .resolution-82-desktop.subtitle-false {
-  width: 697.54px;
-}
-
-.graph-pie.demo-gender .frame-31 {
-  align-items: center;
+.graph-pie.demo-gender .frame-33 {
   background-color: var(--white);
   border: 1px solid;
   border-color: var(--dark-blue);
   flex: 0 0 auto;
-  flex-direction: column;
   justify-content: center;
 }
 
-.graph-pie.demo-race .frame-31 {
+.graph-pie.demo-race .frame-33 {
   background-color: var(--white);
   border: 1px solid;
   border-color: var(--dark-blue);
   flex: 0 0 auto;
 }
 
-.graph-pie.chart-3 .frame-31 {
+.graph-pie.chart-3 .frame-33 {
   align-items: flex-start;
   background-color: var(--white);
   border: 1px solid;
@@ -561,7 +649,7 @@
   justify-content: space-around;
 }
 
-.graph-pie.chart-1 .frame-31 {
+.graph-pie.chart-1 .frame-33 {
   align-items: flex-start;
   background-color: var(--white);
   border: 1px solid;
@@ -570,7 +658,7 @@
   justify-content: space-around;
 }
 
-.graph-pie.resolution-61-desktop .frame-31 {
+.graph-pie.resolution-73-desktop .frame-33 {
   background-color: var(--white);
   border: 1px solid;
   border-color: var(--dark-blue);
@@ -578,7 +666,7 @@
   width: 930px;
 }
 
-.graph-pie.chart-2 .frame-31 {
+.graph-pie.chart-2 .frame-33 {
   align-items: flex-start;
   background-color: var(--white);
   border: 1px solid;
@@ -587,230 +675,270 @@
   justify-content: space-around;
 }
 
-.graph-pie.resolution-61-mobile .frame-31 {
+.graph-pie.resolution-73-mobile .frame-33 {
   flex: 0 0 auto;
 }
 
-.graph-pie.title-0-true .frame-31 {
-  background-color: var(--white);
-  border: 1px solid;
-  border-color: var(--dark-blue);
-  border-radius: 20px;
+.graph-pie.title-2-true .frame-33 {
   flex: 0 0 auto;
 }
 
-.graph-pie.demo-gender.title-0-true .frame-31 {
+.graph-pie.demo-gender.title-2-true .frame-33 {
   gap: 24px;
-  padding: 40px;
 }
 
-.graph-pie.resolution-61-desktop.chart-1 .frame-31 {
+.graph-pie.resolution-73-desktop.chart-1 .frame-33 {
   height: 464px;
   padding: 20px 40px;
 }
 
-.graph-pie.demo-race.title-0-false .frame-31 {
+.graph-pie.demo-race.title-2-false .frame-33 {
   align-items: flex-start;
   justify-content: space-around;
 }
 
-.graph-pie.chart-2.title-0-false .frame-31 {
-  gap: 24px;
-}
-
-.graph-pie.resolution-61-desktop.title-0-true .frame-31 {
-  flex-direction: column;
-}
-
-.graph-pie.chart-1.resolution-61-mobile .frame-31 {
-  align-self: stretch;
-  gap: 24px;
-  padding: 24px 40px;
-  width: 100%;
-}
-
-.graph-pie.chart-3.resolution-61-mobile .frame-31 {
-  align-self: stretch;
-  gap: 24px;
-  padding: 24px 40px;
-  width: 100%;
-}
-
-.graph-pie.title-0-true.example .frame-31 {
+.graph-pie.demo-gender.title-2-false .frame-33 {
   align-items: center;
   flex-direction: column;
+}
+
+.graph-pie.chart-2.title-2-false .frame-33 {
+  gap: 24px;
+}
+
+.graph-pie.resolution-73-desktop.title-2-true .frame-33 {
+  flex-direction: column;
+}
+
+.graph-pie.chart-1.resolution-73-mobile .frame-33 {
+  align-self: stretch;
+  gap: 24px;
+  padding: 24px 40px;
+  width: 100%;
+}
+
+.graph-pie.chart-3.resolution-73-mobile .frame-33 {
+  align-self: stretch;
+  gap: 24px;
+  padding: 24px 40px;
+  width: 100%;
+}
+
+.graph-pie.title-2-true.example .frame-33 {
   justify-content: center;
-  padding: 40px;
 }
 
-.graph-pie.chart-1.title-0-false .frame-31 {
+.graph-pie.chart-1.title-2-false .frame-33 {
   gap: 24px;
 }
 
-.graph-pie.resolution-61-desktop.demo-race .frame-31 {
+.graph-pie.resolution-73-desktop.demo-race .frame-33 {
   gap: 24px;
 }
 
-.graph-pie.resolution-61-desktop.title-0-false .frame-31 {
+.graph-pie.resolution-73-desktop.title-2-false .frame-33 {
   gap: 24px;
 }
 
-.graph-pie.resolution-61-desktop.chart-2 .frame-31 {
+.graph-pie.resolution-73-desktop.chart-2 .frame-33 {
   height: 464px;
   padding: 20px 40px;
 }
 
-.graph-pie.chart-2.resolution-61-mobile .frame-31 {
+.graph-pie.chart-2.resolution-73-mobile .frame-33 {
   align-self: stretch;
   gap: 24px;
   padding: 24px 40px;
   width: 100%;
 }
 
-.graph-pie.title-0-true.demo-race .frame-31 {
-  align-items: center;
-  flex-direction: column;
+.graph-pie.title-2-true.demo-race .frame-33 {
+  border-radius: 20px;
   gap: 24px;
   justify-content: center;
-  padding: 40px;
 }
 
-.graph-pie.chart-3.title-0-false .frame-31 {
+.graph-pie.chart-3.title-2-false .frame-33 {
   gap: 24px;
 }
 
-.graph-pie.demo-race.resolution-61-mobile .frame-31 {
+.graph-pie.demo-race.resolution-73-mobile .frame-33 {
   align-self: stretch;
   width: 100%;
 }
 
-.graph-pie.demo-gender.resolution-61-mobile .frame-31 {
+.graph-pie.demo-gender.resolution-73-mobile .frame-33 {
+  align-items: center;
   align-self: stretch;
+  flex-direction: column;
   width: 100%;
 }
 
-.graph-pie.resolution-61-desktop.chart-3 .frame-31 {
+.graph-pie.resolution-73-desktop.chart-3 .frame-33 {
   height: 464px;
   padding: 20px 40px;
 }
 
-.graph-pie.title-0-true.resolution-61-mobile .frame-31 {
+.graph-pie.title-2-true.resolution-73-mobile .frame-33 {
   align-self: stretch;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--dark-blue);
+  border-radius: 20px;
   width: 100%;
 }
 
-.graph-pie.resolution-61-desktop.demo-gender .frame-31 {
+.graph-pie.resolution-73-desktop.demo-gender .frame-33 {
+  align-items: center;
+  flex-direction: column;
   gap: 24px;
   padding: 40px;
 }
 
-.graph-pie.example.resolution-61-mobile .frame-31 {
+.graph-pie.example.resolution-73-mobile .frame-33 {
   align-items: center;
   flex-direction: column;
 }
 
-.graph-pie.resolution-61-desktop.demo-race.title-0-false .frame-31 {
+.graph-pie.resolution-73-desktop.demo-race.title-2-false .frame-33 {
   padding: 20px 40px;
 }
 
-.graph-pie.title-0-true.example.resolution-61-mobile .frame-31 {
+.graph-pie.title-2-true.example.resolution-73-mobile .frame-33 {
   gap: 36px;
+  padding: 40px;
 }
 
-.graph-pie.example.title-0-false.resolution-61-mobile .frame-31 {
+.graph-pie.example.title-2-false.resolution-73-mobile .frame-33 {
   width: 375px;
 }
 
-.graph-pie.title-0-false.demo-race.resolution-61-mobile .frame-31 {
+.graph-pie.title-2-false.demo-race.resolution-73-mobile .frame-33 {
   border-radius: 10.81px;
   gap: 12.97px;
   padding: 10.81px 21.62px;
 }
 
-.graph-pie.resolution-61-desktop.example.title-0-false .frame-31 {
+.graph-pie.resolution-73-desktop.title-2-true.demo-race .frame-33 {
+  align-items: center;
+  padding: 40px;
+}
+
+.graph-pie.demo-gender.title-2-true.resolution-73-mobile .frame-33 {
+  padding: 40px;
+}
+
+.graph-pie.title-2-true.demo-race.resolution-73-mobile .frame-33 {
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.graph-pie.resolution-73-desktop.example.title-2-false .frame-33 {
   align-items: flex-start;
   height: 464px;
   justify-content: space-around;
   padding: 20px 40px;
 }
 
-.graph-pie.resolution-61-desktop.title-0-true.example .frame-31 {
+.graph-pie.resolution-73-desktop.title-2-true.example .frame-33 {
+  align-items: center;
   gap: 60px;
+  padding: 40px;
 }
 
-.graph-pie.demo-gender.title-0-false.resolution-61-mobile .frame-31 {
+.graph-pie.demo-gender.title-2-false.resolution-73-mobile .frame-33 {
   border-radius: 12.77px;
   gap: 15.32px;
   padding: 25.53px;
 }
 
-.graph-pie.demo-gender.resolution-61-mobile .group-2 {
+.graph-pie.demo-gender.resolution-73-mobile .group-2 {
   height: 255.94px;
   margin-left: -8.4px;
   margin-right: -12.4px;
   width: 344.74px;
 }
 
-.graph-pie.resolution-61-desktop.chart-1 .group-2 {
+.graph-pie.resolution-73-desktop.chart-1 .group-2 {
   height: 433.93px;
   margin-bottom: -9.93px;
   width: 669.41px;
 }
 
-.graph-pie.resolution-61-desktop.demo-race .group-2 {
+.graph-pie.resolution-73-desktop.demo-race .group-2 {
   height: 491px;
   width: 548px;
 }
 
-.graph-pie.resolution-61-desktop.chart-3 .group-2 {
+.graph-pie.resolution-73-desktop.chart-3 .group-2 {
   height: 421.34px;
   width: 655.66px;
 }
 
-.graph-pie.chart-3.resolution-61-mobile .group-2 {
-  height: 204.72px;
-  margin-left: -8.69px;
-  margin-right: -20.69px;
-  width: 324.37px;
+.graph-pie.chart-2.resolution-73-mobile-sm .group-2 {
+  height: 166.9px;
+  margin-left: -35.54px;
+  margin-right: -49.54px;
+  width: 262.08px;
 }
 
-.graph-pie.resolution-61-desktop.demo-gender .group-2 {
+.graph-pie.chart-3.resolution-73-mobile .group-2 {
+  height: 190.76px;
+  margin-right: -10.67px;
+  width: 304.35px;
+}
+
+.graph-pie.resolution-73-desktop.demo-gender .group-2 {
   height: 401px;
   width: 537px;
 }
 
-.graph-pie.resolution-61-desktop.example .group-2 {
+.graph-pie.resolution-73-desktop.example .group-2 {
   height: 449.29px;
   margin-bottom: -25.29px;
   width: 658px;
 }
 
-.graph-pie.resolution-61-desktop.chart-2 .group-2 {
+.graph-pie.resolution-73-desktop.chart-2 .group-2 {
   height: 429.35px;
   margin-bottom: -5.35px;
   width: 676.66px;
 }
 
-.graph-pie.chart-2.resolution-61-mobile .group-2 {
-  height: 209px;
-  margin-left: -7.24px;
-  margin-right: -21.24px;
-  width: 323.49px;
+.graph-pie.resolution-73-mobile-sm.chart-3 .group-2 {
+  height: 161.01px;
+  margin-left: -32.83px;
+  margin-right: -44.83px;
+  width: 254.65px;
 }
 
-.graph-pie.chart-1.resolution-61-mobile .group-2 {
-  height: 210.83px;
-  margin-left: -12.7px;
-  margin-right: -22.7px;
-  width: 330.4px;
+.graph-pie.chart-1.resolution-73-mobile-sm .group-2 {
+  height: 167.01px;
+  margin-left: -35.56px;
+  margin-right: -45.56px;
+  width: 258.11px;
 }
 
-.graph-pie.demo-race.resolution-61-mobile .group-2 {
+.graph-pie.chart-2.resolution-73-mobile .group-2 {
+  height: 193.3px;
+  margin-right: -10.65px;
+  width: 302.29px;
+}
+
+.graph-pie.chart-1.resolution-73-mobile .group-2 {
+  height: 193.41px;
+  margin-left: -0.08px;
+  margin-right: -10.08px;
+  width: 305.16px;
+}
+
+.graph-pie.demo-race.resolution-73-mobile .group-2 {
   height: 268.33px;
   width: 305.49px;
 }
 
-.graph-pie.example.resolution-61-mobile .group-2 {
+.graph-pie.example.resolution-73-mobile .group-2 {
   align-items: flex-start;
   align-self: stretch;
   background-color: var(--white);
@@ -825,265 +953,331 @@
   width: 100%;
 }
 
-.graph-pie.demo-gender .overlap-group-2 {
-  height: 403px;
-  width: 654px;
-}
-
-.graph-pie.demo-race .overlap-group-2 {
-  height: 403px;
-  width: 654px;
-}
-
-.graph-pie.resolution-61-desktop.chart-1 .overlap-group-2 {
-  height: 434px;
-  width: 659px;
-}
-
-.graph-pie.resolution-61-desktop.chart-3 .overlap-group-2 {
-  height: 421px;
-  width: 644px;
-}
-
-.graph-pie.chart-3.resolution-61-mobile .overlap-group-2 {
-  height: 205px;
-  width: 312px;
-}
-
-.graph-pie.resolution-61-desktop.example .overlap-group-2 {
+.graph-pie.resolution-73-desktop .overlap-group-2 {
   height: 403px;
   top: 18px;
   width: 654px;
 }
 
-.graph-pie.resolution-61-desktop.chart-2 .overlap-group-2 {
-  height: 429px;
-  width: 663px;
-}
-
-.graph-pie.chart-2.resolution-61-mobile .overlap-group-2 {
-  height: 209px;
-  width: 309px;
-}
-
-.graph-pie.chart-1.resolution-61-mobile .overlap-group-2 {
-  height: 211px;
-  width: 320px;
-}
-
-.graph-pie.example.resolution-61-mobile .overlap-group-2 {
+.graph-pie.resolution-73-mobile .overlap-group-2 {
   height: 187.85px;
   width: 277.67px;
 }
 
-.graph-pie.demo-gender .overlap-group-3 {
-  height: 434px;
-  left: 21px;
+.graph-pie.demo-gender .overlap-group-4 {
+  height: 193px;
+  left: 19px;
   width: 504px;
 }
 
-.graph-pie.example .overlap-group-3 {
-  height: 434px;
-  left: 21px;
+.graph-pie.example .overlap-group-4 {
+  height: 193px;
+  left: 19px;
   width: 504px;
 }
 
-.graph-pie.demo-race .overlap-group-3 {
-  height: 434px;
-  left: 21px;
+.graph-pie.demo-race .overlap-group-4 {
+  height: 193px;
+  left: 19px;
   width: 504px;
 }
 
-.graph-pie.resolution-61-desktop.chart-1 .overlap-group-3 {
+.graph-pie.resolution-73-desktop.chart-1 .overlap-group-4 {
   height: 434px;
   left: 43px;
   width: 504px;
 }
 
-.graph-pie.resolution-61-desktop.chart-3 .overlap-group-3 {
+.graph-pie.resolution-73-desktop.chart-3 .overlap-group-4 {
   height: 421px;
   left: 83px;
   width: 561px;
 }
 
-.graph-pie.chart-3.resolution-61-mobile .overlap-group-3 {
-  height: 205px;
-  left: 40px;
-  width: 272px;
+.graph-pie.chart-2.resolution-73-mobile-sm .overlap-group-4 {
+  height: 167px;
+  left: 17px;
+  width: 209px;
 }
 
-.graph-pie.resolution-61-desktop.chart-2 .overlap-group-3 {
+.graph-pie.chart-3.resolution-73-mobile .overlap-group-4 {
+  height: 191px;
+  left: 38px;
+  width: 255px;
+}
+
+.graph-pie.resolution-73-desktop.chart-2 .overlap-group-4 {
   height: 429px;
   left: 51px;
   width: 544px;
 }
 
-.graph-pie.chart-2.resolution-61-mobile .overlap-group-3 {
-  height: 209px;
-  left: 21px;
-  width: 261px;
+.graph-pie.resolution-73-mobile-sm.chart-3 .overlap-group-4 {
+  height: 161px;
+  left: 13px;
+  width: 229px;
 }
 
-.graph-pie.chart-1.resolution-61-mobile .overlap-group-3 {
-  height: 211px;
-  left: 21px;
-  width: 245px;
+.graph-pie.chart-1.resolution-73-mobile-sm .overlap-group-4 {
+  height: 167px;
+  left: 11px;
+  width: 194px;
+}
+
+.graph-pie.chart-2.resolution-73-mobile .overlap-group-4 {
+  height: 193px;
+  left: 19px;
+  width: 242px;
+}
+
+.graph-pie.chart-1.resolution-73-mobile .overlap-group-4 {
+  height: 193px;
+  left: 19px;
+  width: 226px;
 }
 
 .graph-pie.demo-gender .clip-path-group {
-  height: 186px;
-  left: 41px;
+  height: 171px;
+  left: 37px;
 }
 
 .graph-pie.example .clip-path-group {
-  height: 186px;
-  left: 41px;
+  height: 171px;
+  left: 37px;
 }
 
 .graph-pie.demo-race .clip-path-group {
-  height: 186px;
-  left: 41px;
+  height: 171px;
+  left: 37px;
 }
 
-.graph-pie.resolution-61-desktop .clip-path-group {
+.graph-pie.resolution-73-desktop .clip-path-group {
   width: 386px;
 }
 
-.graph-pie.resolution-61-mobile .clip-path-group {
-  width: 187px;
+.graph-pie.example.resolution-73-mobile-sm .clip-path-group {
+  width: 149px;
 }
 
-.graph-pie.resolution-61-desktop.chart-1 .clip-path-group {
+.graph-pie.demo-gender.resolution-73-mobile .clip-path-group {
+  width: 149px;
+}
+
+.graph-pie.resolution-73-desktop.chart-1 .clip-path-group {
   height: 384px;
   left: 102px;
 }
 
-.graph-pie.resolution-61-desktop.chart-3 .clip-path-group {
+.graph-pie.resolution-73-desktop.chart-3 .clip-path-group {
   height: 385px;
   left: 56px;
 }
 
-.graph-pie.chart-3.resolution-61-mobile .clip-path-group {
-  height: 186px;
-  left: 27px;
+.graph-pie.chart-2.resolution-73-mobile-sm .clip-path-group {
+  height: 150px;
+  left: 33px;
+  width: 152px;
 }
 
-.graph-pie.resolution-61-desktop.chart-2 .clip-path-group {
+.graph-pie.chart-3.resolution-73-mobile .clip-path-group {
+  height: 175px;
+  left: 26px;
+  width: 175px;
+}
+
+.graph-pie.demo-gender.resolution-73-mobile-sm .clip-path-group {
+  width: 149px;
+}
+
+.graph-pie.resolution-73-desktop.chart-2 .clip-path-group {
   height: 381px;
   left: 90px;
 }
 
-.graph-pie.chart-2.resolution-61-mobile .clip-path-group {
-  height: 184px;
-  left: 41px;
+.graph-pie.resolution-73-mobile-sm.demo-race .clip-path-group {
+  width: 149px;
 }
 
-.graph-pie.chart-1.resolution-61-mobile .clip-path-group {
-  height: 186px;
-  left: 49px;
+.graph-pie.resolution-73-mobile-sm.chart-3 .clip-path-group {
+  height: 149px;
+  left: 37px;
+  width: 149px;
+}
+
+.graph-pie.chart-1.resolution-73-mobile-sm .clip-path-group {
+  height: 150px;
+  left: 40px;
+  width: 151px;
+}
+
+.graph-pie.chart-2.resolution-73-mobile .clip-path-group {
+  height: 171px;
+  left: 38px;
+  width: 174px;
+}
+
+.graph-pie.chart-1.resolution-73-mobile .clip-path-group {
+  height: 171px;
+  left: 45px;
+  width: 172px;
+}
+
+.graph-pie.demo-race.resolution-73-mobile .clip-path-group {
+  width: 149px;
+}
+
+.graph-pie.example.resolution-73-mobile .clip-path-group {
+  width: 149px;
+}
+
+.graph-pie.resolution-73-mobile-sm .element {
+  font-size: 16px;
 }
 
 .graph-pie.demo-gender .element {
   left: 388px;
-  top: 369px;
+  top: 3px;
 }
 
 .graph-pie.example .element {
   left: 388px;
-  top: 369px;
+  top: 3px;
 }
 
 .graph-pie.demo-race .element {
   left: 388px;
-  top: 369px;
+  top: 3px;
 }
 
-.graph-pie.resolution-61-desktop .element {
+.graph-pie.resolution-73-desktop .element {
   font-size: 44.3px;
 }
 
-.graph-pie.resolution-61-mobile .element {
-  font-size: 21.5px;
+.graph-pie.resolution-73-mobile .element {
+  font-size: 20px;
 }
 
-.graph-pie.resolution-61-desktop.chart-1 .element {
+.graph-pie.resolution-73-desktop.chart-1 .element {
   left: 388px;
   top: 369px;
 }
 
-.graph-pie.resolution-61-desktop.chart-3 .element {
+.graph-pie.resolution-73-desktop.chart-3 .element {
   left: 438px;
   top: 58px;
 }
 
-.graph-pie.chart-3.resolution-61-mobile .element {
-  left: 212px;
-  top: 28px;
+.graph-pie.chart-2.resolution-73-mobile-sm .element {
+  left: 169px;
+  top: 3px;
 }
 
-.graph-pie.resolution-61-desktop.chart-2 .element {
+.graph-pie.chart-3.resolution-73-mobile .element {
+  left: 199px;
+  top: 26px;
+}
+
+.graph-pie.resolution-73-desktop.chart-2 .element {
   left: 435px;
   top: 6px;
 }
 
-.graph-pie.chart-2.resolution-61-mobile .element {
-  left: 208px;
+.graph-pie.resolution-73-mobile-sm.chart-3 .element {
+  left: 184px;
+  top: 23px;
+}
+
+.graph-pie.chart-1.resolution-73-mobile-sm .element {
+  left: 152px;
+  top: 144px;
+}
+
+.graph-pie.chart-2.resolution-73-mobile .element {
+  left: 193px;
   top: 3px;
 }
 
-.graph-pie.chart-1.resolution-61-mobile .element {
-  left: 188px;
-  top: 179px;
+.graph-pie.chart-1.resolution-73-mobile .element {
+  left: 173px;
+  top: 164px;
+}
+
+.graph-pie.resolution-73-mobile-sm .element-2 {
+  font-size: 16px;
 }
 
 .graph-pie.demo-gender .element-2 {
   left: 0;
-  top: 314px;
+  top: 1px;
 }
 
 .graph-pie.example .element-2 {
   left: 0;
-  top: 314px;
+  top: 1px;
 }
 
 .graph-pie.demo-race .element-2 {
   left: 0;
-  top: 314px;
+  top: 1px;
 }
 
 .graph-pie.chart-1 .element-2 {
   left: 0;
 }
 
-.graph-pie.resolution-61-desktop .element-2 {
+.graph-pie.resolution-73-desktop .element-2 {
   font-size: 44.3px;
 }
 
 .graph-pie.chart-2 .element-2 {
   left: 0;
-  top: 1px;
 }
 
-.graph-pie.resolution-61-mobile .element-2 {
-  font-size: 21.5px;
+.graph-pie.resolution-73-mobile .element-2 {
+  font-size: 20px;
 }
 
-.graph-pie.resolution-61-desktop.chart-1 .element-2 {
+.graph-pie.resolution-73-desktop.chart-1 .element-2 {
   top: 314px;
 }
 
-.graph-pie.resolution-61-desktop.chart-3 .element-2 {
+.graph-pie.resolution-73-desktop.chart-3 .element-2 {
   left: 390px;
   top: 352px;
 }
 
-.graph-pie.chart-3.resolution-61-mobile .element-2 {
-  left: 189px;
-  top: 170px;
+.graph-pie.chart-2.resolution-73-mobile-sm .element-2 {
+  top: 0;
 }
 
-.graph-pie.chart-1.resolution-61-mobile .element-2 {
-  top: 152px;
+.graph-pie.chart-3.resolution-73-mobile .element-2 {
+  left: 177px;
+  top: 160px;
+}
+
+.graph-pie.resolution-73-desktop.chart-2 .element-2 {
+  top: 1px;
+}
+
+.graph-pie.resolution-73-mobile-sm.chart-3 .element-2 {
+  left: 161px;
+  top: 136px;
+}
+
+.graph-pie.chart-1.resolution-73-mobile-sm .element-2 {
+  top: 123px;
+}
+
+.graph-pie.chart-2.resolution-73-mobile .element-2 {
+  top: 1px;
+}
+
+.graph-pie.chart-1.resolution-73-mobile .element-2 {
+  top: 140px;
+}
+
+.graph-pie.resolution-73-mobile-sm .element-3 {
+  font-size: 16px;
 }
 
 .graph-pie.demo-gender .element-3 {
@@ -1105,254 +1299,412 @@
   left: 0;
 }
 
-.graph-pie.resolution-61-desktop .element-3 {
+.graph-pie.resolution-73-desktop .element-3 {
   font-size: 44.3px;
 }
 
-.graph-pie.resolution-61-mobile .element-3 {
-  font-size: 21.5px;
+.graph-pie.resolution-73-mobile .element-3 {
+  font-size: 20px;
 }
 
-.graph-pie.resolution-61-desktop.chart-1 .element-3 {
+.graph-pie.resolution-73-desktop.chart-1 .element-3 {
   left: 15px;
   top: 23px;
 }
 
-.graph-pie.resolution-61-desktop.chart-3 .element-3 {
+.graph-pie.resolution-73-desktop.chart-3 .element-3 {
   top: 356px;
 }
 
-.graph-pie.chart-3.resolution-61-mobile .element-3 {
-  top: 173px;
+.graph-pie.chart-2.resolution-73-mobile-sm .element-3 {
+  left: 161px;
+  top: 131px;
 }
 
-.graph-pie.resolution-61-desktop.chart-2 .element-3 {
+.graph-pie.chart-3.resolution-73-mobile .element-3 {
+  top: 162px;
+}
+
+.graph-pie.resolution-73-desktop.chart-2 .element-3 {
   left: 422px;
   top: 339px;
 }
 
-.graph-pie.chart-2.resolution-61-mobile .element-3 {
-  left: 198px;
-  top: 161px;
-}
-
-.graph-pie.chart-1.resolution-61-mobile .element-3 {
-  left: 7px;
+.graph-pie.resolution-73-mobile-sm.chart-3 .element-3 {
   top: 11px;
 }
 
-.graph-pie.resolution-61-desktop .text-wrapper-4 {
+.graph-pie.chart-1.resolution-73-mobile-sm .element-3 {
+  left: 6px;
+  top: 9px;
+}
+
+.graph-pie.chart-2.resolution-73-mobile .element-3 {
+  left: 184px;
+  top: 149px;
+}
+
+.graph-pie.chart-1.resolution-73-mobile .element-3 {
+  left: 7px;
+  top: 10px;
+}
+
+.graph-pie.resolution-73-mobile-sm .element-4 {
+  font-size: 16px;
+}
+
+.graph-pie.chart-3 .element-4 {
+  left: 22px;
+  top: 138px;
+}
+
+.graph-pie.resolution-73-desktop .element-4 {
   font-size: 44.3px;
+}
+
+.graph-pie.resolution-73-mobile .element-4 {
+  font-size: 20px;
+}
+
+.graph-pie.example.resolution-73-mobile-sm .element-4 {
+  left: 33px;
+  top: 144px;
+}
+
+.graph-pie.demo-gender.resolution-73-mobile .element-4 {
+  left: 38px;
+  top: 164px;
+}
+
+.graph-pie.resolution-73-desktop.chart-1 .element-4 {
   left: 48px;
   top: 364px;
 }
 
-.graph-pie.resolution-61-mobile .text-wrapper-4 {
-  font-size: 21.5px;
-  left: 41px;
-  top: 177px;
+.graph-pie.resolution-73-desktop.demo-race .element-4 {
+  left: 48px;
+  top: 364px;
 }
 
-.graph-pie.demo-gender .element-4 {
-  left: 253px;
-  top: 85px;
+.graph-pie.chart-2.resolution-73-mobile-sm .element-4 {
+  left: 33px;
+  top: 144px;
 }
 
-.graph-pie.example .element-4 {
-  left: 253px;
-  top: 85px;
+.graph-pie.demo-gender.resolution-73-mobile-sm .element-4 {
+  left: 33px;
+  top: 144px;
 }
 
-.graph-pie.demo-race .element-4 {
-  left: 253px;
-  top: 85px;
+.graph-pie.resolution-73-desktop.demo-gender .element-4 {
+  left: 48px;
+  top: 364px;
 }
 
-.graph-pie.chart-1 .element-4 {
-  left: 253px;
-  top: 85px;
+.graph-pie.resolution-73-desktop.example .element-4 {
+  left: 48px;
+  top: 364px;
 }
 
-.graph-pie.resolution-61-desktop .element-4 {
-  font-size: 44.3px;
+.graph-pie.resolution-73-desktop.chart-2 .element-4 {
+  left: 48px;
+  top: 364px;
 }
 
-.graph-pie.resolution-61-mobile .element-4 {
-  font-size: 21.5px;
+.graph-pie.resolution-73-mobile-sm.demo-race .element-4 {
+  left: 33px;
+  top: 144px;
 }
 
-.graph-pie.resolution-61-desktop.chart-3 .element-4 {
-  left: 13px;
-  top: 251px;
+.graph-pie.chart-1.resolution-73-mobile-sm .element-4 {
+  left: 33px;
+  top: 144px;
 }
 
-.graph-pie.chart-3.resolution-61-mobile .element-4 {
-  left: 6px;
-  top: 122px;
+.graph-pie.chart-2.resolution-73-mobile .element-4 {
+  left: 38px;
+  top: 164px;
 }
 
-.graph-pie.resolution-61-desktop.chart-2 .element-4 {
-  left: 547px;
-  top: 176px;
+.graph-pie.chart-1.resolution-73-mobile .element-4 {
+  left: 38px;
+  top: 164px;
 }
 
-.graph-pie.chart-2.resolution-61-mobile .element-4 {
-  left: 253px;
-  top: 85px;
+.graph-pie.demo-race.resolution-73-mobile .element-4 {
+  left: 38px;
+  top: 164px;
+}
+
+.graph-pie.example.resolution-73-mobile .element-4 {
+  left: 38px;
+  top: 164px;
+}
+
+.graph-pie.resolution-73-mobile-sm .element-5 {
+  font-size: 16px;
 }
 
 .graph-pie.demo-gender .element-5 {
-  top: 122px;
+  left: 206px;
+  top: 79px;
 }
 
 .graph-pie.example .element-5 {
-  top: 122px;
+  left: 206px;
+  top: 79px;
 }
 
 .graph-pie.demo-race .element-5 {
-  top: 122px;
+  left: 206px;
+  top: 79px;
 }
 
-.graph-pie.chart-1 .element-5 {
-  top: 122px;
-}
-
-.graph-pie.resolution-61-desktop .element-5 {
+.graph-pie.resolution-73-desktop .element-5 {
   font-size: 44.3px;
 }
 
-.graph-pie.resolution-61-mobile .element-5 {
-  font-size: 21.5px;
+.graph-pie.resolution-73-mobile .element-5 {
+  font-size: 20px;
 }
 
-.graph-pie.resolution-61-desktop.chart-3 .element-5 {
-  top: 134px;
-}
-
-.graph-pie.chart-3.resolution-61-mobile .element-5 {
-  top: 65px;
-}
-
-.graph-pie.resolution-61-desktop.chart-2 .element-5 {
-  top: 251px;
-}
-
-.graph-pie.chart-2.resolution-61-mobile .element-5 {
-  top: 122px;
-}
-
-.graph-pie.demo-gender .element-6 {
-  left: 3px;
-  top: 50px;
-}
-
-.graph-pie.example .element-6 {
-  left: 3px;
-  top: 50px;
-}
-
-.graph-pie.demo-race .element-6 {
-  left: 3px;
-  top: 50px;
-}
-
-.graph-pie.resolution-61-desktop .element-6 {
-  font-size: 44.3px;
-}
-
-.graph-pie.resolution-61-mobile .element-6 {
-  font-size: 21.5px;
-}
-
-.graph-pie.resolution-61-desktop.chart-1 .element-6 {
+.graph-pie.resolution-73-desktop.chart-1 .element-5 {
   left: 543px;
   top: 108px;
 }
 
-.graph-pie.resolution-61-desktop.chart-3 .element-6 {
-  left: 37px;
-  top: 28px;
+.graph-pie.resolution-73-desktop.chart-3 .element-5 {
+  left: 13px;
+  top: 251px;
 }
 
-.graph-pie.chart-3.resolution-61-mobile .element-6 {
-  left: 18px;
-  top: 13px;
+.graph-pie.chart-2.resolution-73-mobile-sm .element-5 {
+  left: 206px;
+  top: 69px;
 }
 
-.graph-pie.resolution-61-desktop.chart-2 .element-6 {
-  left: 4px;
-  top: 102px;
+.graph-pie.chart-3.resolution-73-mobile .element-5 {
+  left: 6px;
+  top: 114px;
 }
 
-.graph-pie.chart-2.resolution-61-mobile .element-6 {
-  left: 3px;
-  top: 50px;
+.graph-pie.resolution-73-desktop.chart-2 .element-5 {
+  left: 547px;
+  top: 176px;
 }
 
-.graph-pie.chart-1.resolution-61-mobile .element-6 {
-  left: 263px;
-  top: 52px;
+.graph-pie.resolution-73-mobile-sm.chart-3 .element-5 {
+  left: 6px;
+  top: 97px;
 }
 
-.graph-pie.resolution-61-desktop .text-wrapper-5 {
+.graph-pie.chart-1.resolution-73-mobile-sm .element-5 {
+  left: 206px;
+  top: 42px;
+}
+
+.graph-pie.chart-2.resolution-73-mobile .element-5 {
+  left: 235px;
+  top: 79px;
+}
+
+.graph-pie.chart-1.resolution-73-mobile .element-5 {
+  left: 242px;
+  top: 48px;
+}
+
+.graph-pie.resolution-73-mobile-sm .element-6 {
+  font-size: 16px;
+}
+
+.graph-pie.demo-gender .element-6 {
+  top: 113px;
+}
+
+.graph-pie.example .element-6 {
+  top: 113px;
+}
+
+.graph-pie.demo-race .element-6 {
+  top: 113px;
+}
+
+.graph-pie.resolution-73-desktop .element-6 {
   font-size: 44.3px;
+}
+
+.graph-pie.resolution-73-mobile .element-6 {
+  font-size: 20px;
+}
+
+.graph-pie.resolution-73-desktop.chart-1 .element-6 {
   top: 149px;
 }
 
-.graph-pie.resolution-61-mobile .text-wrapper-5 {
-  font-size: 21.5px;
-  top: 72px;
+.graph-pie.resolution-73-desktop.chart-3 .element-6 {
+  top: 134px;
 }
 
-.graph-pie.resolution-61-desktop .overlap-group-5 {
+.graph-pie.chart-2.resolution-73-mobile-sm .element-6 {
+  top: 99px;
+}
+
+.graph-pie.chart-3.resolution-73-mobile .element-6 {
+  top: 61px;
+}
+
+.graph-pie.resolution-73-desktop.chart-2 .element-6 {
+  top: 251px;
+}
+
+.graph-pie.resolution-73-mobile-sm.chart-3 .element-6 {
+  top: 52px;
+}
+
+.graph-pie.chart-1.resolution-73-mobile-sm .element-6 {
+  top: 58px;
+}
+
+.graph-pie.chart-2.resolution-73-mobile .element-6 {
+  top: 113px;
+}
+
+.graph-pie.chart-1.resolution-73-mobile .element-6 {
+  top: 67px;
+}
+
+.graph-pie.resolution-73-desktop .overlap-group-5 {
   height: 401px;
   left: 76px;
   top: 47px;
   width: 422px;
 }
 
-.graph-pie.resolution-61-mobile .overlap-group-5 {
+.graph-pie.resolution-73-mobile .overlap-group-5 {
   height: 217px;
   left: 41px;
   top: 25px;
   width: 233px;
 }
 
-.graph-pie.resolution-61-desktop .layer {
+.graph-pie.resolution-73-desktop .layer {
   height: 401px;
   width: 401px;
 }
 
-.graph-pie.resolution-61-mobile .layer {
+.graph-pie.resolution-73-mobile .layer {
   height: 217px;
   width: 217px;
 }
 
-.graph-pie.resolution-61-desktop .layer-2 {
+.graph-pie.resolution-73-mobile-sm .element-7 {
+  font-size: 16px;
+  left: 2px;
+  top: 40px;
+}
+
+.graph-pie.resolution-73-desktop .element-7 {
+  font-size: 44.3px;
+}
+
+.graph-pie.resolution-73-mobile .element-7 {
+  font-size: 20px;
+}
+
+.graph-pie.demo-gender.resolution-73-mobile .element-7 {
+  left: 3px;
+  top: 46px;
+}
+
+.graph-pie.resolution-73-desktop.chart-1 .element-7 {
+  left: 3px;
+  top: 46px;
+}
+
+.graph-pie.resolution-73-desktop.demo-race .element-7 {
+  left: 3px;
+  top: 46px;
+}
+
+.graph-pie.resolution-73-desktop.chart-3 .element-7 {
+  left: 37px;
+  top: 28px;
+}
+
+.graph-pie.chart-3.resolution-73-mobile .element-7 {
+  left: 17px;
+  top: 13px;
+}
+
+.graph-pie.resolution-73-desktop.demo-gender .element-7 {
+  left: 3px;
+  top: 46px;
+}
+
+.graph-pie.resolution-73-desktop.example .element-7 {
+  left: 3px;
+  top: 46px;
+}
+
+.graph-pie.resolution-73-desktop.chart-2 .element-7 {
+  left: 4px;
+  top: 102px;
+}
+
+.graph-pie.chart-2.resolution-73-mobile .element-7 {
+  left: 3px;
+  top: 46px;
+}
+
+.graph-pie.chart-1.resolution-73-mobile .element-7 {
+  left: 3px;
+  top: 46px;
+}
+
+.graph-pie.demo-race.resolution-73-mobile .element-7 {
+  left: 3px;
+  top: 46px;
+}
+
+.graph-pie.example.resolution-73-mobile .element-7 {
+  left: 3px;
+  top: 46px;
+}
+
+.graph-pie.resolution-73-desktop .layer-2 {
   height: 401px;
   left: 66px;
   width: 401px;
 }
 
-.graph-pie.resolution-61-mobile .layer-2 {
+.graph-pie.resolution-73-mobile .layer-2 {
   height: 256px;
   left: 42px;
   width: 256px;
 }
 
-.graph-pie.example .section-title-33 {
-  top: 228px;
+.graph-pie.resolution-73-mobile-sm .section-title-35 {
+  font-family: var(--caption-desktop-bold-font-family);
+  font-size: 12.1px;
+  font-weight: var(--caption-desktop-bold-font-weight);
+  letter-spacing: var(--caption-desktop-bold-letter-spacing);
+  line-height: 16.4px;
+  top: 188px;
 }
 
-.graph-pie.chart-3 .section-title-33 {
-  top: 228px;
+.graph-pie.example .section-title-35 {
+  top: 188px;
 }
 
-.graph-pie.chart-1 .section-title-33 {
-  top: 228px;
+.graph-pie.chart-3 .section-title-35 {
+  top: 188px;
 }
 
-.graph-pie.resolution-61-desktop .section-title-33 {
+.graph-pie.chart-1 .section-title-35 {
+  top: 188px;
+}
+
+.graph-pie.resolution-73-desktop .section-title-35 {
   font-family: var(--caption-desktop-bold-font-family);
   font-size: var(--caption-desktop-bold-font-size);
   font-style: var(--caption-desktop-bold-font-style);
@@ -1361,72 +1713,82 @@
   line-height: var(--caption-desktop-bold-line-height);
 }
 
-.graph-pie.chart-2 .section-title-33 {
-  top: 228px;
+.graph-pie.chart-2 .section-title-35 {
+  top: 188px;
 }
 
-.graph-pie.resolution-61-mobile .section-title-33 {
+.graph-pie.resolution-73-mobile .section-title-35 {
   font-family: "Poppins", Helvetica;
   font-weight: 700;
   letter-spacing: 0.49px;
 }
 
-.graph-pie.demo-gender.resolution-61-mobile .section-title-33 {
+.graph-pie.demo-gender.resolution-73-mobile .section-title-35 {
   font-size: 12.1px;
   line-height: 16.4px;
   top: 120px;
 }
 
-.graph-pie.resolution-61-desktop.demo-race .section-title-33 {
+.graph-pie.resolution-73-desktop.demo-race .section-title-35 {
   top: 228px;
 }
 
-.graph-pie.chart-3.resolution-61-mobile .section-title-33 {
-  font-size: 12.3px;
-  line-height: 16.6px;
+.graph-pie.chart-3.resolution-73-mobile .section-title-35 {
+  font-size: 12.1px;
+  line-height: 16.4px;
 }
 
-.graph-pie.resolution-61-desktop.demo-gender .section-title-33 {
+.graph-pie.resolution-73-desktop.demo-gender .section-title-35 {
   top: 188px;
 }
 
-.graph-pie.chart-2.resolution-61-mobile .section-title-33 {
-  font-size: 12.3px;
-  line-height: 16.6px;
+.graph-pie.chart-2.resolution-73-mobile .section-title-35 {
+  font-size: 12.1px;
+  line-height: 16.4px;
 }
 
-.graph-pie.chart-1.resolution-61-mobile .section-title-33 {
-  font-size: 12.3px;
-  line-height: 16.6px;
+.graph-pie.chart-1.resolution-73-mobile .section-title-35 {
+  font-size: 12.1px;
+  line-height: 16.4px;
 }
 
-.graph-pie.demo-race.resolution-61-mobile .section-title-33 {
+.graph-pie.demo-race.resolution-73-mobile .section-title-35 {
   font-size: 12.3px;
   line-height: 16.6px;
   top: 123px;
 }
 
-.graph-pie.example.resolution-61-mobile .section-title-33 {
-  font-size: 12.3px;
-  line-height: 16.6px;
+.graph-pie.example.resolution-73-mobile .section-title-35 {
+  font-size: 12.1px;
+  line-height: 16.4px;
 }
 
-.graph-pie.example .section-title-34 {
-  left: 234px;
-  top: 465px;
+.graph-pie.resolution-73-mobile-sm .section-title-36 {
+  font-family: var(--caption-desktop-bold-font-family);
+  font-size: 12.1px;
+  font-weight: var(--caption-desktop-bold-font-weight);
+  left: 490px;
+  letter-spacing: var(--caption-desktop-bold-letter-spacing);
+  line-height: 16.4px;
+  top: 188px;
 }
 
-.graph-pie.chart-3 .section-title-34 {
-  left: 234px;
-  top: 465px;
+.graph-pie.example .section-title-36 {
+  left: 490px;
+  top: 188px;
 }
 
-.graph-pie.chart-1 .section-title-34 {
-  left: 234px;
-  top: 465px;
+.graph-pie.chart-3 .section-title-36 {
+  left: 490px;
+  top: 188px;
 }
 
-.graph-pie.resolution-61-desktop .section-title-34 {
+.graph-pie.chart-1 .section-title-36 {
+  left: 490px;
+  top: 188px;
+}
+
+.graph-pie.resolution-73-desktop .section-title-36 {
   font-family: var(--caption-desktop-bold-font-family);
   font-size: var(--caption-desktop-bold-font-size);
   font-style: var(--caption-desktop-bold-font-style);
@@ -1435,62 +1797,62 @@
   line-height: var(--caption-desktop-bold-line-height);
 }
 
-.graph-pie.chart-2 .section-title-34 {
-  left: 234px;
-  top: 465px;
+.graph-pie.chart-2 .section-title-36 {
+  left: 490px;
+  top: 188px;
 }
 
-.graph-pie.resolution-61-mobile .section-title-34 {
+.graph-pie.resolution-73-mobile .section-title-36 {
   font-family: "Poppins", Helvetica;
   font-weight: 700;
   letter-spacing: 0.49px;
 }
 
-.graph-pie.demo-gender.resolution-61-mobile .section-title-34 {
+.graph-pie.demo-gender.resolution-73-mobile .section-title-36 {
   font-size: 12.1px;
   left: 313px;
   line-height: 16.4px;
   top: 120px;
 }
 
-.graph-pie.resolution-61-desktop.demo-race .section-title-34 {
+.graph-pie.resolution-73-desktop.demo-race .section-title-36 {
   left: 234px;
   top: 465px;
 }
 
-.graph-pie.chart-3.resolution-61-mobile .section-title-34 {
-  font-size: 12.3px;
-  line-height: 16.6px;
+.graph-pie.chart-3.resolution-73-mobile .section-title-36 {
+  font-size: 12.1px;
+  line-height: 16.4px;
 }
 
-.graph-pie.resolution-61-desktop.demo-gender .section-title-34 {
+.graph-pie.resolution-73-desktop.demo-gender .section-title-36 {
   left: 490px;
   top: 188px;
 }
 
-.graph-pie.chart-2.resolution-61-mobile .section-title-34 {
-  font-size: 12.3px;
-  line-height: 16.6px;
+.graph-pie.chart-2.resolution-73-mobile .section-title-36 {
+  font-size: 12.1px;
+  line-height: 16.4px;
 }
 
-.graph-pie.chart-1.resolution-61-mobile .section-title-34 {
-  font-size: 12.3px;
-  line-height: 16.6px;
+.graph-pie.chart-1.resolution-73-mobile .section-title-36 {
+  font-size: 12.1px;
+  line-height: 16.4px;
 }
 
-.graph-pie.demo-race.resolution-61-mobile .section-title-34 {
+.graph-pie.demo-race.resolution-73-mobile .section-title-36 {
   font-size: 12.3px;
   left: 126px;
   line-height: 16.6px;
   top: 251px;
 }
 
-.graph-pie.example.resolution-61-mobile .section-title-34 {
-  font-size: 12.3px;
-  line-height: 16.6px;
+.graph-pie.example.resolution-73-mobile .section-title-36 {
+  font-size: 12.1px;
+  line-height: 16.4px;
 }
 
-.graph-pie.resolution-61-desktop .section-title-35 {
+.graph-pie.resolution-73-desktop .section-title-37 {
   font-family: var(--caption-desktop-bold-font-family);
   font-size: var(--caption-desktop-bold-font-size);
   font-style: var(--caption-desktop-bold-font-style);
@@ -1500,7 +1862,7 @@
   line-height: var(--caption-desktop-bold-line-height);
 }
 
-.graph-pie.resolution-61-mobile .section-title-35 {
+.graph-pie.resolution-73-mobile .section-title-37 {
   font-family: "Poppins", Helvetica;
   font-size: 12.3px;
   font-weight: 700;
@@ -1509,7 +1871,16 @@
   line-height: 16.6px;
 }
 
-.graph-pie.resolution-61-desktop .section-title-36 {
+.graph-pie.resolution-73-mobile-sm .section-title-37 {
+  font-family: var(--caption-desktop-bold-font-family);
+  font-size: var(--caption-desktop-bold-font-size);
+  font-weight: var(--caption-desktop-bold-font-weight);
+  left: 270px;
+  letter-spacing: var(--caption-desktop-bold-letter-spacing);
+  line-height: var(--caption-desktop-bold-line-height);
+}
+
+.graph-pie.resolution-73-desktop .section-title-38 {
   font-family: var(--caption-desktop-bold-font-family);
   font-size: var(--caption-desktop-bold-font-size);
   font-style: var(--caption-desktop-bold-font-style);
@@ -1520,7 +1891,7 @@
   top: 262px;
 }
 
-.graph-pie.resolution-61-mobile .section-title-36 {
+.graph-pie.resolution-73-mobile .section-title-38 {
   font-family: "Poppins", Helvetica;
   font-size: 12.3px;
   font-weight: 700;
@@ -1530,7 +1901,41 @@
   top: 142px;
 }
 
-.graph-pie .frame-32.resolution-82-desktop .section-title-37 {
+.graph-pie.resolution-73-mobile-sm .section-title-38 {
+  font-family: var(--caption-desktop-bold-font-family);
+  font-size: var(--caption-desktop-bold-font-size);
+  font-weight: var(--caption-desktop-bold-font-weight);
+  left: 506px;
+  letter-spacing: var(--caption-desktop-bold-letter-spacing);
+  line-height: var(--caption-desktop-bold-line-height);
+  top: 262px;
+}
+
+.graph-pie.subtitle-false .frame-34 {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--dark-blue);
+  display: flex;
+  gap: 10px;
+  padding: 0px 0px 16px;
+}
+
+.graph-pie.subtitle-true .frame-34 {
+  display: inline-flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.graph-pie.resolution-73-mobile .frame-34 {
+  align-self: stretch;
+  width: 100%;
+}
+
+.graph-pie.resolution-73-desktop.subtitle-false .frame-34 {
+  width: 697.54px;
+}
+
+.graph-pie.resolution-73-desktop .section-title-39 {
   font-family: "Anton", Helvetica;
   font-size: 28.3px;
   font-weight: 400;
@@ -1538,7 +1943,7 @@
   line-height: 31.1px;
 }
 
-.graph-pie .frame-32.resolution-82-mobile .section-title-37 {
+.graph-pie.resolution-73-mobile .section-title-39 {
   font-family: var(--h5-mobile-font-family);
   font-size: var(--h5-mobile-font-size);
   font-style: var(--h5-mobile-font-style);
@@ -1547,109 +1952,80 @@
   line-height: var(--h5-mobile-line-height);
 }
 
-.graph-pie.example .group-3 {
-  margin-right: -11.24px;
-}
-
-.graph-pie.demo-race .group-3 {
-  margin-right: -11.24px;
-}
-
-.graph-pie.chart-3 .group-3 {
-  height: 449.29px;
-  margin-right: -11.24px;
-  width: 658px;
-}
-
-.graph-pie.chart-1 .group-3 {
-  height: 449.29px;
-  margin-right: -11.24px;
-  width: 658px;
-}
-
-.graph-pie.resolution-61-desktop .group-3 {
-  margin-right: -11.24px;
-}
-
-.graph-pie.chart-2 .group-3 {
-  height: 449.29px;
-  margin-right: -11.24px;
-  width: 658px;
-}
-
-.graph-pie.demo-gender.resolution-61-mobile .group-3 {
+.graph-pie.demo-gender.resolution-73-mobile .group-3 {
   height: 225.99px;
   margin-left: -3.07px;
   margin-right: -7.07px;
   width: 305.15px;
 }
 
-.graph-pie.resolution-61-desktop.demo-race .group-3 {
+.graph-pie.resolution-73-desktop.demo-race .group-3 {
   height: 491px;
   width: 548px;
 }
 
-.graph-pie.resolution-61-desktop.demo-gender .group-3 {
+.graph-pie.resolution-73-desktop.demo-gender .group-3 {
   height: 401px;
   width: 537px;
 }
 
-.graph-pie.resolution-61-desktop.example .group-3 {
+.graph-pie.resolution-73-desktop.example .group-3 {
   height: 449.29px;
   width: 658px;
 }
 
-.graph-pie.demo-race.resolution-61-mobile .group-3 {
+.graph-pie.demo-race.resolution-73-mobile .group-3 {
   height: 268.33px;
+  margin-right: -11.24px;
   width: 305.49px;
 }
 
-.graph-pie.example.resolution-61-mobile .group-3 {
+.graph-pie.example.resolution-73-mobile .group-3 {
   height: 187.85px;
   width: 277.67px;
 }
 
-.graph-pie.resolution-61-desktop .overlap-group-6 {
+.graph-pie.resolution-73-desktop .overlap-group-6 {
   height: 403px;
   top: 18px;
   width: 654px;
 }
 
-.graph-pie.resolution-61-mobile .overlap-group-6 {
+.graph-pie.resolution-73-mobile .overlap-group-6 {
   height: 168px;
   top: 8px;
   width: 274px;
 }
 
-.graph-pie.resolution-61-desktop .vector-5 {
+.graph-pie.resolution-73-desktop .vector-5 {
   height: 393px;
   left: 132px;
   top: 10px;
   width: 393px;
 }
 
-.graph-pie.resolution-61-mobile .vector-5 {
+.graph-pie.resolution-73-mobile .vector-5 {
   height: 164px;
   left: 55px;
   top: 4px;
   width: 164px;
 }
 
-.graph-pie.resolution-61-desktop .vector-6 {
+.graph-pie.resolution-73-desktop .vector-6 {
   height: 390px;
   left: 132px;
   top: 10px;
   width: 197px;
 }
 
-.graph-pie.resolution-61-mobile .vector-6 {
+.graph-pie.resolution-73-mobile .vector-6 {
   height: 163px;
   left: 55px;
   top: 4px;
   width: 82px;
 }
 
-.graph-pie.resolution-61-desktop .section-title-42 {
+.graph-pie.resolution-73-desktop .section-title-44 {
   font-family: var(--h2-desktop-font-family);
   font-size: var(--h2-desktop-font-size);
   font-style: var(--h2-desktop-font-style);
@@ -1660,7 +2036,7 @@
   top: 310px;
 }
 
-.graph-pie.resolution-61-mobile .section-title-42 {
+.graph-pie.resolution-73-mobile .section-title-44 {
   font-family: "Anton", Helvetica;
   font-size: 27.6px;
   font-weight: 400;
@@ -1670,7 +2046,7 @@
   top: 130px;
 }
 
-.graph-pie.resolution-61-desktop .section-title-43 {
+.graph-pie.resolution-73-desktop .section-title-45 {
   font-family: var(--h2-desktop-font-family);
   font-size: var(--h2-desktop-font-size);
   font-style: var(--h2-desktop-font-style);
@@ -1679,7 +2055,7 @@
   line-height: var(--h2-desktop-line-height);
 }
 
-.graph-pie.resolution-61-mobile .section-title-43 {
+.graph-pie.resolution-73-mobile .section-title-45 {
   font-family: "Anton", Helvetica;
   font-size: 27.6px;
   font-weight: 400;
@@ -1687,55 +2063,64 @@
   line-height: 30.4px;
 }
 
-.graph-pie.resolution-61-desktop .overlap-group-7 {
+.graph-pie.resolution-73-desktop .overlap-group-7 {
   height: 401px;
   left: 76px;
   top: 47px;
   width: 422px;
 }
 
-.graph-pie.resolution-61-mobile .overlap-group-7 {
+.graph-pie.resolution-73-mobile .overlap-group-7 {
   height: 217px;
   left: 41px;
   top: 25px;
   width: 233px;
 }
 
-.graph-pie.resolution-61-desktop .layer-3 {
+.graph-pie.resolution-73-desktop .layer-3 {
   height: 401px;
   width: 401px;
 }
 
-.graph-pie.resolution-61-mobile .layer-3 {
+.graph-pie.resolution-73-mobile .layer-3 {
   height: 217px;
   width: 217px;
 }
 
-.graph-pie.resolution-61-desktop .layer-4 {
+.graph-pie.resolution-73-desktop .layer-4 {
   height: 401px;
   left: 66px;
   width: 401px;
 }
 
-.graph-pie.resolution-61-mobile .layer-4 {
+.graph-pie.resolution-73-mobile .layer-4 {
   height: 226px;
   left: 37px;
   width: 226px;
 }
 
-.graph-pie.example .section-title-44 {
+.graph-pie.resolution-73-mobile-sm .section-title-46 {
+  font-family: var(--caption-desktop-bold-font-family);
+  font-size: 12.3px;
+  font-weight: var(--caption-desktop-bold-font-weight);
+  letter-spacing: 0.49px;
+  line-height: 16.6px;
   top: 228px;
 }
 
-.graph-pie.chart-3 .section-title-44 {
+.graph-pie.example .section-title-46 {
   top: 228px;
 }
 
-.graph-pie.chart-1 .section-title-44 {
+.graph-pie.chart-3 .section-title-46 {
   top: 228px;
 }
 
-.graph-pie.resolution-61-desktop .section-title-44 {
+.graph-pie.chart-1 .section-title-46 {
+  top: 228px;
+}
+
+.graph-pie.resolution-73-desktop .section-title-46 {
   font-family: var(--caption-desktop-bold-font-family);
   font-size: var(--caption-desktop-bold-font-size);
   font-style: var(--caption-desktop-bold-font-style);
@@ -1744,77 +2129,87 @@
   line-height: var(--caption-desktop-bold-line-height);
 }
 
-.graph-pie.chart-2 .section-title-44 {
+.graph-pie.chart-2 .section-title-46 {
   top: 228px;
 }
 
-.graph-pie.resolution-61-mobile .section-title-44 {
+.graph-pie.resolution-73-mobile .section-title-46 {
   font-family: "Poppins", Helvetica;
   font-weight: 700;
 }
 
-.graph-pie.demo-gender.resolution-61-mobile .section-title-44 {
+.graph-pie.demo-gender.resolution-73-mobile .section-title-46 {
   font-size: 10.7px;
   letter-spacing: 0.43px;
   line-height: 14.5px;
   top: 106px;
 }
 
-.graph-pie.resolution-61-desktop.demo-race .section-title-44 {
+.graph-pie.resolution-73-desktop.demo-race .section-title-46 {
   top: 228px;
 }
 
-.graph-pie.chart-3.resolution-61-mobile .section-title-44 {
+.graph-pie.chart-3.resolution-73-mobile .section-title-46 {
   font-size: 12.3px;
   letter-spacing: 0.49px;
   line-height: 16.6px;
 }
 
-.graph-pie.resolution-61-desktop.demo-gender .section-title-44 {
+.graph-pie.resolution-73-desktop.demo-gender .section-title-46 {
   top: 188px;
 }
 
-.graph-pie.chart-2.resolution-61-mobile .section-title-44 {
+.graph-pie.chart-2.resolution-73-mobile .section-title-46 {
   font-size: 12.3px;
   letter-spacing: 0.49px;
   line-height: 16.6px;
 }
 
-.graph-pie.chart-1.resolution-61-mobile .section-title-44 {
+.graph-pie.chart-1.resolution-73-mobile .section-title-46 {
   font-size: 12.3px;
   letter-spacing: 0.49px;
   line-height: 16.6px;
 }
 
-.graph-pie.demo-race.resolution-61-mobile .section-title-44 {
+.graph-pie.demo-race.resolution-73-mobile .section-title-46 {
   font-size: 12.3px;
   letter-spacing: 0.49px;
   line-height: 16.6px;
   top: 123px;
 }
 
-.graph-pie.example.resolution-61-mobile .section-title-44 {
+.graph-pie.example.resolution-73-mobile .section-title-46 {
   font-size: 12.3px;
   letter-spacing: 0.49px;
   line-height: 16.6px;
 }
 
-.graph-pie.example .section-title-45 {
+.graph-pie.resolution-73-mobile-sm .section-title-47 {
+  font-family: var(--caption-desktop-bold-font-family);
+  font-size: 12.3px;
+  font-weight: var(--caption-desktop-bold-font-weight);
+  left: 234px;
+  letter-spacing: 0.49px;
+  line-height: 16.6px;
+  top: 465px;
+}
+
+.graph-pie.example .section-title-47 {
   left: 234px;
   top: 465px;
 }
 
-.graph-pie.chart-3 .section-title-45 {
+.graph-pie.chart-3 .section-title-47 {
   left: 234px;
   top: 465px;
 }
 
-.graph-pie.chart-1 .section-title-45 {
+.graph-pie.chart-1 .section-title-47 {
   left: 234px;
   top: 465px;
 }
 
-.graph-pie.resolution-61-desktop .section-title-45 {
+.graph-pie.resolution-73-desktop .section-title-47 {
   font-family: var(--caption-desktop-bold-font-family);
   font-size: var(--caption-desktop-bold-font-size);
   font-style: var(--caption-desktop-bold-font-style);
@@ -1823,17 +2218,17 @@
   line-height: var(--caption-desktop-bold-line-height);
 }
 
-.graph-pie.chart-2 .section-title-45 {
+.graph-pie.chart-2 .section-title-47 {
   left: 234px;
   top: 465px;
 }
 
-.graph-pie.resolution-61-mobile .section-title-45 {
+.graph-pie.resolution-73-mobile .section-title-47 {
   font-family: "Poppins", Helvetica;
   font-weight: 700;
 }
 
-.graph-pie.demo-gender.resolution-61-mobile .section-title-45 {
+.graph-pie.demo-gender.resolution-73-mobile .section-title-47 {
   font-size: 10.7px;
   left: 276px;
   letter-spacing: 0.43px;
@@ -1841,35 +2236,35 @@
   top: 106px;
 }
 
-.graph-pie.resolution-61-desktop.demo-race .section-title-45 {
+.graph-pie.resolution-73-desktop.demo-race .section-title-47 {
   left: 234px;
   top: 465px;
 }
 
-.graph-pie.chart-3.resolution-61-mobile .section-title-45 {
+.graph-pie.chart-3.resolution-73-mobile .section-title-47 {
   font-size: 12.3px;
   letter-spacing: 0.49px;
   line-height: 16.6px;
 }
 
-.graph-pie.resolution-61-desktop.demo-gender .section-title-45 {
+.graph-pie.resolution-73-desktop.demo-gender .section-title-47 {
   left: 490px;
   top: 188px;
 }
 
-.graph-pie.chart-2.resolution-61-mobile .section-title-45 {
+.graph-pie.chart-2.resolution-73-mobile .section-title-47 {
   font-size: 12.3px;
   letter-spacing: 0.49px;
   line-height: 16.6px;
 }
 
-.graph-pie.chart-1.resolution-61-mobile .section-title-45 {
+.graph-pie.chart-1.resolution-73-mobile .section-title-47 {
   font-size: 12.3px;
   letter-spacing: 0.49px;
   line-height: 16.6px;
 }
 
-.graph-pie.demo-race.resolution-61-mobile .section-title-45 {
+.graph-pie.demo-race.resolution-73-mobile .section-title-47 {
   font-size: 12.3px;
   left: 126px;
   letter-spacing: 0.49px;
@@ -1877,13 +2272,13 @@
   top: 251px;
 }
 
-.graph-pie.example.resolution-61-mobile .section-title-45 {
+.graph-pie.example.resolution-73-mobile .section-title-47 {
   font-size: 12.3px;
   letter-spacing: 0.49px;
   line-height: 16.6px;
 }
 
-.graph-pie.resolution-61-desktop .section-title-46 {
+.graph-pie.resolution-73-desktop .section-title-48 {
   font-family: var(--caption-desktop-bold-font-family);
   font-size: var(--caption-desktop-bold-font-size);
   font-style: var(--caption-desktop-bold-font-style);
@@ -1893,7 +2288,7 @@
   line-height: var(--caption-desktop-bold-line-height);
 }
 
-.graph-pie.resolution-61-mobile .section-title-46 {
+.graph-pie.resolution-73-mobile .section-title-48 {
   font-family: "Poppins", Helvetica;
   font-size: 12.3px;
   font-weight: 700;
@@ -1902,7 +2297,16 @@
   line-height: 16.6px;
 }
 
-.graph-pie.resolution-61-desktop .section-title-47 {
+.graph-pie.resolution-73-mobile-sm .section-title-48 {
+  font-family: var(--caption-desktop-bold-font-family);
+  font-size: var(--caption-desktop-bold-font-size);
+  font-weight: var(--caption-desktop-bold-font-weight);
+  left: 270px;
+  letter-spacing: var(--caption-desktop-bold-letter-spacing);
+  line-height: var(--caption-desktop-bold-line-height);
+}
+
+.graph-pie.resolution-73-desktop .section-title-49 {
   font-family: var(--caption-desktop-bold-font-family);
   font-size: var(--caption-desktop-bold-font-size);
   font-style: var(--caption-desktop-bold-font-style);
@@ -1913,7 +2317,7 @@
   top: 262px;
 }
 
-.graph-pie.resolution-61-mobile .section-title-47 {
+.graph-pie.resolution-73-mobile .section-title-49 {
   font-family: "Poppins", Helvetica;
   font-size: 12.3px;
   font-weight: 700;
@@ -1921,4 +2325,14 @@
   letter-spacing: 0.49px;
   line-height: 16.6px;
   top: 142px;
+}
+
+.graph-pie.resolution-73-mobile-sm .section-title-49 {
+  font-family: var(--caption-desktop-bold-font-family);
+  font-size: var(--caption-desktop-bold-font-size);
+  font-weight: var(--caption-desktop-bold-font-weight);
+  left: 506px;
+  letter-spacing: var(--caption-desktop-bold-letter-spacing);
+  line-height: var(--caption-desktop-bold-line-height);
+  top: 262px;
 }

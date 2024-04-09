@@ -1,0 +1,782 @@
+.COMMUNITY-DESKTOP {
+  align-items: flex-start;
+  background-color: var(--neutrascinza);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.COMMUNITY-DESKTOP .class-120 {
+  align-self: stretch !important;
+  left: unset !important;
+  top: unset !important;
+  width: 100% !important;
+  z-index: 12 !important;
+}
+
+.COMMUNITY-DESKTOP .class-121 {
+  align-self: stretch !important;
+  left: unset !important;
+  top: unset !important;
+  width: 100% !important;
+  z-index: 10 !important;
+}
+
+.COMMUNITY-DESKTOP .title-section-36 {
+  align-self: stretch !important;
+  white-space: unset !important;
+  width: unset !important;
+}
+
+.COMMUNITY-DESKTOP .class-122 {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  left: unset !important;
+  top: unset !important;
+  width: 100% !important;
+  z-index: 11 !important;
+}
+
+.COMMUNITY-DESKTOP .class-123 {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  left: unset !important;
+  top: unset !important;
+  width: 100% !important;
+  z-index: 9 !important;
+}
+
+.COMMUNITY-DESKTOP .title-section-37 {
+  align-self: stretch !important;
+  text-align: unset !important;
+  white-space: unset !important;
+  width: unset !important;
+}
+
+.COMMUNITY-DESKTOP .title-section-38 {
+  background-image: url(../../../static/img/frame-19722-2-2.png) !important;
+}
+
+.COMMUNITY-DESKTOP .class-124 {
+  align-items: flex-start !important;
+  align-self: stretch !important;
+  background-color: var(--blue) !important;
+  display: flex !important;
+  flex: 0 0 auto !important;
+  left: unset !important;
+  padding: 36px 24px !important;
+  top: unset !important;
+  width: 100% !important;
+}
+
+.COMMUNITY-DESKTOP .class-125 {
+  align-items: flex-start !important;
+  align-self: stretch !important;
+  background-color: var(--blue) !important;
+  display: flex !important;
+  flex: 1 !important;
+  flex-grow: 1 !important;
+  left: unset !important;
+  padding: 24px 80px !important;
+  top: unset !important;
+}
+
+.COMMUNITY-DESKTOP .instance-node-23 {
+  font-family: var(--pull-quote-mobile-bold-font-family) !important;
+  font-size: var(--pull-quote-mobile-bold-font-size) !important;
+  font-style: var(--pull-quote-mobile-bold-font-style) !important;
+  font-weight: var(--pull-quote-mobile-bold-font-weight) !important;
+  letter-spacing: var(--pull-quote-mobile-bold-letter-spacing) !important;
+  line-height: var(--pull-quote-mobile-bold-line-height) !important;
+}
+
+.COMMUNITY-DESKTOP .instance-node-24 {
+  align-self: stretch !important;
+  display: flex !important;
+  flex: 0 0 auto !important;
+  left: unset !important;
+  top: unset !important;
+  width: 100% !important;
+}
+
+.COMMUNITY-DESKTOP .opening-section-11 {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  left: unset !important;
+  padding: 90px 60px 50px !important;
+  top: unset !important;
+  width: 100% !important;
+  z-index: 10 !important;
+}
+
+.COMMUNITY-DESKTOP .frame-151 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  z-index: 9;
+}
+
+.COMMUNITY-DESKTOP .hightlight-blurb-29 {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--green);
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 60px;
+  padding: 60px 24px;
+  position: relative;
+  width: 100%;
+}
+
+.COMMUNITY-DESKTOP .image-square-5 {
+  align-self: stretch;
+  height: 350px;
+  object-fit: cover;
+  position: relative;
+  width: 100%;
+}
+
+.COMMUNITY-DESKTOP .frame-152 {
+  align-items: flex-start;
+  align-self: stretch;
+  border-radius: 0px 20px 20px 0px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.COMMUNITY-DESKTOP .topics-27 {
+  color: var(--white) !important;
+}
+
+.COMMUNITY-DESKTOP .instance-node-25 {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  left: unset !important;
+  top: unset !important;
+  width: 100% !important;
+}
+
+.COMMUNITY-DESKTOP .hightlight-blurb-30 {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--blue);
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 60px;
+  justify-content: center;
+  padding: 60px 24px;
+  position: relative;
+  width: 100%;
+}
+
+.COMMUNITY-DESKTOP .hightlight-blurb-31 {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--light-blue);
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 60px;
+  padding: 60px 24px;
+  position: relative;
+  width: 100%;
+}
+
+.COMMUNITY-DESKTOP .topics-28 {
+  color: var(--dark-blue) !important;
+}
+
+.COMMUNITY-DESKTOP .hightlight-blurb-32 {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--dark-blue);
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 60px;
+  padding: 60px 24px;
+  position: relative;
+  width: 100%;
+}
+
+.COMMUNITY-DESKTOP .frame-153 {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--white);
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px 0px 0px;
+  position: relative;
+  width: 100%;
+  z-index: 8;
+}
+
+.COMMUNITY-DESKTOP .screenshot {
+  height: 329.22px;
+  object-fit: cover;
+  position: relative;
+  width: 584.9px;
+}
+
+.COMMUNITY-DESKTOP .play {
+  height: 76px;
+  left: 346px;
+  position: absolute;
+  top: 253px;
+  width: 76px;
+}
+
+.COMMUNITY-DESKTOP .stat-section-30 {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  gap: 24px !important;
+  height: unset !important;
+  justify-content: unset !important;
+  left: unset !important;
+  top: unset !important;
+  width: 100% !important;
+}
+
+.COMMUNITY-DESKTOP .stat-section-31 {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  left: unset !important;
+  padding: 100px 24px 0px !important;
+  top: unset !important;
+  width: 100% !important;
+  z-index: 7 !important;
+}
+
+.COMMUNITY-DESKTOP .topics-section-29 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: var(--white);
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.COMMUNITY-DESKTOP .topics-29 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 36px;
+  position: relative;
+  width: 100%;
+}
+
+.COMMUNITY-DESKTOP .frame-154 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.COMMUNITY-DESKTOP .james-cary-smith-18 {
+  align-self: stretch;
+  color: var(--dark-blue);
+  font-family: var(--h3-tablet-font-family);
+  font-size: var(--h3-tablet-font-size);
+  font-style: var(--h3-tablet-font-style);
+  font-weight: var(--h3-tablet-font-weight);
+  letter-spacing: var(--h3-tablet-letter-spacing);
+  line-height: var(--h3-tablet-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.COMMUNITY-DESKTOP .the-grant-program-21 {
+  align-self: stretch;
+  color: var(--dark-gray);
+  font-family: "Poppins", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  line-height: 25.5px;
+  position: relative;
+}
+
+.COMMUNITY-DESKTOP .text-wrapper-36 {
+  font-family: var(--body-text-tablet-font-family);
+  font-size: var(--body-text-tablet-font-size);
+  font-style: var(--body-text-tablet-font-style);
+  font-weight: var(--body-text-tablet-font-weight);
+  letter-spacing: var(--body-text-tablet-letter-spacing);
+  line-height: var(--body-text-tablet-line-height);
+}
+
+.COMMUNITY-DESKTOP .text-wrapper-37 {
+  font-family: var(--body-text-mobile-bold-font-family);
+  font-size: var(--body-text-mobile-bold-font-size);
+  font-style: var(--body-text-mobile-bold-font-style);
+  font-weight: var(--body-text-mobile-bold-font-weight);
+  letter-spacing: var(--body-text-mobile-bold-letter-spacing);
+  line-height: var(--body-text-mobile-bold-line-height);
+}
+
+.COMMUNITY-DESKTOP .opening-text-instance {
+  font-size: 21px !important;
+  letter-spacing: 0.84px !important;
+  line-height: 31.5px !important;
+}
+
+.COMMUNITY-DESKTOP .opening-text-8 {
+  font-family: var(--pull-quote-mobile-font-family) !important;
+  font-size: var(--pull-quote-mobile-font-size) !important;
+  font-style: var(--pull-quote-mobile-font-style) !important;
+  font-weight: var(--pull-quote-mobile-font-weight) !important;
+  letter-spacing: var(--pull-quote-mobile-letter-spacing) !important;
+  line-height: var(--pull-quote-mobile-line-height) !important;
+}
+
+.COMMUNITY-DESKTOP .element-image-5 {
+  align-self: stretch !important;
+  left: unset !important;
+  top: unset !important;
+  width: 100% !important;
+  z-index: 5 !important;
+}
+
+.COMMUNITY-DESKTOP .hightlight-blurb-33 {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  left: unset !important;
+  top: unset !important;
+  width: 100% !important;
+  z-index: 4 !important;
+}
+
+.COMMUNITY-DESKTOP .topics-section-30 {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  left: unset !important;
+  padding: 80px 60px 40px !important;
+  top: unset !important;
+  width: 100% !important;
+  z-index: 3 !important;
+}
+
+.COMMUNITY-DESKTOP .element-image-6 {
+  align-self: stretch !important;
+  left: unset !important;
+  top: unset !important;
+  width: 100% !important;
+  z-index: 2 !important;
+}
+
+.COMMUNITY-DESKTOP .internal-menu-6 {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  left: unset !important;
+  top: unset !important;
+  width: 100% !important;
+  z-index: 1 !important;
+}
+
+.COMMUNITY-DESKTOP .footer-11 {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  left: unset !important;
+  top: unset !important;
+  width: 100% !important;
+  z-index: 0 !important;
+}
+
+.COMMUNITY-DESKTOP .opening-section-12 {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  left: unset !important;
+  padding: 160px 0px 80px 100px !important;
+  top: unset !important;
+  width: 100% !important;
+  z-index: 8 !important;
+}
+
+.COMMUNITY-DESKTOP .instance-node-26 {
+  flex: 0 0 auto !important;
+  left: unset !important;
+  top: unset !important;
+}
+
+.COMMUNITY-DESKTOP .hightlight-blurb-34 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: var(--white);
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 60px;
+  padding: 0px 0px 160px;
+  position: relative;
+  width: 100%;
+  z-index: 7;
+}
+
+.COMMUNITY-DESKTOP .frame-155 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  margin-right: -1835px;
+  padding: 0px 0px 0px 24px;
+  position: relative;
+  width: 2860px;
+}
+
+.COMMUNITY-DESKTOP .frame-156 {
+  align-items: flex-start;
+  display: flex;
+  gap: 80px;
+  height: 460px;
+  position: relative;
+  width: 2836px;
+}
+
+.COMMUNITY-DESKTOP .hightlight-blurb-35 {
+  flex: 0 0 auto !important;
+  height: 672px !important;
+  left: unset !important;
+  margin-bottom: -212px !important;
+  top: unset !important;
+}
+
+.COMMUNITY-DESKTOP .hightlight-blurb-36 {
+  flex: 0 0 auto !important;
+  left: unset !important;
+  margin-right: -4px !important;
+  top: unset !important;
+}
+
+.COMMUNITY-DESKTOP .hightlight-blurb-37 {
+  background-color: var(--dark-blue) !important;
+}
+
+.COMMUNITY-DESKTOP .hightlight-blurb-38 {
+  flex: 0 0 auto !important;
+  left: unset !important;
+  margin-right: -1464px !important;
+  top: unset !important;
+}
+
+.COMMUNITY-DESKTOP .hightlight-blurb-39 {
+  background-color: var(--green) !important;
+}
+
+.COMMUNITY-DESKTOP .hightlight-blurb-40 {
+  flex: 0 0 auto !important;
+  left: unset !important;
+  margin-right: -2924px !important;
+  top: unset !important;
+}
+
+.COMMUNITY-DESKTOP .arrows-instance-wrapper {
+  align-items: flex-end;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0px 24px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.COMMUNITY-DESKTOP .frame-157 {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--white);
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  padding: 50px 50px 0px 240px;
+  position: relative;
+  width: 100%;
+  z-index: 6;
+}
+
+.COMMUNITY-DESKTOP .frame-158 {
+  align-items: center;
+  align-self: stretch;
+  border: 1px solid;
+  border-color: #000000;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.COMMUNITY-DESKTOP .screenshot-2 {
+  align-self: stretch;
+  height: 573px;
+  object-fit: cover;
+  position: relative;
+  width: 100%;
+}
+
+.COMMUNITY-DESKTOP .play-2 {
+  height: 76px;
+  left: calc(50% - 38px);
+  position: absolute;
+  top: calc(50% - 38px);
+  width: 76px;
+}
+
+.COMMUNITY-DESKTOP .stat-section-32 {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  left: unset !important;
+  padding: 160px 60px 160px 240px !important;
+  top: unset !important;
+  width: 100% !important;
+  z-index: 5 !important;
+}
+
+.COMMUNITY-DESKTOP .stat-section-33 {
+  align-self: stretch !important;
+  flex: 1 !important;
+  flex-grow: 1 !important;
+  gap: 24px !important;
+  height: unset !important;
+  justify-content: unset !important;
+  left: unset !important;
+  top: unset !important;
+  width: unset !important;
+}
+
+.COMMUNITY-DESKTOP .stat-section-34 {
+  flex: 1 !important;
+  flex-grow: 1 !important;
+  gap: 24px !important;
+  height: unset !important;
+  justify-content: unset !important;
+  left: unset !important;
+  top: unset !important;
+  width: unset !important;
+}
+
+.COMMUNITY-DESKTOP .frame-159 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: var(--lighter-green);
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 0px 160px;
+  position: relative;
+  width: 100%;
+  z-index: 4;
+}
+
+.COMMUNITY-DESKTOP .topics-section-31 {
+  align-self: stretch !important;
+  background-color: unset !important;
+  flex: 0 0 auto !important;
+  left: unset !important;
+  padding: 160px 60px 48px 240px !important;
+  top: unset !important;
+  width: 100% !important;
+}
+
+.COMMUNITY-DESKTOP .topics-section-32 {
+  align-self: stretch !important;
+  margin-right: unset !important;
+  width: 100% !important;
+}
+
+.COMMUNITY-DESKTOP .element-image-7 {
+  align-items: flex-start !important;
+  align-self: stretch !important;
+  background-color: unset !important;
+  flex: 0 0 auto !important;
+  left: unset !important;
+  padding: 0px 0px 0px 240px !important;
+  top: unset !important;
+  width: 100% !important;
+}
+
+.COMMUNITY-DESKTOP .element-image-8 {
+  align-self: stretch !important;
+  object-fit: cover !important;
+  width: 100% !important;
+}
+
+.COMMUNITY-DESKTOP .hightlight-blurb-41 {
+  align-self: stretch !important;
+  background-color: unset !important;
+  flex: 0 0 auto !important;
+  left: unset !important;
+  padding: 160px 60px 0px !important;
+  top: unset !important;
+  width: 100% !important;
+}
+
+.COMMUNITY-DESKTOP .hightlight-blurb-42 {
+  align-self: stretch !important;
+  width: 100% !important;
+}
+
+.COMMUNITY-DESKTOP .hightlight-blurb-43 {
+  font-family: var(--h3-desktop-font-family) !important;
+  font-size: var(--h3-desktop-font-size) !important;
+  font-style: var(--h3-desktop-font-style) !important;
+  font-weight: var(--h3-desktop-font-weight) !important;
+  letter-spacing: var(--h3-desktop-letter-spacing) !important;
+  line-height: var(--h3-desktop-line-height) !important;
+}
+
+.COMMUNITY-DESKTOP .hightlight-blurb-44 {
+  display: flex !important;
+  flex: 1 !important;
+  flex-grow: 1 !important;
+}
+
+.COMMUNITY-DESKTOP .topics-section-33 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: var(--white);
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 160px 60px 48px 240px;
+  position: relative;
+  width: 100%;
+  z-index: 3;
+}
+
+.COMMUNITY-DESKTOP .element-image-9 {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  left: unset !important;
+  padding: 0px 0px 160px 240px !important;
+  top: unset !important;
+  width: 100% !important;
+  z-index: 2 !important;
+}
+
+.COMMUNITY-DESKTOP .footer-12 {
+  align-self: stretch !important;
+  gap: unset !important;
+  justify-content: space-between !important;
+  left: unset !important;
+  padding: 0px 60px !important;
+  top: unset !important;
+  width: 100% !important;
+  z-index: 0 !important;
+}
+
+.COMMUNITY-DESKTOP .footer-13 {
+  margin-left: -168.5px !important;
+}
+
+.COMMUNITY-DESKTOP .topics-30 {
+  color: var(--white) !important;
+  font-family: var(--h3-mobile-font-family) !important;
+  font-size: var(--h3-mobile-font-size) !important;
+  font-style: var(--h3-mobile-font-style) !important;
+  font-weight: var(--h3-mobile-font-weight) !important;
+  letter-spacing: var(--h3-mobile-letter-spacing) !important;
+  line-height: var(--h3-mobile-line-height) !important;
+}
+
+.COMMUNITY-DESKTOP .topics-31 {
+  font-family: var(--h3-mobile-font-family) !important;
+  font-size: var(--h3-mobile-font-size) !important;
+  font-style: var(--h3-mobile-font-style) !important;
+  font-weight: var(--h3-mobile-font-weight) !important;
+  letter-spacing: var(--h3-mobile-letter-spacing) !important;
+  line-height: var(--h3-mobile-line-height) !important;
+}
+
+.COMMUNITY-DESKTOP .screenshot-3 {
+  height: 171px;
+  object-fit: cover;
+  position: relative;
+  width: 303.81px;
+}
+
+.COMMUNITY-DESKTOP .play-3 {
+  height: 76px;
+  left: 150px;
+  position: absolute;
+  top: 161px;
+  width: 76px;
+}
+
+.COMMUNITY-DESKTOP .topics-section-34 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: var(--white);
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 100px 24px 40px;
+  position: relative;
+  width: 100%;
+  z-index: 6;
+}
+
+.COMMUNITY-DESKTOP .topics-32 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+  width: 100%;
+}
+
+.COMMUNITY-DESKTOP .james-cary-smith-19 {
+  align-self: stretch;
+  color: var(--dark-blue);
+  font-family: var(--h3-mobile-font-family);
+  font-size: var(--h3-mobile-font-size);
+  font-style: var(--h3-mobile-font-style);
+  font-weight: var(--h3-mobile-font-weight);
+  letter-spacing: var(--h3-mobile-letter-spacing);
+  line-height: var(--h3-mobile-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.COMMUNITY-DESKTOP .text-wrapper-38 {
+  font-family: var(--body-text-mobile-font-family);
+  font-size: var(--body-text-mobile-font-size);
+  font-style: var(--body-text-mobile-font-style);
+  font-weight: var(--body-text-mobile-font-weight);
+  letter-spacing: var(--body-text-mobile-letter-spacing);
+  line-height: var(--body-text-mobile-line-height);
+}
+
+.COMMUNITY-DESKTOP .topics-section-35 {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  left: unset !important;
+  padding: 80px 24px 40px !important;
+  top: unset !important;
+  width: 100% !important;
+  z-index: 3 !important;
+}

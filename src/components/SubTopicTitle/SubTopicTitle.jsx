@@ -15,14 +15,14 @@ export const SubTopicTitle = ({
   text = "SOURCES OF GREENHOUSE GAS EMISSIONSA",
 }) => {
   return (
-    <div className={`sub-topic-title type-1-${type} ${className}`}>
-      <p className={`section-title-7 type-2-${type} resolution-37-${resolution} ${sectionTitleClassName}`}>{text}</p>
+    <div className={`sub-topic-title type-2-${type} resolution-47-${resolution} ${className}`}>
+      <p className={`section-title-8 ${sectionTitleClassName}`}>{text}</p>
     </div>
   );
 };
 
 SubTopicTitle.propTypes = {
-  type: PropTypes.oneOf(["left", "type-3", "default"]),
-  resolution: PropTypes.oneOf(["desktop", "mobile"]),
+  type: PropTypes.oneOf(["left", "default"]),
+  resolution: PropTypes.oneOf(["desktop", "tablet", "mobile"]),
   text: PropTypes.string,
 };

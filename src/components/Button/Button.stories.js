@@ -28,5 +28,7 @@ export const Default = {
     className: {},
     downloadPdfClassName: {},
     text: "DOWNLOAD PDF",
+    groupClassName: {},
+    group: "/img/group.png",
   },
 };

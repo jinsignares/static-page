@@ -7,12 +7,26 @@ import PropTypes from "prop-types";
 import React from "react";
 import "./style.css";
 
-export const Button = ({ icon, type, size, color, className, downloadPdfClassName, text = "DOWNLOAD PDF" }) => {
+export const Button = ({
+  icon,
+  type,
+  size,
+  color,
+  className,
+  downloadPdfClassName,
+  text = "DOWNLOAD PDF",
+  groupClassName,
+  group = "/img/group.png",
+}) => {
   return (
-    <button className={`button ${type} size-${size} color-1-${color} ${className}`}>
+    <button className={`button ${type} size-${size} color-1-${color} icon-${icon} ${className}`}>
       <div className={`download-pdf ${downloadPdfClassName}`}>{text}</div>
       {icon && (
-        <img className="group-16" alt="Group" src={type === "outlined" ? "/img/group.png" : "/img/group-2.png"} />
+        <img
+          className={`group-20 ${groupClassName}`}
+          alt="Group"
+          src={type === "outlined" ? group : "/img/group-3.png"}
+        />
       )}
     </button>
   );
@@ -24,4 +38,5 @@ Button.propTypes = {
   size: PropTypes.oneOf(["large", "medium"]),
   color: PropTypes.oneOf(["brick", "blue", "white"]),
   text: PropTypes.string,
+  group: PropTypes.string,
 };

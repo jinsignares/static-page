@@ -3,15 +3,20 @@
   background-color: var(--dark-blue);
   display: flex;
   justify-content: space-between;
+  left: 20px;
   position: relative;
 }
 
 .internal-menu .arrow-element-2 {
   flex: 0 0 auto !important;
+  height: unset !important;
+  left: unset !important;
   position: relative !important;
+  top: unset !important;
+  width: unset !important;
 }
 
-.internal-menu .group-15 {
+.internal-menu .group-19 {
   height: 44px;
   position: relative;
   width: 44px;
@@ -98,12 +103,14 @@
   width: 13px;
 }
 
-.internal-menu.resolution-106-desktop {
+.internal-menu.resolution-118-desktop {
   padding: 40px 60px;
+  top: 20px;
   width: 1920px;
 }
 
-.internal-menu.resolution-106-mobile {
+.internal-menu.resolution-118-mobile {
   padding: 40px 20px;
+  top: 168px;
   width: 375px;
 }

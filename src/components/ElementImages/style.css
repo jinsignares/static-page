@@ -3,10 +3,11 @@
   background-color: var(--white);
   display: flex;
   flex-direction: column;
+  left: 20px;
   position: relative;
 }
 
-.element-images .frame-13 {
+.element-images .frame-15 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -23,7 +24,7 @@
   position: relative;
 }
 
-.element-images .frame-14 {
+.element-images .frame-16 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -39,7 +40,7 @@
   width: 689.5px;
 }
 
-.element-images.resolution-31-desktop {
+.element-images.resolution-41-desktop {
   width: 1920px;
 }
 
@@ -52,38 +53,47 @@
   overflow: hidden;
 }
 
-.element-images.resolution-31-mobile {
+.element-images.resolution-41-mobile {
+  top: 1852px;
   width: 375px;
 }
 
-.element-images.resolution-31-desktop .frame-13 {
+.element-images.carrousel-true.resolution-41-desktop {
+  top: 20px;
+}
+
+.element-images.resolution-41-desktop.carrousel-false {
+  top: 934px;
+}
+
+.element-images.resolution-41-desktop .frame-15 {
   gap: 80px;
   margin-right: -207px;
   padding: 0px 0px 0px 475px;
 }
 
-.element-images.resolution-31-mobile .frame-13 {
-  gap: 24px;
-  margin-right: -277px;
-  padding: 0px 24px;
+.element-images.resolution-41-mobile .frame-15 {
+  gap: 20.44px;
+  margin-right: -180.32px;
+  padding: 0px 20.44px;
 }
 
-.element-images.resolution-31-desktop .rectangle-5 {
+.element-images.resolution-41-desktop .rectangle-5 {
   height: 786px;
   width: 786px;
 }
 
-.element-images.resolution-31-mobile .rectangle-5 {
-  height: 290px;
-  width: 290px;
+.element-images.resolution-41-mobile .rectangle-5 {
+  height: 247px;
+  width: 247px;
 }
 
-.element-images.resolution-31-desktop .rectangle-6 {
+.element-images.resolution-41-desktop .rectangle-6 {
   height: 786px;
   width: 786px;
 }
 
-.element-images.resolution-31-mobile .rectangle-6 {
-  height: 290px;
-  width: 290px;
+.element-images.resolution-41-mobile .rectangle-6 {
+  height: 247px;
+  width: 247px;
 }

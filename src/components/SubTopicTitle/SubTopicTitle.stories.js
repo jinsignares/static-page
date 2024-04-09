@@ -5,11 +5,11 @@ export default {
   component: SubTopicTitle,
   argTypes: {
     type: {
-      options: ["left", "type-3", "default"],
+      options: ["left", "default"],
       control: { type: "select" },
     },
     resolution: {
-      options: ["desktop", "mobile"],
+      options: ["desktop", "tablet", "mobile"],
       control: { type: "select" },
     },
   },

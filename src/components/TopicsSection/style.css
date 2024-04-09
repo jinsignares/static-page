@@ -1,0 +1,247 @@
+.topics-section {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.topics-section .class-17 {
+  font-family: var(--h3-mobile-font-family) !important;
+  font-size: var(--h3-mobile-font-size) !important;
+  font-style: var(--h3-mobile-font-style) !important;
+  font-weight: var(--h3-mobile-font-weight) !important;
+  letter-spacing: var(--h3-mobile-letter-spacing) !important;
+  line-height: var(--h3-mobile-line-height) !important;
+}
+
+.topics-section .class-18 {
+  font-family: var(--h2-tablet-font-family) !important;
+  font-size: var(--h2-tablet-font-size) !important;
+  font-style: var(--h2-tablet-font-style) !important;
+  font-weight: var(--h2-tablet-font-weight) !important;
+  letter-spacing: var(--h2-tablet-letter-spacing) !important;
+  line-height: var(--h2-tablet-line-height) !important;
+}
+
+.topics-section .class-19 {
+  font-family: var(--body-text-mobile-font-family) !important;
+  font-size: var(--body-text-mobile-font-size) !important;
+  font-style: var(--body-text-mobile-font-style) !important;
+  font-weight: var(--body-text-mobile-font-weight) !important;
+  letter-spacing: var(--body-text-mobile-letter-spacing) !important;
+  line-height: var(--body-text-mobile-line-height) !important;
+}
+
+.topics-section .class-20 {
+  font-family: var(--body-text-mobile-font-family) !important;
+  font-size: var(--body-text-mobile-font-size) !important;
+  font-style: var(--body-text-mobile-font-style) !important;
+  font-weight: var(--body-text-mobile-font-weight) !important;
+  letter-spacing: var(--body-text-mobile-letter-spacing) !important;
+  line-height: var(--body-text-mobile-line-height) !important;
+  margin-top: -1px !important;
+}
+
+.topics-section .class-21 {
+  margin-top: -1px !important;
+}
+
+.topics-section .class-22 {
+  flex: 0 0 auto !important;
+  left: unset !important;
+  top: unset !important;
+}
+
+.topics-section .class-23 {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  left: unset !important;
+  top: unset !important;
+  width: 100% !important;
+}
+
+.topics-section .topics-4 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+}
+
+.topics-section .frame-14 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.topics-section .james-cary-smith-5 {
+  align-self: stretch;
+  color: var(--dark-blue);
+  font-family: var(--h3-desktop-font-family);
+  font-size: var(--h3-desktop-font-size);
+  font-style: var(--h3-desktop-font-style);
+  font-weight: var(--h3-desktop-font-weight);
+  letter-spacing: var(--h3-desktop-letter-spacing);
+  line-height: var(--h3-desktop-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.topics-section .the-grant-program-4 {
+  align-self: stretch;
+  color: var(--dark-gray);
+  font-family: "Poppins", Helvetica;
+  font-size: 21px;
+  font-weight: 400;
+  letter-spacing: 0.84px;
+  line-height: 35.7px;
+  position: relative;
+}
+
+.topics-section .span {
+  font-family: var(--body-text-desktop-font-family);
+  font-size: var(--body-text-desktop-font-size);
+  font-style: var(--body-text-desktop-font-style);
+  font-weight: var(--body-text-desktop-font-weight);
+  letter-spacing: var(--body-text-desktop-letter-spacing);
+  line-height: var(--body-text-desktop-line-height);
+}
+
+.topics-section .text-wrapper-2 {
+  font-family: var(--body-text-desktop-bold-font-family);
+  font-size: var(--body-text-desktop-bold-font-size);
+  font-style: var(--body-text-desktop-bold-font-style);
+  font-weight: var(--body-text-desktop-bold-font-weight);
+  letter-spacing: var(--body-text-desktop-bold-letter-spacing);
+  line-height: var(--body-text-desktop-bold-line-height);
+}
+
+.topics-section .the-grant-program-5 {
+  align-self: stretch;
+  color: var(--dark-gray);
+  font-family: "Poppins", Helvetica;
+  font-size: 21px;
+  font-weight: 400;
+  letter-spacing: 0.84px;
+  line-height: 35.7px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.topics-section.resolution-40-tablet {
+  left: 2229px;
+  padding: 0px 60px;
+}
+
+.topics-section.resolution-40-desktop {
+  left: 20px;
+}
+
+.topics-section.resolution-40-mobile {
+  padding: 40px 24px;
+  top: 44px;
+}
+
+.topics-section.resolution-40-mobile.center {
+  width: 375px;
+}
+
+.topics-section.headline-1-medium.resolution-40-tablet {
+  width: 768px;
+}
+
+.topics-section.resolution-40-mobile.title-0-false {
+  left: 2727px;
+}
+
+.topics-section.headline-1-medium.resolution-40-mobile {
+  width: 375px;
+}
+
+.topics-section.headline-1-large.left {
+  width: 1920px;
+}
+
+.topics-section.headline-1-large.resolution-40-tablet {
+  top: 1257px;
+}
+
+.topics-section.title-0-true.resolution-40-mobile {
+  left: 2229px;
+}
+
+.topics-section.resolution-40-tablet.center {
+  width: 768px;
+}
+
+.topics-section.resolution-40-desktop.left {
+  padding: 0px 0px 0px 145px;
+}
+
+.topics-section.headline-1-medium.title-0-true.resolution-40-tablet {
+  top: 914px;
+}
+
+.topics-section.resolution-40-desktop.left.headline-1-medium {
+  top: 788px;
+}
+
+.topics-section.resolution-40-desktop.headline-1-medium.title-0-false {
+  width: 1600px;
+}
+
+.topics-section.resolution-40-desktop.title-0-true.left {
+  width: 1920px;
+}
+
+.topics-section.resolution-40-desktop.headline-1-large.center {
+  padding: 160px 0px 48px 240px;
+  top: 1726px;
+  width: 1025px;
+}
+
+.topics-section.resolution-40-desktop.headline-1-large.left {
+  top: 1208px;
+}
+
+.topics-section.resolution-40-desktop.title-0-true.headline-1-medium {
+  width: 1920px;
+}
+
+.topics-section.headline-1-medium.resolution-40-tablet.left.title-0-false {
+  top: 788px;
+}
+
+.topics-section.resolution-40-desktop.title-0-false.headline-1-medium.center {
+  padding: 0px 0px 60px 240px;
+  top: 440px;
+}
+
+.topics-section.resolution-40-desktop.title-0-true.headline-1-medium.center {
+  padding: 0px 0px 0px 480px;
+  top: 20px;
+}
+
+.topics-section.headline-1-medium.resolution-40-tablet.title-0-false.center {
+  top: 664px;
+}
+
+.topics-section.title-0-true .topics-4 {
+  margin-right: -262px;
+  width: 1047px;
+}
+
+.topics-section.headline-1-medium .topics-4 {
+  align-self: stretch;
+}
+
+.topics-section.headline-1-medium.title-0-false .topics-4 {
+  width: 100%;
+}

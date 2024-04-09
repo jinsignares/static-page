@@ -5,7 +5,7 @@ export default {
   component: Footer,
   argTypes: {
     resolution: {
-      options: ["desktop", "mobile"],
+      options: ["tablet", "desktop-1025", "desktop", "mobile"],
       control: { type: "select" },
     },
   },
@@ -13,7 +13,9 @@ export default {
 
 export const Default = {
   args: {
-    resolution: "desktop",
+    resolution: "tablet",
     className: {},
+    sectionTitleClassName: {},
+    BAAQMDLogoClassName: {},
   },
 };

@@ -5,15 +5,19 @@ Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcN
 
 import PropTypes from "prop-types";
 import React from "react";
-import { ArrowElement20 } from "../../icons/ArrowElement20";
-import { ArrowElement23 } from "../../icons/ArrowElement23";
+import { ArrowElement } from "../ArrowElement";
 import "./style.css";
 
-export const InternalMenu = ({ resolution, className }) => {
+export const InternalMenu = ({
+  resolution,
+  className,
+  arrowElementTypeBack = "/img/arrow-element.png",
+  arrowElementTypeForward = "/img/arrow-element-1.png",
+}) => {
   return (
-    <div className={`internal-menu resolution-106-${resolution} ${className}`}>
-      <ArrowElement20 className="arrow-element-2" color="white" />
-      <div className="group-15">
+    <div className={`internal-menu resolution-118-${resolution} ${className}`}>
+      <ArrowElement className="arrow-element-2" type="back" typeBack={arrowElementTypeBack} />
+      <div className="group-19">
         <div className="rectangle-10" />
         <div className="rectangle-11" />
         <div className="rectangle-12" />
@@ -24,11 +28,13 @@ export const InternalMenu = ({ resolution, className }) => {
         <div className="rectangle-17" />
         <div className="rectangle-18" />
       </div>
-      <ArrowElement23 className="arrow-element-2" color="white" />
+      <ArrowElement className="arrow-element-2" type="forward" typeForward={arrowElementTypeForward} />
     </div>
   );
 };
 
 InternalMenu.propTypes = {
   resolution: PropTypes.oneOf(["desktop", "mobile"]),
+  arrowElementTypeBack: PropTypes.string,
+  arrowElementTypeForward: PropTypes.string,
 };

@@ -5,7 +5,7 @@ export default {
   component: TitleSection,
   argTypes: {
     resolution: {
-      options: ["desktop", "mobile-sm", "mobile"],
+      options: ["tablet", "desktop", "mobile-sm", "mobile"],
       control: { type: "select" },
     },
     layout: {
@@ -17,22 +17,26 @@ export default {
 
 export const Default = {
   args: {
-    resolution: "desktop",
+    resolution: "tablet",
     layout: "img-r",
     className: {},
     frameClassName: {},
-    blockOfTextSectionTitleClassName: {},
+    blockOfTextText: "INTRODUCTION",
     blockOfTextElementAnnualReportClassName: {},
-    blockOfTextText: "MESSAGE FROM OUR NEW EXECUTIVE OFFICER",
-    blockOfTextText1: "INTRODUCTION",
+    blockOfTextSectionTitleClassName: {},
     blockOfTextResolutionMobileClassName: {},
-    blockOfTextTextClassName: {},
-    blockOfTextResolution: "mobile",
-    blockOfTextSectionTitleClassNameOverride: {},
+    blockOfTextText1: "MESSAGE FROM OUR NEW EXECUTIVE OFFICER",
+    blockOfTextText2: "INTRODUCTION",
     blockOfTextElementAnnualReportClassNameOverride: {},
-    blockOfTextText2: "MESSAGE FROM OUR NEW EXECUTIVE OFFICER",
-    blockOfTextText3: "INTRODUCTION",
+    blockOfTextSectionTitleClassNameOverride: {},
     blockOfTextResolutionMobileClassNameOverride: {},
+    blockOfTextText3: "MESSAGE FROM OUR NEW EXECUTIVE OFFICER",
     frameClassNameOverride: {},
+    hasFrame: true,
+    blockOfTextText4: "abc",
+    blockOfTextSubtitle: "yes",
+    blockOfTextTextClassName: {},
+    blockOfTextText5: "abc",
+    blockOfTextSubtitle1: "yes",
   },
 };

@@ -8,5 +8,7 @@ export default {
 export const Default = {
   args: {
     className: {},
+    arrowsArrowElementTypeBack: "/img/type-back.png",
+    arrowsArrowElementTypeForward: "/img/type-forward.png",
   },
 };

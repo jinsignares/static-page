@@ -26,35 +26,47 @@ export const GraphChartLine = ({
   divClassName,
   text3 = "4*",
   divClassNameOverride,
+  text4 = "2,165",
+  sectionTitleClassName1,
+  frameClassName1,
+  sectionTitleClassName2,
+  sectionTitleClassName3,
+  text5 = "Compliance Rate",
+  hasGraphChartLine = true,
+  hasSectionTitle = true,
+  text6 = "Total",
+  frameWrapperClassName,
+  frameWrapperClassNameOverride,
+  sectionTitleWrapperClassName,
 }) => {
   return (
     <div
-      className={`graph-chart-line resolution-47-${resolution} input-${input} columns-1-${columns} lines-${lines} ${className}`}
+      className={`graph-chart-line resolution-58-${resolution} input-${input} columns-2-${columns} lines-${lines} ${className}`}
     >
       {(lines === "two" || (input === "title" && resolution === "mobile")) && (
         <>
           <div className={`div-2 ${graphChartLineClassNameOverride}`}>
             {input === "default" && (
               <>
-                <div className="section-title-15">{text1}</div>
-                <div className="frame-22">
+                <div className={`section-title-16 ${sectionTitleClassName1}`}>{text1}</div>
+                <div className={`frame-24 ${frameWrapperClassNameOverride}`}>
                   {resolution === "desktop" && columns === "three" && (
                     <>
-                      <div className="section-title-16">2,165</div>
-                      <div className="section-title-17">{text}</div>
+                      <div className="section-title-17">{text4}</div>
+                      <div className="section-title-18">{text}</div>
                     </>
                   )}
 
                   {(columns === "two" || (columns === "three" && resolution === "mobile")) && (
-                    <div className="frame-23">
+                    <div className={`frame-25 ${frameWrapperClassName}`}>
                       {resolution === "mobile" && (
-                        <div className="frame-24">
+                        <div className={`frame-26 ${frameClassName1}`}>
                           {columns === "three" && (
                             <>
-                              <div className="frame-25">
-                                <div className="section-title-18">2,165</div>
+                              <div className="frame-27">
+                                <div className="section-title-19">{text4}</div>
                               </div>
-                              <div className="section-title-19">{text}</div>
+                              <div className="section-title-20">{text}</div>
                             </>
                           )}
 
@@ -71,31 +83,48 @@ export const GraphChartLine = ({
 
             {input === "title" && (
               <div className="div-3">
-                <div className={`section-title-20 ${sectionTitleClassNameOverride}`}>{text2}</div>
-                {hasFrame && <div className={`frame-26 ${divClassNameOverride}`} />}
+                <div className={`section-title-21 ${sectionTitleClassNameOverride}`}>{text2}</div>
+                {hasFrame && <div className={`frame-28 ${divClassNameOverride}`} />}
               </div>
             )}
           </div>
-          <div className="div-4">
-            {(input === "default" || (columns === "three" && input === "title")) && (
-              <>
-                <div className="section-title-21">
-                  {input === "default" && <>Compliance Rate</>}
+          <>
+            {hasGraphChartLine && (
+              <div className="div-4">
+                {(input === "default" || (columns === "three" && input === "title")) && (
+                  <>
+                    <div className={`section-title-22 ${sectionTitleClassName2}`}>
+                      {input === "default" && <>{text5}</>}
 
-                  {input === "title" && <>2,165</>}
-                </div>
-                <div className="frame-27">
-                  {input === "default" && columns === "three" && <div className="section-title-22">2,165</div>}
+                      {input === "title" && <>{text4}</>}
+                    </div>
+                    <>
+                      {hasSectionTitle && (
+                        <div className={`frame-29 ${sectionTitleWrapperClassName}`}>
+                          {input === "default" && columns === "three" && (
+                            <>
+                              <div className="section-title-23">{text4}</div>
+                              <div className="section-title-24">{text}</div>
+                            </>
+                          )}
 
-                  {input === "default" && <div className="section-title-23">{text}</div>}
+                          {columns === "two" && (
+                            <div className={`section-title-25 ${sectionTitleClassName3}`}>{text}</div>
+                          )}
 
-                  {input === "title" && <>{text}</>}
-                </div>
-              </>
+                          {input === "title" && <>{text}</>}
+                        </div>
+                      )}
+                    </>
+                  </>
+                )}
+
+                {lines === "one" && columns === "two" && (
+                  <div className={`section-title-26 ${divClassName}`}>{text}</div>
+                )}
+              </div>
             )}
-
-            {lines === "one" && columns === "two" && <div className={`section-title-24 ${divClassName}`}>{text}</div>}
-          </div>
+          </>
         </>
       )}
 
@@ -104,22 +133,22 @@ export const GraphChartLine = ({
         (input === "default" && lines === "one") ||
         (input === "title" && resolution === "desktop")) && (
         <div className={`div-5 ${graphChartLineClassName}`}>
-          <div className={`section-title-25 ${sectionTitleClassName}`}>
+          <div className={`section-title-27 ${sectionTitleClassName}`}>
             {input === "default" && <>{text1}</>}
 
-            {["total-sl", "total"].includes(input) && <>Total</>}
+            {["total-sl", "total"].includes(input) && <>{text6}</>}
 
             {input === "title" && <>{text2}</>}
           </div>
-          <div className={`frame-28 ${frameClassName}`}>
+          <div className={`frame-30 ${frameClassName}`}>
             {(columns === "two" || (columns === "three" && resolution === "mobile")) && (
-              <div className={`frame-29 ${frameClassNameOverride}`}>
+              <div className={`frame-31 ${frameClassNameOverride}`}>
                 {columns === "three" && (
-                  <div className="frame-30">
-                    <div className="frame-25">
-                      <div className="section-title-18">2,165</div>
+                  <div className="frame-32">
+                    <div className="frame-27">
+                      <div className="section-title-19">{text4}</div>
                     </div>
-                    <div className="section-title-19">{text}</div>
+                    <div className="section-title-20">{text}</div>
                   </div>
                 )}
 
@@ -131,8 +160,8 @@ export const GraphChartLine = ({
 
             {resolution === "desktop" && columns === "three" && (
               <>
-                <div className="section-title-16">2,165</div>
-                <div className="section-title-17">{text}</div>
+                <div className="section-title-17">{text4}</div>
+                <div className="section-title-18">{text}</div>
               </>
             )}
           </div>
@@ -152,4 +181,9 @@ GraphChartLine.propTypes = {
   text2: PropTypes.string,
   hasFrame: PropTypes.bool,
   text3: PropTypes.string,
+  text4: PropTypes.string,
+  text5: PropTypes.string,
+  hasGraphChartLine: PropTypes.bool,
+  hasSectionTitle: PropTypes.bool,
+  text6: PropTypes.string,
 };

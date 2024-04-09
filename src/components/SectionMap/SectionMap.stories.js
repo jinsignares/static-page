@@ -5,7 +5,7 @@ export default {
   component: SectionMap,
   argTypes: {
     resolution: {
-      options: ["desktop", "mobile"],
+      options: ["tablet", "desktop", "mobile"],
       control: { type: "select" },
     },
   },
@@ -13,9 +13,11 @@ export default {
 
 export const Default = {
   args: {
-    resolution: "desktop",
+    resolution: "tablet",
     className: {},
-    map: "/img/map-1.svg",
-    img: "/img/map.svg",
+    map: "/img/map-2.png",
+    sectionTitleClassName: {},
+    sectionTitleClassNameOverride: {},
+    img: "/img/map-3.png",
   },
 };

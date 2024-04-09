@@ -12,28 +12,34 @@ export const ElementImages = ({
   carrousel,
   resolution,
   className,
-  rectangle = "/img/rectangle-255-3.png",
-  img = "/img/rectangle-256.png",
   frameClassName,
+  rectangle = "/img/rectangle-255-4.png",
+  img = "/img/rectangle-256-1.png",
+  arrowsCarrouselArrowsArrowElementTypeBack = "/img/type-back.png",
+  arrowsCarrouselArrowsArrowElementTypeForward = "/img/type-forward.png",
   rectangleClassName,
   arrowsCarrouselArrowsCarrouselClassName,
 }) => {
   return (
-    <div className={`element-images resolution-31-${resolution} carrousel-${carrousel} ${className}`}>
+    <div className={`element-images resolution-41-${resolution} carrousel-${carrousel} ${className}`}>
       {carrousel && (
         <>
-          <div className={`frame-13 ${frameClassName}`}>
+          <div className={`frame-15 ${frameClassName}`}>
             <img className="rectangle-5" alt="Rectangle" src={rectangle} />
             <img className={`rectangle-6 ${rectangleClassName}`} alt="Rectangle" src={img} />
           </div>
-          <ArrowsCarrousel className={arrowsCarrouselArrowsCarrouselClassName} />
+          <ArrowsCarrousel
+            arrowsArrowElementTypeBack={arrowsCarrouselArrowsArrowElementTypeBack}
+            arrowsArrowElementTypeForward={arrowsCarrouselArrowsArrowElementTypeForward}
+            className={arrowsCarrouselArrowsCarrouselClassName}
+          />
         </>
       )}
 
       {!carrousel && (
-        <div className="frame-14">
-          <img className="rectangle-7" alt="Rectangle" src="/img/rectangle-255-3.png" />
-          <img className="rectangle-7" alt="Rectangle" src="/img/rectangle-256.png" />
+        <div className="frame-16">
+          <img className="rectangle-7" alt="Rectangle" src="/img/rectangle-255-4.png" />
+          <img className="rectangle-7" alt="Rectangle" src="/img/rectangle-256-1.png" />
         </div>
       )}
     </div>
@@ -45,4 +51,6 @@ ElementImages.propTypes = {
   resolution: PropTypes.oneOf(["desktop", "mobile"]),
   rectangle: PropTypes.string,
   img: PropTypes.string,
+  arrowsCarrouselArrowsArrowElementTypeBack: PropTypes.string,
+  arrowsCarrouselArrowsArrowElementTypeForward: PropTypes.string,
 };

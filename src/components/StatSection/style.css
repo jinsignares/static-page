@@ -6,7 +6,7 @@
   position: relative;
 }
 
-.stat-section .section-title-6 {
+.stat-section .section-title-7 {
   color: var(--dark-blue);
   margin-top: -1px;
   position: relative;
@@ -14,12 +14,13 @@
   width: fit-content;
 }
 
-.stat-section.resolution-14-desktop {
+.stat-section.resolution-22-desktop {
   width: 1920px;
 }
 
-.stat-section.resolution-14-mobile {
+.stat-section.resolution-22-mobile {
   padding: 36px 24px;
+  top: 40px;
   width: 375px;
 }
 
@@ -27,15 +28,50 @@
   gap: 24px;
 }
 
-.stat-section.resolution-14-desktop.centered {
+.stat-section.right.title-false {
+  left: 3310px;
+  top: 40px;
+}
+
+.stat-section.resolution-22-desktop.centered {
+  left: 20px;
   padding: 160px 0px 160px 280px;
 }
 
-.stat-section.resolution-14-desktop.right {
+.stat-section.title-true.resolution-22-mobile {
+  left: 5415px;
+}
+
+.stat-section.resolution-22-desktop.right {
   padding: 160px 0px 160px 480px;
 }
 
-.stat-section.resolution-14-desktop .section-title-6 {
+.stat-section.resolution-22-desktop.title-true.two {
+  top: 696px;
+}
+
+.stat-section.resolution-22-desktop.centered.three {
+  top: 20px;
+}
+
+.stat-section.resolution-22-desktop.title-true.right {
+  left: 3313px;
+  top: 696px;
+}
+
+.stat-section.centered.two.resolution-22-mobile.title-false {
+  left: 2582px;
+}
+
+.stat-section.resolution-22-desktop.centered.two.title-false {
+  top: 684px;
+}
+
+.stat-section.centered.three.resolution-22-mobile.title-false {
+  left: 2112px;
+}
+
+.stat-section.resolution-22-desktop .section-title-7 {
   font-family: var(--h3-desktop-font-family);
   font-size: var(--h3-desktop-font-size);
   font-style: var(--h3-desktop-font-style);
@@ -44,7 +80,7 @@
   line-height: var(--h3-desktop-line-height);
 }
 
-.stat-section.resolution-14-mobile .section-title-6 {
+.stat-section.resolution-22-mobile .section-title-7 {
   font-family: var(--h3-mobile-font-family);
   font-size: var(--h3-mobile-font-size);
   font-style: var(--h3-mobile-font-style);

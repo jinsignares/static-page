@@ -104,7 +104,6 @@
 
 .section-map .frame-8 {
   align-items: center;
-  display: inline-flex;
   flex: 0 0 auto;
   gap: 8px;
   position: relative;
@@ -121,12 +120,6 @@
 
 .section-map .section-title-3 {
   color: var(--dark-blue);
-  font-family: var(--h5-mobile-font-family);
-  font-size: var(--h5-mobile-font-size);
-  font-style: var(--h5-mobile-font-style);
-  font-weight: var(--h5-mobile-font-weight);
-  letter-spacing: var(--h5-mobile-letter-spacing);
-  line-height: var(--h5-mobile-line-height);
   position: relative;
   white-space: nowrap;
   width: fit-content;
@@ -147,11 +140,25 @@
   width: 100%;
 }
 
+.section-map .frame-10 {
+  align-items: center;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+}
+
 .section-map .rectangle-4 {
   background-color: var(--blue);
   height: 36px;
   position: relative;
   width: 36px;
+}
+
+.section-map .section-title-4 {
+  color: var(--dark-blue);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
 }
 
 .section-map .img {
@@ -161,18 +168,115 @@
   width: 100%;
 }
 
-.section-map.resolution-10-desktop {
+.section-map.resolution-14-desktop {
   align-items: flex-end;
   background-color: var(--white);
+  left: 20px;
   padding: 0px 30px 0px 0px;
+  top: 20px;
   width: 1920px;
 }
 
-.section-map.resolution-10-mobile {
+.section-map.resolution-14-tablet {
   align-items: center;
   background-color: #ffffff;
   gap: 36px;
   justify-content: center;
+  left: 825px;
   padding: 0px 24px;
+  top: 1356px;
+  width: 481px;
+}
+
+.section-map.resolution-14-mobile {
+  align-items: center;
+  background-color: #ffffff;
+  gap: 36px;
+  justify-content: center;
+  left: 89px;
+  padding: 0px 24px;
+  top: 1356px;
   width: 375px;
+}
+
+.section-map.resolution-14-desktop .frame-8 {
+  display: inline-flex;
+}
+
+.section-map.resolution-14-tablet .frame-8 {
+  align-self: stretch;
+  display: flex;
+  width: 100%;
+}
+
+.section-map.resolution-14-mobile .frame-8 {
+  display: inline-flex;
+}
+
+.section-map.resolution-14-desktop .section-title-3 {
+  font-family: var(--h5-mobile-font-family);
+  font-size: var(--h5-mobile-font-size);
+  font-style: var(--h5-mobile-font-style);
+  font-weight: var(--h5-mobile-font-weight);
+  letter-spacing: var(--h5-mobile-letter-spacing);
+  line-height: var(--h5-mobile-line-height);
+}
+
+.section-map.resolution-14-tablet .section-title-3 {
+  font-family: var(--h5-tablet-font-family);
+  font-size: var(--h5-tablet-font-size);
+  font-style: var(--h5-tablet-font-style);
+  font-weight: var(--h5-tablet-font-weight);
+  letter-spacing: var(--h5-tablet-letter-spacing);
+  line-height: var(--h5-tablet-line-height);
+}
+
+.section-map.resolution-14-mobile .section-title-3 {
+  font-family: var(--h5-mobile-font-family);
+  font-size: var(--h5-mobile-font-size);
+  font-style: var(--h5-mobile-font-style);
+  font-weight: var(--h5-mobile-font-weight);
+  letter-spacing: var(--h5-mobile-letter-spacing);
+  line-height: var(--h5-mobile-line-height);
+}
+
+.section-map.resolution-14-desktop .frame-10 {
+  display: inline-flex;
+}
+
+.section-map.resolution-14-tablet .frame-10 {
+  align-self: stretch;
+  display: flex;
+  width: 100%;
+}
+
+.section-map.resolution-14-mobile .frame-10 {
+  display: inline-flex;
+}
+
+.section-map.resolution-14-desktop .section-title-4 {
+  font-family: var(--h5-mobile-font-family);
+  font-size: var(--h5-mobile-font-size);
+  font-style: var(--h5-mobile-font-style);
+  font-weight: var(--h5-mobile-font-weight);
+  letter-spacing: var(--h5-mobile-letter-spacing);
+  line-height: var(--h5-mobile-line-height);
+}
+
+.section-map.resolution-14-tablet .section-title-4 {
+  font-family: var(--h5-tablet-font-family);
+  font-size: var(--h5-tablet-font-size);
+  font-style: var(--h5-tablet-font-style);
+  font-weight: var(--h5-tablet-font-weight);
+  letter-spacing: var(--h5-tablet-letter-spacing);
+  line-height: var(--h5-tablet-line-height);
+}
+
+.section-map.resolution-14-mobile .section-title-4 {
+  font-family: var(--h5-mobile-font-family);
+  font-size: var(--h5-mobile-font-size);
+  font-style: var(--h5-mobile-font-style);
+  font-weight: var(--h5-mobile-font-weight);
+  letter-spacing: var(--h5-mobile-letter-spacing);
+  line-height: var(--h5-mobile-line-height);
 }

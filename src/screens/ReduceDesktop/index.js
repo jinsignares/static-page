@@ -1,0 +1,1 @@
+export { ReduceDesktop } from "./ReduceDesktop";

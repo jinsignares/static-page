@@ -3,27 +3,52 @@
   border-color: var(--dark-blue);
   border-top-style: solid;
   border-top-width: 1px;
+  display: flex;
   flex-direction: column;
   gap: 12px;
   padding: 16px 0px 0px;
   position: relative;
 }
 
-.graph-chart-total .class-9 {
+.graph-chart-total .graph-chart-line-5 {
   align-self: stretch !important;
   flex: 0 0 auto !important;
+  left: unset !important;
+  top: unset !important;
   width: 100% !important;
 }
 
-.graph-chart-total .class-10 {
-  flex: 0 0 auto !important;
+.graph-chart-total.lines-4-three {
+  top: 20px;
 }
 
-.graph-chart-total.resolution-101-desktop {
-  display: inline-flex;
+.graph-chart-total.resolution-112-desktop {
+  left: 20px;
+  width: 698px;
 }
 
-.graph-chart-total.resolution-101-mobile {
-  display: flex;
+.graph-chart-total.resolution-112-mobile {
   width: 375px;
+}
+
+.graph-chart-total.lines-4-two.resolution-112-mobile {
+  left: 1330px;
+  top: 20px;
+}
+
+.graph-chart-total.lines-4-three.resolution-112-mobile {
+  left: 878px;
+}
+
+.graph-chart-total.lines-4-one.resolution-112-mobile {
+  left: 1330px;
+  top: 296px;
+}
+
+.graph-chart-total.resolution-112-desktop.lines-4-one {
+  top: 343px;
+}
+
+.graph-chart-total.resolution-112-desktop.lines-4-two {
+  top: 203px;
 }

@@ -2,6 +2,7 @@
   background-color: var(--white);
   display: flex;
   flex-direction: column;
+  left: 20px;
   position: relative;
 }
 
@@ -9,19 +10,21 @@
   position: relative;
 }
 
-.element-image.resolution-35-mobile {
+.element-image.resolution-45-mobile {
   align-items: center;
   height: 350px;
   justify-content: center;
+  top: 571px;
   width: 375px;
 }
 
-.element-image.resolution-35-destop {
+.element-image.resolution-45-destop {
   align-items: flex-end;
+  top: 20px;
   width: 1920px;
 }
 
-.element-image.resolution-35-mobile .rectangle-8 {
+.element-image.resolution-45-mobile .rectangle-8 {
   align-self: stretch;
   flex: 1;
   flex-grow: 1;
@@ -29,7 +32,7 @@
   width: 100%;
 }
 
-.element-image.resolution-35-destop .rectangle-8 {
+.element-image.resolution-45-destop .rectangle-8 {
   height: 531px;
   width: 1440px;
 }

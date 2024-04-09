@@ -13,49 +13,47 @@ export const OpeningSection = ({
   font,
   headline,
   className,
-  openingTextText = " as part of statewide AB 617 implementation.",
-  openingTextText1 = "We continued to work in collaboration with community members and other stakeholders to ",
-  openingTextText2 = "develop and implement health-protective measures in highly impacted communities",
-  openingTextText3 = "AB 617 COMMUNITY HEALTH PROTECTION PROGRAM",
-  openingTextWeContinuedToWorkClassName,
-  openingTextAbCommunityClassName,
-  openingTextFrameClassName,
+  openingTextText = "AB 617 COMMUNITY HEALTH PROTECTION PROGRAM",
   openingTextResolutionDesktopClassName,
+  openingTextText1 = "develop and implement health-protective measures in highly impacted communities",
+  openingTextText2 = " as part of statewide AB 617 implementation.",
+  openingTextText3 = "We continued to work in collaboration with community members and other stakeholders to ",
+  openingTextSpanClassName,
+  text = "AB 617 COMMUNITY HEALTH PROTECTION PROGRAM",
+  text1 = "We continued to work in collaboration with community members and other stakeholders to develop and implement health-protective measures in highly impacted communities as part of statewide AB 617 implementation.",
 }) => {
   return (
-    <div className={`opening-section resolution-9-${resolution} ${className}`}>
-      {(font === "body-text" || (font === "opening" && resolution === "desktop")) && (
+    <div className={`opening-section resolution-13-${resolution} ${font} ${headline} ${className}`}>
+      {(font === "body-text" ||
+        (font === "opening" && resolution === "desktop") ||
+        (font === "opening" && resolution === "tablet")) && (
         <OpeningText
-          ABCommunityClassName={openingTextAbCommunityClassName}
+          ABCommunityClassName={`${resolution === "tablet" && "class-7"} ${headline === "medium" && "class-12"}`}
           className={openingTextResolutionDesktopClassName}
-          frameClassName={openingTextFrameClassName}
-          resolution={resolution === "mobile" ? "mobile" : "desktop"}
-          spanClassName={`${resolution === "mobile" && "class"} ${
-            resolution === "desktop" && font === "body-text" && "class-2"
-          }`}
-          spanClassName1={`${resolution === "mobile" && "class"} ${
-            resolution === "desktop" && font === "body-text" && "class-2"
-          }`}
-          spanClassNameOverride={`${resolution === "mobile" && "class-3"} ${
-            resolution === "desktop" && font === "body-text" && "class-4"
-          }`}
-          text={openingTextText3}
-          text1={openingTextText1}
-          text2={openingTextText2}
-          text3={openingTextText}
-          weContinuedToWorkClassName={openingTextWeContinuedToWorkClassName}
+          frameClassName={`${resolution === "tablet" && "class-11"}`}
+          resolution={resolution === "tablet" ? "tablet" : resolution === "mobile" ? "mobile" : "desktop"}
+          spanClassName={`${resolution === "tablet" && font === "body-text" && "class-4"} ${
+            resolution === "mobile" && "class-5"
+          } ${resolution === "desktop" && font === "body-text" && "class-6"}`}
+          spanClassName1={`${resolution === "tablet" && font === "body-text" && "class-4"} ${
+            resolution === "mobile" && "class-5"
+          } ${resolution === "desktop" && font === "body-text" && "class-6"}`}
+          spanClassNameOverride={openingTextSpanClassName}
+          text={openingTextText}
+          text1={openingTextText3}
+          text2={openingTextText1}
+          text3={openingTextText2}
+          weContinuedToWorkClassName={`${resolution === "tablet" && font === "opening" && "class-7"} ${
+            resolution === "tablet" && font === "body-text" && "class-8"
+          } ${resolution === "mobile" && "class-9"} ${resolution === "desktop" && font === "body-text" && "class-10"}`}
         />
       )}
 
       {resolution === "mobile" && font === "opening" && (
         <div className="frame-wrapper">
           <div className="frame-4">
-            <p className="p">AB 617 COMMUNITY HEALTH PROTECTION PROGRAM</p>
-            <p className="text-wrapper-3">
-              We continued to work in collaboration with community members and other stakeholders to develop and
-              implement health-protective measures in highly impacted communities as part of statewide AB 617
-              implementation.
-            </p>
+            <p className="p">{text}</p>
+            <p className="we-continued-to-work-2">{text1}</p>
           </div>
         </div>
       )}
@@ -64,11 +62,13 @@ export const OpeningSection = ({
 };
 
 OpeningSection.propTypes = {
-  resolution: PropTypes.oneOf(["desktop", "mobile"]),
+  resolution: PropTypes.oneOf(["desktop", "tablet", "mobile"]),
   font: PropTypes.oneOf(["body-text", "opening"]),
   headline: PropTypes.oneOf(["large", "medium"]),
   openingTextText: PropTypes.string,
   openingTextText1: PropTypes.string,
   openingTextText2: PropTypes.string,
   openingTextText3: PropTypes.string,
+  text: PropTypes.string,
+  text1: PropTypes.string,
 };

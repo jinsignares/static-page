@@ -15,5 +15,7 @@ export const Default = {
   args: {
     resolution: "desktop",
     className: {},
+    arrowElementTypeBack: "/img/arrow-element.png",
+    arrowElementTypeForward: "/img/arrow-element-1.png",
   },
 };

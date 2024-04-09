@@ -18,63 +18,151 @@ export const SectionGraph = ({
   resolution,
   className,
   subTopicTitleText = "ANNUAL NUMBERS",
-  subTopicTitleText1 = "ANNUAL NUMBERS",
   subTopicTitleTypeDefaultClassName,
+  subTopicTitleText1 = "ANNUAL NUMBERS",
   override = (
     <GraphPie
       chart="example"
       className="design-component-instance-node"
-      frameClassName="graph-pie-3"
+      frameClassName="graph-pie-5"
       groupClassName="graph-pie-instance"
-      overlapGroupClassName="graph-pie-2"
+      overlapGroupWrapperClassNameOverride="graph-pie-2"
       resolution="desktop"
       sectionTitleClassName="graph-pie-6"
       subtitle={false}
       title={false}
-      vector="/img/vector-5.svg"
-      vector1="/img/vector-4.svg"
-      vectorClassName="graph-pie-4"
-      vectorClassNameOverride="graph-pie-5"
+      vector="/img/vector-5.png"
+      vector1="/img/vector-4.png"
+      vectorClassName="graph-pie-3"
+      vectorClassNameOverride="graph-pie-4"
     />
   ),
   subTopicTitleTypeDefaultClassNameOverride,
   frameClassName,
   subTopicTitleText2 = "ANNUAL NUMBERS",
+  subTopicTitleType = "left",
+  subTopicTitleResolution = "mobile",
+  subTopicTitleSectionTitleClassName,
+  hasFrame = true,
+  subTopicTitleSectionTitleClassNameOverride,
 }) => {
   return (
     <div
-      className={`section-graph ${title} resolution-38-${resolution} chart-caption-${chartCaption} ${graphs} ${className}`}
+      className={`section-graph title-${title} resolution-49-${resolution} chart-caption-${chartCaption} graphs-${graphs} ${className}`}
     >
-      {(title === "with-graph" ||
-        (chartCaption === "no" && title === "top") ||
-        (chartCaption === "yes" && title === "top")) && (
-        <SubTopicTitle
-          className={subTopicTitleTypeDefaultClassName}
-          resolution={resolution === "mobile" ? "mobile" : "desktop"}
-          text={subTopicTitleText1}
-          type={resolution === "mobile" ? "type-3" : "default"}
-        />
+      {["no", "yes"].includes(chartCaption) && (
+        <>
+          <>
+            {hasFrame && (
+              <>
+                <>
+                  {["top", "with-graph"].includes(title) && (
+                    <SubTopicTitle
+                      className={subTopicTitleTypeDefaultClassName}
+                      resolution={subTopicTitleResolution}
+                      sectionTitleClassName={subTopicTitleSectionTitleClassNameOverride}
+                      text={subTopicTitleText1}
+                      type={subTopicTitleType}
+                    />
+                  )}
+
+                  {title === "left" && (
+                    <div className={`frame-17 ${frameClassName}`}>
+                      <SubTopicTitle
+                        className="instance-node-2"
+                        resolution="desktop"
+                        text={chartCaption === "yes" ? "ANNUAL NUMBERS" : subTopicTitleText2}
+                        type="left"
+                      />
+                      {chartCaption === "yes" && (
+                        <SubtitleYesCaptionWrapper
+                          caption
+                          className="graph-bar-caption-component"
+                          resolution="desktop"
+                          resoolutionDesktopWrapperGraphBarCaptionColumns="two"
+                          resoolutionDesktopWrapperGraphBarCaptionColumns1="two"
+                          resoolutionDesktopWrapperGraphBarCaptionColumns2="two"
+                          resoolutionDesktopWrapperGraphBarCaptionColumns3="two"
+                          resoolutionDesktopWrapperGraphBarCaptionColumns4="two"
+                          resoolutionDesktopWrapperGraphBarCaptionColumns5="two"
+                          resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName="instance-node-2"
+                          resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName1="instance-node-2"
+                          resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName2="instance-node-2"
+                          resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName3="instance-node-2"
+                          resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName4="instance-node-2"
+                          resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName5="instance-node-2"
+                          resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName6="instance-node-2"
+                          resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassNameOverride="instance-node-2"
+                          resoolutionDesktopWrapperGraphBarCaptionFrameWrapperClassName="instance-node-2"
+                          resoolutionDesktopWrapperGraphBarCaptionFrameWrapperClassNameOverride="instance-node-2"
+                          resoolutionDesktopWrapperGraphBarCaptionText="Transportation"
+                          resoolutionDesktopWrapperGraphBarCaptionText1="Transportation"
+                          resoolutionDesktopWrapperGraphBarCaptionText10="Transportation"
+                          resoolutionDesktopWrapperGraphBarCaptionText11="Transportation"
+                          resoolutionDesktopWrapperGraphBarCaptionText12="39.2%"
+                          resoolutionDesktopWrapperGraphBarCaptionText13="Transportation"
+                          resoolutionDesktopWrapperGraphBarCaptionText14="Transportation"
+                          resoolutionDesktopWrapperGraphBarCaptionText15="Transportation"
+                          resoolutionDesktopWrapperGraphBarCaptionText16="39.2%"
+                          resoolutionDesktopWrapperGraphBarCaptionText17="Transportation"
+                          resoolutionDesktopWrapperGraphBarCaptionText2="39.2%"
+                          resoolutionDesktopWrapperGraphBarCaptionText3="Transportation"
+                          resoolutionDesktopWrapperGraphBarCaptionText4="39.2%"
+                          resoolutionDesktopWrapperGraphBarCaptionText5="39.2%"
+                          resoolutionDesktopWrapperGraphBarCaptionText6="39.2%"
+                          resoolutionDesktopWrapperGraphBarCaptionText7="39.2%"
+                          resoolutionDesktopWrapperGraphBarCaptionText8="39.2%"
+                          resoolutionDesktopWrapperGraphBarCaptionText9="39.2%"
+                          resoolutionDesktopWrapperResoolutionDesktopClassName="instance-node-2"
+                          sectionTitleClassName="graph-bar-caption-instance"
+                          subtitle
+                          text={
+                            <>
+                              *American Community Survey (ACS) Census Bureau
+                              <br />
+                              ** Total percentages may vary by 1% due to rounding
+                            </>
+                          }
+                        />
+                      )}
+                    </div>
+                  )}
+                </>
+              </>
+            )}
+          </>
+        </>
       )}
+
+      {(chartCaption === "no" || (chartCaption === "yes" && graphs === "one" && title === "left")) && <>{override}</>}
 
       {chartCaption === "z" && (
         <SubTopicTitle
           className={subTopicTitleTypeDefaultClassNameOverride}
-          resolution="desktop"
-          sectionTitleClassName={`${resolution === "mobile" && "class-8"}`}
+          resolution={resolution === "tablet" ? "tablet" : "desktop"}
+          sectionTitleClassName={subTopicTitleSectionTitleClassName}
           text={subTopicTitleText}
           type="default"
         />
       )}
 
-      {chartCaption === "yes" && title === "top" && (
-        <div className="frame-15">
-          {resolution === "desktop" && (
-            <>
-              <div className="frame-16">
+      {(chartCaption === "yes" || title === "left") &&
+        (chartCaption === "yes" || graphs === "two") &&
+        ["top", "left"].includes(title) &&
+        (title === "top" || graphs === "two") && (
+          <div className="frame-18">
+            {graphs === "one" && resolution === "desktop" && (
+              <div className="frame-19">
                 <SubtitleYesCaptionWrapper
                   caption={false}
                   className="instance-node-2"
                   resolution="desktop"
+                  resoolutionDesktopWrapperGraphBarCaptionColumns="two"
+                  resoolutionDesktopWrapperGraphBarCaptionColumns1="two"
+                  resoolutionDesktopWrapperGraphBarCaptionColumns2="two"
+                  resoolutionDesktopWrapperGraphBarCaptionColumns3="two"
+                  resoolutionDesktopWrapperGraphBarCaptionColumns4="two"
+                  resoolutionDesktopWrapperGraphBarCaptionColumns5="two"
                   resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName="instance-node-2"
                   resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName1="instance-node-2"
                   resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName2="instance-node-2"
@@ -84,19 +172,19 @@ export const SectionGraph = ({
                   resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassNameOverride="instance-node-2"
                   resoolutionDesktopWrapperGraphBarCaptionFrameWrapperClassName="instance-node-2"
                   resoolutionDesktopWrapperGraphBarCaptionFrameWrapperClassNameOverride="instance-node-2"
-                  resoolutionDesktopWrapperGraphBarCaptionText="39.2%"
+                  resoolutionDesktopWrapperGraphBarCaptionText="Transportation"
                   resoolutionDesktopWrapperGraphBarCaptionText1="Transportation"
                   resoolutionDesktopWrapperGraphBarCaptionText10="Transportation"
                   resoolutionDesktopWrapperGraphBarCaptionText11="Transportation"
                   resoolutionDesktopWrapperGraphBarCaptionText12="39.2%"
                   resoolutionDesktopWrapperGraphBarCaptionText13="Transportation"
-                  resoolutionDesktopWrapperGraphBarCaptionText14="39.2%"
+                  resoolutionDesktopWrapperGraphBarCaptionText14="Transportation"
                   resoolutionDesktopWrapperGraphBarCaptionText15="Transportation"
-                  resoolutionDesktopWrapperGraphBarCaptionText16="Transportation"
+                  resoolutionDesktopWrapperGraphBarCaptionText16="39.2%"
                   resoolutionDesktopWrapperGraphBarCaptionText17="Transportation"
                   resoolutionDesktopWrapperGraphBarCaptionText2="39.2%"
                   resoolutionDesktopWrapperGraphBarCaptionText3="Transportation"
-                  resoolutionDesktopWrapperGraphBarCaptionText4="Transportation"
+                  resoolutionDesktopWrapperGraphBarCaptionText4="39.2%"
                   resoolutionDesktopWrapperGraphBarCaptionText5="39.2%"
                   resoolutionDesktopWrapperGraphBarCaptionText6="39.2%"
                   resoolutionDesktopWrapperGraphBarCaptionText7="39.2%"
@@ -115,214 +203,212 @@ export const SectionGraph = ({
                   resolution="desktop"
                   sectionTitleClassName="graph-chart-line-3"
                   text="100.0%"
+                  text6="Total"
                 />
               </div>
+            )}
+
+            {resolution === "desktop" && (
               <GraphPie
                 chart="example"
+                className={`${graphs === "two" ? "instance-node-2" : "class-24"}`}
                 resolution="desktop"
                 subtitle={false}
                 title={false}
-                vector="/img/vector-7.svg"
-                vector1="/img/vector-6.svg"
+                vector={graphs === "two" ? "/img/vector-1.png" : "/img/vector-7.png"}
+                vector1={graphs === "two" ? "/img/vector.png" : "/img/vector-6.png"}
               />
-            </>
-          )}
+            )}
 
-          {resolution === "mobile" && (
-            <SubtitleYesCaptionWrapper
-              caption={graphs === "two" ? true : undefined}
-              className={`${graphs === "two" ? "instance-node-3" : "graph-bar-caption-component"}`}
-              resolution="mobile"
-              resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName="instance-node-3"
-              resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName1="instance-node-3"
-              resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName2="instance-node-3"
-              resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName3="instance-node-3"
-              resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName4="instance-node-3"
-              resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName5="instance-node-3"
-              resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName6="instance-node-3"
-              resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassNameOverride="instance-node-3"
-              resoolutionDesktopWrapperGraphBarCaptionFrameWrapperClassName="instance-node-3"
-              resoolutionDesktopWrapperGraphBarCaptionFrameWrapperClassNameOverride="instance-node-3"
-              resoolutionDesktopWrapperGraphBarCaptionText="39.2%"
-              resoolutionDesktopWrapperGraphBarCaptionText1="Transportation"
-              resoolutionDesktopWrapperGraphBarCaptionText10="Transportation"
-              resoolutionDesktopWrapperGraphBarCaptionText11="Transportation"
-              resoolutionDesktopWrapperGraphBarCaptionText12="39.2%"
-              resoolutionDesktopWrapperGraphBarCaptionText13="Transportation"
-              resoolutionDesktopWrapperGraphBarCaptionText14="39.2%"
-              resoolutionDesktopWrapperGraphBarCaptionText15="Transportation"
-              resoolutionDesktopWrapperGraphBarCaptionText16="Transportation"
-              resoolutionDesktopWrapperGraphBarCaptionText17="Transportation"
-              resoolutionDesktopWrapperGraphBarCaptionText2="39.2%"
-              resoolutionDesktopWrapperGraphBarCaptionText3="Transportation"
-              resoolutionDesktopWrapperGraphBarCaptionText4="Transportation"
-              resoolutionDesktopWrapperGraphBarCaptionText5="39.2%"
-              resoolutionDesktopWrapperGraphBarCaptionText6="39.2%"
-              resoolutionDesktopWrapperGraphBarCaptionText7="39.2%"
-              resoolutionDesktopWrapperGraphBarCaptionText8="39.2%"
-              resoolutionDesktopWrapperGraphBarCaptionText9="39.2%"
-              resoolutionDesktopWrapperResoolutionDesktopClassName="graph-bar-caption-component"
-              subtitle={graphs === "two" ? true : undefined}
-            />
-          )}
+            {graphs === "one" && resolution === "mobile" && (
+              <SubtitleYesCaptionWrapper
+                caption={false}
+                className="graph-bar-caption-component-instance"
+                resolution="mobile"
+                resoolutionDesktopWrapperGraphBarCaptionColumns="two"
+                resoolutionDesktopWrapperGraphBarCaptionColumns1="two"
+                resoolutionDesktopWrapperGraphBarCaptionColumns2="two"
+                resoolutionDesktopWrapperGraphBarCaptionColumns3="two"
+                resoolutionDesktopWrapperGraphBarCaptionColumns4="two"
+                resoolutionDesktopWrapperGraphBarCaptionColumns5="two"
+                resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName="instance-node-3"
+                resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName1="instance-node-3"
+                resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName2="instance-node-3"
+                resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName3="instance-node-3"
+                resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName4="instance-node-3"
+                resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName5="instance-node-3"
+                resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName6="instance-node-3"
+                resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassNameOverride="instance-node-3"
+                resoolutionDesktopWrapperGraphBarCaptionFrameWrapperClassName="instance-node-3"
+                resoolutionDesktopWrapperGraphBarCaptionFrameWrapperClassNameOverride="instance-node-3"
+                resoolutionDesktopWrapperGraphBarCaptionText="Transportation"
+                resoolutionDesktopWrapperGraphBarCaptionText1="Transportation"
+                resoolutionDesktopWrapperGraphBarCaptionText10="Transportation"
+                resoolutionDesktopWrapperGraphBarCaptionText11="Transportation"
+                resoolutionDesktopWrapperGraphBarCaptionText12="39.2%"
+                resoolutionDesktopWrapperGraphBarCaptionText13="Transportation"
+                resoolutionDesktopWrapperGraphBarCaptionText14="Transportation"
+                resoolutionDesktopWrapperGraphBarCaptionText15="Transportation"
+                resoolutionDesktopWrapperGraphBarCaptionText16="39.2%"
+                resoolutionDesktopWrapperGraphBarCaptionText17="Transportation"
+                resoolutionDesktopWrapperGraphBarCaptionText2="39.2%"
+                resoolutionDesktopWrapperGraphBarCaptionText3="Transportation"
+                resoolutionDesktopWrapperGraphBarCaptionText4="39.2%"
+                resoolutionDesktopWrapperGraphBarCaptionText5="39.2%"
+                resoolutionDesktopWrapperGraphBarCaptionText6="39.2%"
+                resoolutionDesktopWrapperGraphBarCaptionText7="39.2%"
+                resoolutionDesktopWrapperGraphBarCaptionText8="39.2%"
+                resoolutionDesktopWrapperGraphBarCaptionText9="39.2%"
+                resoolutionDesktopWrapperResoolutionDesktopClassName="graph-bar-caption-component-instance"
+                subtitle={false}
+              />
+            )}
 
-          {graphs === "two" && (
-            <div className="graph-bar">
-              <div className="frame-17">
-                <div className="frame-18">
-                  <div className="graph-bar-line">
-                    <div className="section-title-8">2022</div>
-                    <div className="group">
-                      <div className="overlap-group">
-                        <div className="overlap">
-                          <div className="section-title-9">44%</div>
+            {graphs === "two" && title === "top" && (
+              <>
+                <SubtitleYesCaptionWrapper
+                  caption
+                  className="instance-node-3"
+                  resolution="mobile"
+                  resoolutionDesktopWrapperGraphBarCaptionColumns="two"
+                  resoolutionDesktopWrapperGraphBarCaptionColumns1="two"
+                  resoolutionDesktopWrapperGraphBarCaptionColumns2="two"
+                  resoolutionDesktopWrapperGraphBarCaptionColumns3="two"
+                  resoolutionDesktopWrapperGraphBarCaptionColumns4="two"
+                  resoolutionDesktopWrapperGraphBarCaptionColumns5="two"
+                  resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName="instance-node-3"
+                  resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName1="instance-node-3"
+                  resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName2="instance-node-3"
+                  resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName3="instance-node-3"
+                  resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName4="instance-node-3"
+                  resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName5="instance-node-3"
+                  resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName6="instance-node-3"
+                  resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassNameOverride="instance-node-3"
+                  resoolutionDesktopWrapperGraphBarCaptionFrameWrapperClassName="instance-node-3"
+                  resoolutionDesktopWrapperGraphBarCaptionFrameWrapperClassNameOverride="instance-node-3"
+                  resoolutionDesktopWrapperGraphBarCaptionText="Transportation"
+                  resoolutionDesktopWrapperGraphBarCaptionText1="Transportation"
+                  resoolutionDesktopWrapperGraphBarCaptionText10="Transportation"
+                  resoolutionDesktopWrapperGraphBarCaptionText11="Transportation"
+                  resoolutionDesktopWrapperGraphBarCaptionText12="39.2%"
+                  resoolutionDesktopWrapperGraphBarCaptionText13="Transportation"
+                  resoolutionDesktopWrapperGraphBarCaptionText14="Transportation"
+                  resoolutionDesktopWrapperGraphBarCaptionText15="Transportation"
+                  resoolutionDesktopWrapperGraphBarCaptionText16="39.2%"
+                  resoolutionDesktopWrapperGraphBarCaptionText17="Transportation"
+                  resoolutionDesktopWrapperGraphBarCaptionText2="39.2%"
+                  resoolutionDesktopWrapperGraphBarCaptionText3="Transportation"
+                  resoolutionDesktopWrapperGraphBarCaptionText4="39.2%"
+                  resoolutionDesktopWrapperGraphBarCaptionText5="39.2%"
+                  resoolutionDesktopWrapperGraphBarCaptionText6="39.2%"
+                  resoolutionDesktopWrapperGraphBarCaptionText7="39.2%"
+                  resoolutionDesktopWrapperGraphBarCaptionText8="39.2%"
+                  resoolutionDesktopWrapperGraphBarCaptionText9="39.2%"
+                  resoolutionDesktopWrapperResoolutionDesktopClassName="graph-bar-caption-component-instance"
+                  subtitle
+                  text={
+                    <>
+                      *American Community Survey (ACS) Census Bureau
+                      <br />
+                      ** Total percentages may vary by 1% due to rounding
+                    </>
+                  }
+                />
+                <div className="graph-bar">
+                  <div className="frame-20">
+                    <div className="frame-21">
+                      <div className="graph-bar-line">
+                        <div className="section-title-9">2022</div>
+                        <div className="group">
+                          <div className="overlap-group">
+                            <div className="overlap">
+                              <div className="section-title-10">44%</div>
+                            </div>
+                            <div className="section-title-11">56%</div>
+                          </div>
                         </div>
-                        <div className="section-title-10">56%</div>
                       </div>
-                    </div>
-                  </div>
-                  <div className="graph-bar-line">
-                    <div className="section-title-8">2021</div>
-                    <div className="group">
-                      <div className="overlap-group">
-                        <div className="overlap">
-                          <div className="section-title-9">44%</div>
+                      <div className="graph-bar-line">
+                        <div className="section-title-9">2021</div>
+                        <div className="group">
+                          <div className="overlap-group">
+                            <div className="overlap">
+                              <div className="section-title-10">44%</div>
+                            </div>
+                            <div className="section-title-11">56%</div>
+                          </div>
                         </div>
-                        <div className="section-title-10">56%</div>
                       </div>
-                    </div>
-                  </div>
-                  <div className="graph-bar-line">
-                    <div className="section-title-8">2020</div>
-                    <div className="group">
-                      <div className="overlap-group">
-                        <div className="overlap">
-                          <div className="section-title-9">44%</div>
+                      <div className="graph-bar-line">
+                        <div className="section-title-9">2020</div>
+                        <div className="group">
+                          <div className="overlap-group">
+                            <div className="overlap">
+                              <div className="section-title-10">44%</div>
+                            </div>
+                            <div className="section-title-11">56%</div>
+                          </div>
                         </div>
-                        <div className="section-title-10">56%</div>
                       </div>
-                    </div>
-                  </div>
-                  <div className="graph-bar-line">
-                    <div className="section-title-8">2019</div>
-                    <div className="group">
-                      <div className="overlap-group">
-                        <div className="overlap">
-                          <div className="section-title-9">44%</div>
+                      <div className="graph-bar-line">
+                        <div className="section-title-9">2019</div>
+                        <div className="group">
+                          <div className="overlap-group">
+                            <div className="overlap">
+                              <div className="section-title-10">44%</div>
+                            </div>
+                            <div className="section-title-11">56%</div>
+                          </div>
                         </div>
-                        <div className="section-title-10">56%</div>
                       </div>
-                    </div>
-                  </div>
-                  <div className="graph-bar-line">
-                    <div className="section-title-8">2018</div>
-                    <div className="group">
-                      <div className="overlap-group">
-                        <div className="overlap">
-                          <div className="section-title-9">44%</div>
+                      <div className="graph-bar-line">
+                        <div className="section-title-9">2018</div>
+                        <div className="group">
+                          <div className="overlap-group">
+                            <div className="overlap">
+                              <div className="section-title-10">44%</div>
+                            </div>
+                            <div className="section-title-11">56%</div>
+                          </div>
                         </div>
-                        <div className="section-title-10">56%</div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-          )}
+              </>
+            )}
 
-          {resolution === "mobile" && (
-            <GraphPie
-              chart="example"
-              className="instance-node-3"
-              frameClassName="graph-pie-3"
-              groupClassName="graph-pie-instance"
-              overlapGroupClassName="graph-pie-2"
-              resolution="desktop"
-              sectionTitleClassName="graph-pie-6"
-              subtitle={false}
-              title={false}
-              vector={graphs === "two" ? "/img/vector-11.svg" : "/img/vector-9.svg"}
-              vector1={graphs === "two" ? "/img/vector-10.svg" : "/img/vector-4.svg"}
-              vectorClassName="graph-pie-4"
-              vectorClassNameOverride="graph-pie-5"
-            />
-          )}
-        </div>
-      )}
+            {resolution === "mobile" && (
+              <GraphPie
+                chart="example"
+                className="instance-node-3"
+                frameClassName="graph-pie-5"
+                groupClassName="graph-pie-instance"
+                overlapGroupWrapperClassNameOverride="graph-pie-2"
+                resolution="desktop"
+                sectionTitleClassName="graph-pie-6"
+                subtitle={false}
+                title={false}
+                vector={graphs === "two" ? "/img/vector-11.png" : "/img/vector-9.png"}
+                vector1={graphs === "two" ? "/img/vector-10.png" : "/img/vector-4.png"}
+                vectorClassName="graph-pie-3"
+                vectorClassNameOverride="graph-pie-4"
+              />
+            )}
 
-      {title === "left" && (
-        <div className={`frame-19 ${frameClassName}`}>
-          <SubTopicTitle
-            className="instance-node-2"
-            resolution="desktop"
-            text={chartCaption === "yes" ? "ANNUAL NUMBERS" : subTopicTitleText2}
-            type="left"
-          />
-          {chartCaption === "yes" && (
-            <SubtitleYesCaptionWrapper
-              caption
-              className="graph-bar-caption-component-instance"
-              resolution="desktop"
-              resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName="instance-node-2"
-              resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName1="instance-node-2"
-              resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName2="instance-node-2"
-              resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName3="instance-node-2"
-              resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName4="instance-node-2"
-              resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName5="instance-node-2"
-              resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName6="instance-node-2"
-              resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassNameOverride="instance-node-2"
-              resoolutionDesktopWrapperGraphBarCaptionFrameWrapperClassName="instance-node-2"
-              resoolutionDesktopWrapperGraphBarCaptionFrameWrapperClassNameOverride="instance-node-2"
-              resoolutionDesktopWrapperGraphBarCaptionText="39.2%"
-              resoolutionDesktopWrapperGraphBarCaptionText1="Transportation"
-              resoolutionDesktopWrapperGraphBarCaptionText10="Transportation"
-              resoolutionDesktopWrapperGraphBarCaptionText11="Transportation"
-              resoolutionDesktopWrapperGraphBarCaptionText12="39.2%"
-              resoolutionDesktopWrapperGraphBarCaptionText13="Transportation"
-              resoolutionDesktopWrapperGraphBarCaptionText14="39.2%"
-              resoolutionDesktopWrapperGraphBarCaptionText15="Transportation"
-              resoolutionDesktopWrapperGraphBarCaptionText16="Transportation"
-              resoolutionDesktopWrapperGraphBarCaptionText17="Transportation"
-              resoolutionDesktopWrapperGraphBarCaptionText2="39.2%"
-              resoolutionDesktopWrapperGraphBarCaptionText3="Transportation"
-              resoolutionDesktopWrapperGraphBarCaptionText4="Transportation"
-              resoolutionDesktopWrapperGraphBarCaptionText5="39.2%"
-              resoolutionDesktopWrapperGraphBarCaptionText6="39.2%"
-              resoolutionDesktopWrapperGraphBarCaptionText7="39.2%"
-              resoolutionDesktopWrapperGraphBarCaptionText8="39.2%"
-              resoolutionDesktopWrapperGraphBarCaptionText9="39.2%"
-              resoolutionDesktopWrapperResoolutionDesktopClassName="instance-node-2"
-              sectionTitleClassName="graph-bar-caption-instance"
-              subtitle
-            />
-          )}
-        </div>
-      )}
-
-      {(chartCaption === "no" || (chartCaption === "yes" && graphs === "one" && title === "left")) && <>{override}</>}
-
-      {graphs === "two" && title === "left" && (
-        <div className="frame-19">
-          <GraphPie
-            chart="example"
-            className="instance-node-2"
-            resolution="desktop"
-            subtitle={false}
-            title={false}
-            vector="/img/vector-1.svg"
-            vector1="/img/vector.svg"
-          />
-          <GraphPie
-            chart="example"
-            className="instance-node-2"
-            resolution="desktop"
-            subtitle={false}
-            title={false}
-            vector="/img/vector-1.svg"
-            vector1="/img/vector.svg"
-          />
-        </div>
-      )}
+            {title === "left" && (
+              <GraphPie
+                chart="example"
+                className="instance-node-2"
+                resolution="desktop"
+                subtitle={false}
+                title={false}
+                vector="/img/vector-1.png"
+                vector1="/img/vector.png"
+              />
+            )}
+          </div>
+        )}
     </div>
   );
 };
@@ -331,8 +417,11 @@ SectionGraph.propTypes = {
   title: PropTypes.oneOf(["with-graph", "top", "left"]),
   graphs: PropTypes.oneOf(["two", "zero", "one"]),
   chartCaption: PropTypes.oneOf(["yes", "z", "no"]),
-  resolution: PropTypes.oneOf(["desktop", "mobile"]),
+  resolution: PropTypes.oneOf(["tablet", "desktop", "mobile"]),
   subTopicTitleText: PropTypes.string,
   subTopicTitleText1: PropTypes.string,
   subTopicTitleText2: PropTypes.string,
+  subTopicTitleType: PropTypes.string,
+  subTopicTitleResolution: PropTypes.string,
+  hasFrame: PropTypes.bool,
 };

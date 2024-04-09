@@ -5,7 +5,7 @@
   position: relative;
 }
 
-.topics .frame-10 {
+.topics .frame-11 {
   align-items: flex-start;
   align-self: stretch;
   display: flex;
@@ -23,12 +23,6 @@
   position: relative;
 }
 
-.topics .the-grant-program {
-  align-self: stretch;
-  color: var(--dark-gray);
-  position: relative;
-}
-
 .topics .james-cary-smith-2 {
   align-self: stretch;
   color: var(--dark-blue);
@@ -36,46 +30,134 @@
   position: relative;
 }
 
-.topics .the-grant-program-2 {
+.topics .the-grant-program {
   align-self: stretch;
   color: var(--dark-gray);
   position: relative;
 }
 
-.topics .instance-node {
-  border-color: var(--black) !important;
-}
-
-.topics .button-2 {
+.topics .button-instance {
   height: unset !important;
   width: fit-content !important;
 }
 
-.topics.resolution-16-desktop {
-  gap: 40px;
-}
-
-.topics.resolution-16-mobile {
+.topics.resolution-24-tablet {
+  gap: 36px;
   width: 327px;
 }
 
-.topics.button-false {
+.topics.resolution-24-desktop {
   gap: 40px;
 }
 
-.topics.button-true.resolution-16-mobile {
-  gap: 36px;
+.topics.resolution-24-mobile {
+  width: 327px;
 }
 
-.topics.resolution-16-desktop.button-true {
+.topics.resolution-24-desktop.button-true {
+  left: 2638px;
+  top: 56px;
   width: 855px;
 }
 
-.topics.resolution-16-desktop.button-false {
+.topics.resolution-24-tablet.button-false {
+  top: 334px;
+}
+
+.topics.headline-large.resolution-24-tablet {
+  left: 1248px;
+}
+
+.topics.button-true.resolution-24-mobile {
+  gap: 36px;
+  left: 2638px;
+  top: 533px;
+}
+
+.topics.button-false.resolution-24-mobile {
+  gap: 40px;
+}
+
+.topics.headline-large.button-false {
+  left: 1248px;
+}
+
+.topics.resolution-24-tablet.button-true {
+  top: 517px;
+}
+
+.topics.resolution-24-desktop.button-false {
+  top: 20px;
   width: 1047px;
 }
 
-.topics .resolution-19-desktop.large {
+.topics.headline-large.button-false.resolution-24-mobile {
+  top: 465px;
+}
+
+.topics.headline-medium.resolution-24-tablet.button-false {
+  left: 456px;
+}
+
+.topics.resolution-24-desktop.button-false.headline-medium {
+  left: 20px;
+}
+
+.topics.headline-medium.resolution-24-tablet.button-true {
+  left: 3166px;
+}
+
+.topics.headline-medium.button-false.resolution-24-mobile {
+  left: 20px;
+  top: 342px;
+}
+
+.topics.resolution-24-desktop .james-cary-smith {
+  font-family: var(--h3-desktop-font-family);
+  font-size: var(--h3-desktop-font-size);
+  font-style: var(--h3-desktop-font-style);
+  font-weight: var(--h3-desktop-font-weight);
+  letter-spacing: var(--h3-desktop-letter-spacing);
+  line-height: var(--h3-desktop-line-height);
+}
+
+.topics.resolution-24-tablet .james-cary-smith {
+  font-family: var(--h3-tablet-font-family);
+  font-size: var(--h3-tablet-font-size);
+  font-style: var(--h3-tablet-font-style);
+  font-weight: var(--h3-tablet-font-weight);
+  letter-spacing: var(--h3-tablet-letter-spacing);
+  line-height: var(--h3-tablet-line-height);
+}
+
+.topics.resolution-24-mobile .james-cary-smith {
+  font-family: var(--h3-mobile-font-family);
+  font-size: var(--h3-mobile-font-size);
+  font-style: var(--h3-mobile-font-style);
+  font-weight: var(--h3-mobile-font-weight);
+  letter-spacing: var(--h3-mobile-letter-spacing);
+  line-height: var(--h3-mobile-line-height);
+}
+
+.topics.resolution-24-tablet .james-cary-smith-2 {
+  font-family: var(--h3-tablet-font-family);
+  font-size: var(--h3-tablet-font-size);
+  font-style: var(--h3-tablet-font-style);
+  font-weight: var(--h3-tablet-font-weight);
+  letter-spacing: var(--h3-tablet-letter-spacing);
+  line-height: var(--h3-tablet-line-height);
+}
+
+.topics.resolution-24-desktop.headline-medium .james-cary-smith-2 {
+  font-family: var(--h3-desktop-font-family);
+  font-size: var(--h3-desktop-font-size);
+  font-style: var(--h3-desktop-font-style);
+  font-weight: var(--h3-desktop-font-weight);
+  letter-spacing: var(--h3-desktop-letter-spacing);
+  line-height: var(--h3-desktop-line-height);
+}
+
+.topics.resolution-24-desktop.headline-large .james-cary-smith-2 {
   font-family: var(--h2-desktop-font-family);
   font-size: var(--h2-desktop-font-size);
   font-style: var(--h2-desktop-font-style);
@@ -84,7 +166,7 @@
   line-height: var(--h2-desktop-line-height);
 }
 
-.topics .medium.resolution-19-mobile {
+.topics.headline-medium.resolution-24-mobile .james-cary-smith-2 {
   font-family: var(--h3-mobile-font-family);
   font-size: var(--h3-mobile-font-size);
   font-style: var(--h3-mobile-font-style);
@@ -93,7 +175,7 @@
   line-height: var(--h3-mobile-line-height);
 }
 
-.topics .large.resolution-19-mobile {
+.topics.headline-large.resolution-24-mobile .james-cary-smith-2 {
   font-family: var(--h2-mobile-font-family);
   font-size: var(--h2-mobile-font-size);
   font-style: var(--h2-mobile-font-style);
@@ -102,34 +184,7 @@
   line-height: var(--h2-mobile-line-height);
 }
 
-.topics .resolution-19-desktop.medium {
-  font-family: var(--h3-desktop-font-family);
-  font-size: var(--h3-desktop-font-size);
-  font-style: var(--h3-desktop-font-style);
-  font-weight: var(--h3-desktop-font-weight);
-  letter-spacing: var(--h3-desktop-letter-spacing);
-  line-height: var(--h3-desktop-line-height);
-}
-
-.topics.resolution-16-desktop .james-cary-smith {
-  font-family: var(--h3-desktop-font-family);
-  font-size: var(--h3-desktop-font-size);
-  font-style: var(--h3-desktop-font-style);
-  font-weight: var(--h3-desktop-font-weight);
-  letter-spacing: var(--h3-desktop-letter-spacing);
-  line-height: var(--h3-desktop-line-height);
-}
-
-.topics.resolution-16-mobile .james-cary-smith {
-  font-family: var(--h3-mobile-font-family);
-  font-size: var(--h3-mobile-font-size);
-  font-style: var(--h3-mobile-font-style);
-  font-weight: var(--h3-mobile-font-weight);
-  letter-spacing: var(--h3-mobile-letter-spacing);
-  line-height: var(--h3-mobile-line-height);
-}
-
-.topics.resolution-16-desktop .the-grant-program {
+.topics.resolution-24-desktop .the-grant-program {
   font-family: var(--body-text-desktop-font-family);
   font-size: var(--body-text-desktop-font-size);
   font-style: var(--body-text-desktop-font-style);
@@ -138,25 +193,16 @@
   line-height: var(--body-text-desktop-line-height);
 }
 
-.topics.resolution-16-mobile .the-grant-program {
-  font-family: var(--body-text-mobile-font-family);
-  font-size: var(--body-text-mobile-font-size);
-  font-style: var(--body-text-mobile-font-style);
-  font-weight: var(--body-text-mobile-font-weight);
-  letter-spacing: var(--body-text-mobile-letter-spacing);
-  line-height: var(--body-text-mobile-line-height);
+.topics.resolution-24-tablet .the-grant-program {
+  font-family: var(--body-text-tablet-font-family);
+  font-size: var(--body-text-tablet-font-size);
+  font-style: var(--body-text-tablet-font-style);
+  font-weight: var(--body-text-tablet-font-weight);
+  letter-spacing: var(--body-text-tablet-letter-spacing);
+  line-height: var(--body-text-tablet-line-height);
 }
 
-.topics.resolution-16-desktop .the-grant-program-2 {
-  font-family: var(--body-text-desktop-font-family);
-  font-size: var(--body-text-desktop-font-size);
-  font-style: var(--body-text-desktop-font-style);
-  font-weight: var(--body-text-desktop-font-weight);
-  letter-spacing: var(--body-text-desktop-letter-spacing);
-  line-height: var(--body-text-desktop-line-height);
-}
-
-.topics.resolution-16-mobile .the-grant-program-2 {
+.topics.resolution-24-mobile .the-grant-program {
   font-family: var(--body-text-mobile-font-family);
   font-size: var(--body-text-mobile-font-size);
   font-style: var(--body-text-mobile-font-style);

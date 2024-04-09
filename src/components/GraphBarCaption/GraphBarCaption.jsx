@@ -17,24 +17,24 @@ export const GraphBarCaption = ({
   text1 = "Transportation",
 }) => {
   return (
-    <div className={`graph-bar-caption resolution-40-${resolution} ${className}`}>
-      <div className={`frame-20 resolution-41-${resolution} columns-${columns}`}>
+    <div className={`graph-bar-caption resolution-51-${resolution} columns-${columns} ${className}`}>
+      <div className="frame-22">
         <div className={`rectangle-9 ${rectangleClassName}`} />
-        <div className="frame-21">
+        <div className="frame-23">
           {columns === "two" && (
             <>
-              <div className={`section-title-11 ${sectionTitleClassName}`}>{text1}</div>
+              <div className={`section-title-12 ${sectionTitleClassName}`}>{text1}</div>
               <div className="section-title-wrapper">
-                <div className="section-title-12">
+                <div className="section-title-13">
                   {resolution === "desktop" && <>{text}</>}
 
-                  {resolution === "mobile" && <div className="section-title-13">{text}</div>}
+                  {resolution === "mobile" && <div className="section-title-14">{text}</div>}
                 </div>
               </div>
             </>
           )}
 
-          {columns === "one" && <div className={`section-title-14 ${sectionTitleClassName}`}>{text1}</div>}
+          {columns === "one" && <div className={`section-title-15 ${sectionTitleClassName}`}>{text1}</div>}
         </div>
       </div>
     </div>

@@ -24,8 +24,11 @@ export const Default = {
     type: "numbers",
     color: "white",
     resolution: "desktop",
+    className: {},
     text: "$381M",
     text1: "for Clean Cars For All Program and Clean School Bus Program",
-    className: {},
+    sectionTitleClassName: {},
+    sectionTitleClassNameOverride: {},
+    text2: "One of the most comprehensive air quality monitoring networks in the country.",
   },
 };

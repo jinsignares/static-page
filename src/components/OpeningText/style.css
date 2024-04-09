@@ -2,6 +2,7 @@
   align-items: flex-start;
   flex-direction: column;
   gap: 40px;
+  left: 20px;
   position: relative;
 }
 
@@ -22,51 +23,41 @@
 .opening-text .we-continued-to-work {
   color: var(--dark-blue);
   font-family: "Poppins", Helvetica;
-  font-size: 26px;
   font-weight: 400;
-  letter-spacing: 1.04px;
-  line-height: 39px;
   position: relative;
 }
 
-.opening-text .span {
-  font-family: var(--pull-quote-desktop-font-family);
-  font-size: var(--pull-quote-desktop-font-size);
-  font-style: var(--pull-quote-desktop-font-style);
-  font-weight: var(--pull-quote-desktop-font-weight);
-  letter-spacing: var(--pull-quote-desktop-letter-spacing);
-  line-height: var(--pull-quote-desktop-line-height);
-}
-
-.opening-text .text-wrapper-2 {
-  font-family: var(--pull-quote-desktop-bold-font-family);
-  font-size: var(--pull-quote-desktop-bold-font-size);
-  font-style: var(--pull-quote-desktop-bold-font-style);
-  font-weight: var(--pull-quote-desktop-bold-font-weight);
-  letter-spacing: var(--pull-quote-desktop-bold-letter-spacing);
-  line-height: var(--pull-quote-desktop-bold-line-height);
-}
-
-.opening-text.resolution-5-desktop {
+.opening-text.resolution-6-desktop {
   display: inline-flex;
+  top: 140px;
 }
 
-.opening-text.resolution-5-mobile {
+.opening-text.resolution-6-tablet {
+  display: inline-flex;
+  top: 1377px;
+}
+
+.opening-text.resolution-6-mobile {
   display: flex;
+  top: 575px;
   width: 327px;
 }
 
-.opening-text.resolution-5-desktop .frame-3 {
+.opening-text.resolution-6-desktop .frame-3 {
   display: inline-flex;
 }
 
-.opening-text.resolution-5-mobile .frame-3 {
+.opening-text.resolution-6-tablet .frame-3 {
+  display: inline-flex;
+}
+
+.opening-text.resolution-6-mobile .frame-3 {
   align-self: stretch;
   display: flex;
   width: 100%;
 }
 
-.opening-text.resolution-5-desktop .AB-community {
+.opening-text.resolution-6-desktop .AB-community {
   font-family: var(--h2-desktop-font-family);
   font-size: var(--h2-desktop-font-size);
   font-style: var(--h2-desktop-font-style);
@@ -76,7 +67,17 @@
   width: 841px;
 }
 
-.opening-text.resolution-5-mobile .AB-community {
+.opening-text.resolution-6-tablet .AB-community {
+  font-family: var(--h2-tablet-font-family);
+  font-size: var(--h2-tablet-font-size);
+  font-style: var(--h2-tablet-font-style);
+  font-weight: var(--h2-tablet-font-weight);
+  letter-spacing: var(--h2-tablet-letter-spacing);
+  line-height: var(--h2-tablet-line-height);
+  width: 841px;
+}
+
+.opening-text.resolution-6-mobile .AB-community {
   align-self: stretch;
   font-family: var(--h2-mobile-font-family);
   font-size: var(--h2-mobile-font-size);
@@ -86,10 +87,104 @@
   line-height: var(--h2-mobile-line-height);
 }
 
-.opening-text.resolution-5-desktop .we-continued-to-work {
+.opening-text.resolution-6-desktop .we-continued-to-work {
+  font-size: 26px;
+  letter-spacing: 1.04px;
+  line-height: 39px;
   width: 855px;
 }
 
-.opening-text.resolution-5-mobile .we-continued-to-work {
+.opening-text.resolution-6-tablet .we-continued-to-work {
+  font-size: 23px;
+  letter-spacing: 0.92px;
+  line-height: 34.5px;
+  width: 855px;
+}
+
+.opening-text.resolution-6-mobile .we-continued-to-work {
   align-self: stretch;
+  font-size: 26px;
+  letter-spacing: 1.04px;
+  line-height: 39px;
+}
+
+.opening-text.resolution-6-desktop .text-wrapper-39 {
+  font-family: var(--pull-quote-desktop-font-family);
+  font-size: var(--pull-quote-desktop-font-size);
+  font-style: var(--pull-quote-desktop-font-style);
+  font-weight: var(--pull-quote-desktop-font-weight);
+  letter-spacing: var(--pull-quote-desktop-letter-spacing);
+  line-height: var(--pull-quote-desktop-line-height);
+}
+
+.opening-text.resolution-6-tablet .text-wrapper-39 {
+  font-family: var(--pull-quote-tablet-font-family);
+  font-size: var(--pull-quote-tablet-font-size);
+  font-style: var(--pull-quote-tablet-font-style);
+  font-weight: var(--pull-quote-tablet-font-weight);
+  letter-spacing: var(--pull-quote-tablet-letter-spacing);
+  line-height: var(--pull-quote-tablet-line-height);
+}
+
+.opening-text.resolution-6-mobile .text-wrapper-39 {
+  font-family: var(--pull-quote-desktop-font-family);
+  font-size: var(--pull-quote-desktop-font-size);
+  font-style: var(--pull-quote-desktop-font-style);
+  font-weight: var(--pull-quote-desktop-font-weight);
+  letter-spacing: var(--pull-quote-desktop-letter-spacing);
+  line-height: var(--pull-quote-desktop-line-height);
+}
+
+.opening-text.resolution-6-desktop .text-wrapper-39 {
+  font-family: var(--pull-quote-desktop-bold-font-family);
+  font-size: var(--pull-quote-desktop-bold-font-size);
+  font-style: var(--pull-quote-desktop-bold-font-style);
+  font-weight: var(--pull-quote-desktop-bold-font-weight);
+  letter-spacing: var(--pull-quote-desktop-bold-letter-spacing);
+  line-height: var(--pull-quote-desktop-bold-line-height);
+}
+
+.opening-text.resolution-6-tablet .text-wrapper-39 {
+  font-family: var(--pull-quote-tablet-bold-font-family);
+  font-size: var(--pull-quote-tablet-bold-font-size);
+  font-style: var(--pull-quote-tablet-bold-font-style);
+  font-weight: var(--pull-quote-tablet-bold-font-weight);
+  letter-spacing: var(--pull-quote-tablet-bold-letter-spacing);
+  line-height: var(--pull-quote-tablet-bold-line-height);
+}
+
+.opening-text.resolution-6-mobile .text-wrapper-39 {
+  font-family: var(--pull-quote-desktop-bold-font-family);
+  font-size: var(--pull-quote-desktop-bold-font-size);
+  font-style: var(--pull-quote-desktop-bold-font-style);
+  font-weight: var(--pull-quote-desktop-bold-font-weight);
+  letter-spacing: var(--pull-quote-desktop-bold-letter-spacing);
+  line-height: var(--pull-quote-desktop-bold-line-height);
+}
+
+.opening-text.resolution-6-desktop .text-wrapper-39 {
+  font-family: var(--pull-quote-desktop-font-family);
+  font-size: var(--pull-quote-desktop-font-size);
+  font-style: var(--pull-quote-desktop-font-style);
+  font-weight: var(--pull-quote-desktop-font-weight);
+  letter-spacing: var(--pull-quote-desktop-letter-spacing);
+  line-height: var(--pull-quote-desktop-line-height);
+}
+
+.opening-text.resolution-6-tablet .text-wrapper-39 {
+  font-family: var(--pull-quote-tablet-font-family);
+  font-size: var(--pull-quote-tablet-font-size);
+  font-style: var(--pull-quote-tablet-font-style);
+  font-weight: var(--pull-quote-tablet-font-weight);
+  letter-spacing: var(--pull-quote-tablet-letter-spacing);
+  line-height: var(--pull-quote-tablet-line-height);
+}
+
+.opening-text.resolution-6-mobile .text-wrapper-39 {
+  font-family: var(--pull-quote-desktop-font-family);
+  font-size: var(--pull-quote-desktop-font-size);
+  font-style: var(--pull-quote-desktop-font-style);
+  font-weight: var(--pull-quote-desktop-font-weight);
+  letter-spacing: var(--pull-quote-desktop-letter-spacing);
+  line-height: var(--pull-quote-desktop-line-height);
 }

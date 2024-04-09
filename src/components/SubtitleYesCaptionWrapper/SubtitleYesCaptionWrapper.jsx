@@ -13,117 +13,154 @@ export const SubtitleYesCaptionWrapper = ({
   caption,
   resolution,
   className,
-  resoolutionDesktopWrapperGraphBarCaptionText = "39.2%",
-  resoolutionDesktopWrapperGraphBarCaptionText1 = "Transportation",
-  resoolutionDesktopWrapperGraphBarCaptionRectangleClassName,
-  resoolutionDesktopWrapperGraphBarCaptionText2 = "39.2%",
-  resoolutionDesktopWrapperGraphBarCaptionRectangleClassNameOverride,
-  resoolutionDesktopWrapperGraphBarCaptionText3 = "Transportation",
-  resoolutionDesktopWrapperGraphBarCaptionText4 = "Transportation",
   resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName,
-  resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassNameOverride,
-  resoolutionDesktopWrapperGraphBarCaptionText5 = "39.2%",
+  resoolutionDesktopWrapperGraphBarCaptionRectangleClassName,
+  resoolutionDesktopWrapperGraphBarCaptionText = "Transportation",
+  resoolutionDesktopWrapperGraphBarCaptionRectangleClassNameOverride,
   resoolutionDesktopWrapperGraphBarCaptionDivClassName,
   resoolutionDesktopWrapperGraphBarCaptionDivClassNameOverride,
-  resoolutionDesktopWrapperGraphBarCaptionText6 = "39.2%",
+  resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassNameOverride,
+  resoolutionDesktopWrapperGraphBarCaptionText1 = "Transportation",
+  resoolutionDesktopWrapperGraphBarCaptionText2 = "39.2%",
+  resoolutionDesktopWrapperGraphBarCaptionText3 = "Transportation",
   resoolutionDesktopWrapperGraphBarCaptionFrameWrapperClassName,
+  resoolutionDesktopWrapperGraphBarCaptionText4 = "39.2%",
+  resoolutionDesktopWrapperGraphBarCaptionText5 = "39.2%",
+  resoolutionDesktopWrapperGraphBarCaptionText6 = "39.2%",
   resoolutionDesktopWrapperGraphBarCaptionText7 = "39.2%",
-  resoolutionDesktopWrapperGraphBarCaptionFrameWrapperClassNameOverride,
-  resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName1,
-  resoolutionDesktopWrapperGraphBarCaptionText8 = "39.2%",
-  resoolutionDesktopWrapperGraphBarCaptionText9 = "39.2%",
   resoolutionDesktopWrapperGraphBarCaptionRectangleClassName1,
-  resoolutionDesktopWrapperGraphBarCaptionText10 = "Transportation",
-  resoolutionDesktopWrapperGraphBarCaptionRectangleClassName2,
-  resoolutionDesktopWrapperGraphBarCaptionText11 = "Transportation",
-  resoolutionDesktopWrapperGraphBarCaptionRectangleClassName3,
-  resoolutionDesktopWrapperGraphBarCaptionText12 = "39.2%",
-  resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName2,
-  resoolutionDesktopWrapperGraphBarCaptionText13 = "Transportation",
-  resoolutionDesktopWrapperGraphBarCaptionText14 = "39.2%",
-  resoolutionDesktopWrapperVisible,
+  resoolutionDesktopWrapperGraphBarCaptionText8 = "39.2%",
+  resoolutionDesktopWrapperGraphBarCaptionFrameWrapperClassNameOverride,
   resoolutionDesktopWrapperResoolutionDesktopClassName,
-  resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName3,
-  resoolutionDesktopWrapperGraphBarCaptionText15 = "Transportation",
-  resoolutionDesktopWrapperGraphBarCaptionText16 = "Transportation",
-  resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName4,
-  resoolutionDesktopWrapperGraphBarCaptionText17 = "Transportation",
-  resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName5,
+  resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName1,
+  resoolutionDesktopWrapperGraphBarCaptionText9 = "39.2%",
   resoolutionDesktopWrapperGraphBarCaptionSectionTitleClassName,
+  resoolutionDesktopWrapperGraphBarCaptionText10 = "Transportation",
+  resoolutionDesktopWrapperGraphBarCaptionText11 = "Transportation",
+  resoolutionDesktopWrapperGraphBarCaptionText12 = "39.2%",
+  resoolutionDesktopWrapperVisible,
+  resoolutionDesktopWrapperGraphBarCaptionText13 = "Transportation",
+  resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName2,
+  resoolutionDesktopWrapperGraphBarCaptionText14 = "Transportation",
+  resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName3,
+  resoolutionDesktopWrapperGraphBarCaptionRectangleClassName2,
+  resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName4,
+  resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName5,
+  resoolutionDesktopWrapperGraphBarCaptionRectangleClassName3,
+  resoolutionDesktopWrapperGraphBarCaptionText15 = "Transportation",
+  resoolutionDesktopWrapperGraphBarCaptionText16 = "39.2%",
   resoolutionDesktopWrapperGraphBarCaptionRectangleClassName4,
+  resoolutionDesktopWrapperGraphBarCaptionText17 = "Transportation",
   resoolutionDesktopWrapperGraphBarCaptionSectionTitleClassNameOverride,
   resoolutionDesktopWrapperGraphBarCaptionSectionTitleClassName1,
   resoolutionDesktopWrapperVisible1,
   resoolutionDesktopWrapperGraphBarCaptionSectionTitleClassName2,
-  resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName6,
+  resoolutionDesktopWrapperGraphBarCaptionColumns = "two",
+  resoolutionDesktopWrapperGraphBarCaptionColumns1 = "two",
+  resoolutionDesktopWrapperVisible2,
+  resoolutionDesktopWrapperVisible3,
+  resoolutionDesktopWrapperVisible4,
+  resoolutionDesktopWrapperVisible5,
+  resoolutionDesktopWrapperVisible6,
+  resoolutionDesktopWrapperVisible7,
+  text = "*American Community Survey (ACS) Census Bureau<br/>** Total percentages may vary by 1% due to rounding",
+  hasSectionTitle = true,
+  resoolutionDesktopWrapperGraphBarCaptionColumns2 = "two",
+  resoolutionDesktopWrapperGraphBarCaptionColumns3 = "two",
+  resoolutionDesktopWrapperVisible8,
+  hasFrame = true,
+  resoolutionDesktopWrapperGraphBarCaptionColumns4 = "two",
+  resoolutionDesktopWrapperGraphBarCaptionColumns5 = "two",
   sectionTitleClassName,
+  resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName6,
 }) => {
   return (
     <div
-      className={`subtitle-yes-caption-wrapper caption-${caption} subtitle-0-${subtitle} resolution-97-${resolution} ${className}`}
+      className={`subtitle-yes-caption-wrapper caption-${caption} resolution-108-${resolution} subtitle-1-${subtitle} ${className}`}
     >
-      {subtitle && <div className="section-title-48">Ages 18 — 64*</div>}
+      {hasSectionTitle && (
+        <>
+          <>{subtitle && <div className="section-title-50">Ages 18 — 64*</div>}</>
+        </>
+      )}
 
       <ResoolutionDesktopWrapper
         className={resoolutionDesktopWrapperResoolutionDesktopClassName}
+        graphBarCaptionColumns={resoolutionDesktopWrapperGraphBarCaptionColumns1}
+        graphBarCaptionColumns1={resoolutionDesktopWrapperGraphBarCaptionColumns}
+        graphBarCaptionColumns2={resoolutionDesktopWrapperGraphBarCaptionColumns3}
+        graphBarCaptionColumns3={resoolutionDesktopWrapperGraphBarCaptionColumns2}
+        graphBarCaptionColumns4={resoolutionDesktopWrapperGraphBarCaptionColumns5}
+        graphBarCaptionColumns5={resoolutionDesktopWrapperGraphBarCaptionColumns4}
         graphBarCaptionColumnsResolutionClassName={resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName1}
-        graphBarCaptionColumnsResolutionClassName1={resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName}
-        graphBarCaptionColumnsResolutionClassName2={resoolutionDesktopWrapperGraphBarCaptionFrameWrapperClassName}
-        graphBarCaptionColumnsResolutionClassName3={resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName2}
-        graphBarCaptionColumnsResolutionClassName4={
+        graphBarCaptionColumnsResolutionClassName1={resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName5}
+        graphBarCaptionColumnsResolutionClassName2={
+          resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassNameOverride
+        }
+        graphBarCaptionColumnsResolutionClassName3={resoolutionDesktopWrapperGraphBarCaptionFrameWrapperClassName}
+        graphBarCaptionColumnsResolutionClassName4={resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName}
+        graphBarCaptionColumnsResolutionClassName5={
           resoolutionDesktopWrapperGraphBarCaptionFrameWrapperClassNameOverride
         }
-        graphBarCaptionColumnsResolutionClassName5={resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName5}
         graphBarCaptionColumnsResolutionClassName6={resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName6}
         graphBarCaptionColumnsResolutionClassNameOverride={
           resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName3
         }
-        graphBarCaptionDivClassName={resoolutionDesktopWrapperGraphBarCaptionRectangleClassName2}
-        graphBarCaptionDivClassNameOverride={resoolutionDesktopWrapperGraphBarCaptionDivClassNameOverride}
+        graphBarCaptionDivClassName={resoolutionDesktopWrapperGraphBarCaptionRectangleClassName1}
+        graphBarCaptionDivClassNameOverride={resoolutionDesktopWrapperGraphBarCaptionRectangleClassName}
         graphBarCaptionFrameWrapperClassName={resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName4}
         graphBarCaptionFrameWrapperClassNameOverride={
-          resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassNameOverride
+          resoolutionDesktopWrapperGraphBarCaptionColumnsResolutionClassName2
         }
-        graphBarCaptionRectangleClassName={resoolutionDesktopWrapperGraphBarCaptionRectangleClassName4}
-        graphBarCaptionRectangleClassName1={resoolutionDesktopWrapperGraphBarCaptionRectangleClassName}
-        graphBarCaptionRectangleClassName2={resoolutionDesktopWrapperGraphBarCaptionDivClassName}
+        graphBarCaptionRectangleClassName={resoolutionDesktopWrapperGraphBarCaptionRectangleClassName2}
+        graphBarCaptionRectangleClassName1={resoolutionDesktopWrapperGraphBarCaptionRectangleClassName4}
+        graphBarCaptionRectangleClassName2={resoolutionDesktopWrapperGraphBarCaptionRectangleClassNameOverride}
         graphBarCaptionRectangleClassName3={resoolutionDesktopWrapperGraphBarCaptionRectangleClassName3}
-        graphBarCaptionRectangleClassName4={resoolutionDesktopWrapperGraphBarCaptionRectangleClassName1}
-        graphBarCaptionRectangleClassNameOverride={resoolutionDesktopWrapperGraphBarCaptionRectangleClassNameOverride}
+        graphBarCaptionRectangleClassName4={resoolutionDesktopWrapperGraphBarCaptionDivClassName}
+        graphBarCaptionRectangleClassNameOverride={resoolutionDesktopWrapperGraphBarCaptionDivClassNameOverride}
         graphBarCaptionSectionTitleClassName={resoolutionDesktopWrapperGraphBarCaptionSectionTitleClassName2}
         graphBarCaptionSectionTitleClassName1={resoolutionDesktopWrapperGraphBarCaptionSectionTitleClassName}
         graphBarCaptionSectionTitleClassName2={resoolutionDesktopWrapperGraphBarCaptionSectionTitleClassNameOverride}
         graphBarCaptionSectionTitleClassNameOverride={resoolutionDesktopWrapperGraphBarCaptionSectionTitleClassName1}
-        graphBarCaptionText={resoolutionDesktopWrapperGraphBarCaptionText8}
-        graphBarCaptionText1={resoolutionDesktopWrapperGraphBarCaptionText13}
-        graphBarCaptionText10={resoolutionDesktopWrapperGraphBarCaptionText14}
-        graphBarCaptionText11={resoolutionDesktopWrapperGraphBarCaptionText10}
-        graphBarCaptionText12={resoolutionDesktopWrapperGraphBarCaptionText9}
-        graphBarCaptionText13={resoolutionDesktopWrapperGraphBarCaptionText16}
-        graphBarCaptionText14={resoolutionDesktopWrapperGraphBarCaptionText5}
-        graphBarCaptionText15={resoolutionDesktopWrapperGraphBarCaptionText15}
-        graphBarCaptionText16={resoolutionDesktopWrapperGraphBarCaptionText4}
-        graphBarCaptionText17={resoolutionDesktopWrapperGraphBarCaptionText2}
-        graphBarCaptionText2={resoolutionDesktopWrapperGraphBarCaptionText}
-        graphBarCaptionText3={resoolutionDesktopWrapperGraphBarCaptionText17}
-        graphBarCaptionText4={resoolutionDesktopWrapperGraphBarCaptionText7}
-        graphBarCaptionText5={resoolutionDesktopWrapperGraphBarCaptionText1}
-        graphBarCaptionText6={resoolutionDesktopWrapperGraphBarCaptionText6}
-        graphBarCaptionText7={resoolutionDesktopWrapperGraphBarCaptionText11}
+        graphBarCaptionText={resoolutionDesktopWrapperGraphBarCaptionText4}
+        graphBarCaptionText1={resoolutionDesktopWrapperGraphBarCaptionText15}
+        graphBarCaptionText10={resoolutionDesktopWrapperGraphBarCaptionText6}
+        graphBarCaptionText11={resoolutionDesktopWrapperGraphBarCaptionText14}
+        graphBarCaptionText12={resoolutionDesktopWrapperGraphBarCaptionText8}
+        graphBarCaptionText13={resoolutionDesktopWrapperGraphBarCaptionText11}
+        graphBarCaptionText14={resoolutionDesktopWrapperGraphBarCaptionText7}
+        graphBarCaptionText15={resoolutionDesktopWrapperGraphBarCaptionText1}
+        graphBarCaptionText16={resoolutionDesktopWrapperGraphBarCaptionText10}
+        graphBarCaptionText17={resoolutionDesktopWrapperGraphBarCaptionText9}
+        graphBarCaptionText2={resoolutionDesktopWrapperGraphBarCaptionText16}
+        graphBarCaptionText3={resoolutionDesktopWrapperGraphBarCaptionText13}
+        graphBarCaptionText4={resoolutionDesktopWrapperGraphBarCaptionText2}
+        graphBarCaptionText5={resoolutionDesktopWrapperGraphBarCaptionText}
+        graphBarCaptionText6={resoolutionDesktopWrapperGraphBarCaptionText5}
+        graphBarCaptionText7={resoolutionDesktopWrapperGraphBarCaptionText3}
         graphBarCaptionText8={resoolutionDesktopWrapperGraphBarCaptionText12}
-        graphBarCaptionText9={resoolutionDesktopWrapperGraphBarCaptionText3}
+        graphBarCaptionText9={resoolutionDesktopWrapperGraphBarCaptionText17}
         resoolution={resolution === "mobile" ? "mobile" : "desktop"}
         visible={resoolutionDesktopWrapperVisible1}
         visible1={resoolutionDesktopWrapperVisible}
+        visible2={resoolutionDesktopWrapperVisible2}
+        visible3={resoolutionDesktopWrapperVisible5}
+        visible4={resoolutionDesktopWrapperVisible6}
+        visible5={resoolutionDesktopWrapperVisible7}
+        visible6={resoolutionDesktopWrapperVisible3}
+        visible7={resoolutionDesktopWrapperVisible4}
+        visible8={resoolutionDesktopWrapperVisible8}
       />
-      {caption && (
-        <div className="frame-36">
-          <p className={`section-title-49 ${sectionTitleClassName}`}>
-            *American Community Survey (ACS) Census Bureau
-            <br />
-            ** Total percentages may vary by 1% due to rounding
-          </p>
-        </div>
+      {hasFrame && (
+        <>
+          <>
+            {caption && (
+              <div className="frame-38">
+                <p className={`section-title-51 ${sectionTitleClassName}`}>{text}</p>
+              </div>
+            )}
+          </>
+        </>
       )}
     </div>
   );
@@ -146,11 +183,27 @@ SubtitleYesCaptionWrapper.propTypes = {
   resoolutionDesktopWrapperGraphBarCaptionText10: PropTypes.string,
   resoolutionDesktopWrapperGraphBarCaptionText11: PropTypes.string,
   resoolutionDesktopWrapperGraphBarCaptionText12: PropTypes.string,
+  resoolutionDesktopWrapperVisible: PropTypes.bool,
   resoolutionDesktopWrapperGraphBarCaptionText13: PropTypes.string,
   resoolutionDesktopWrapperGraphBarCaptionText14: PropTypes.string,
-  resoolutionDesktopWrapperVisible: PropTypes.bool,
   resoolutionDesktopWrapperGraphBarCaptionText15: PropTypes.string,
   resoolutionDesktopWrapperGraphBarCaptionText16: PropTypes.string,
   resoolutionDesktopWrapperGraphBarCaptionText17: PropTypes.string,
   resoolutionDesktopWrapperVisible1: PropTypes.bool,
+  resoolutionDesktopWrapperGraphBarCaptionColumns: PropTypes.string,
+  resoolutionDesktopWrapperGraphBarCaptionColumns1: PropTypes.string,
+  resoolutionDesktopWrapperVisible2: PropTypes.bool,
+  resoolutionDesktopWrapperVisible3: PropTypes.bool,
+  resoolutionDesktopWrapperVisible4: PropTypes.bool,
+  resoolutionDesktopWrapperVisible5: PropTypes.bool,
+  resoolutionDesktopWrapperVisible6: PropTypes.bool,
+  resoolutionDesktopWrapperVisible7: PropTypes.bool,
+  text: PropTypes.string,
+  hasSectionTitle: PropTypes.bool,
+  resoolutionDesktopWrapperGraphBarCaptionColumns2: PropTypes.string,
+  resoolutionDesktopWrapperGraphBarCaptionColumns3: PropTypes.string,
+  resoolutionDesktopWrapperVisible8: PropTypes.bool,
+  hasFrame: PropTypes.bool,
+  resoolutionDesktopWrapperGraphBarCaptionColumns4: PropTypes.string,
+  resoolutionDesktopWrapperGraphBarCaptionColumns5: PropTypes.string,
 };

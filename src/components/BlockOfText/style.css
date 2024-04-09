@@ -32,7 +32,45 @@
   position: relative;
 }
 
-.block-of-text .resolution-1-desktop {
+.block-of-text.two-lines {
+  top: 476px;
+}
+
+.block-of-text.resolution-1-desktop {
+  left: 20px;
+}
+
+.block-of-text.resolution-1-mobile {
+  left: 944px;
+}
+
+.block-of-text.resolution-1-tablet.no {
+  left: 1300px;
+  top: 370px;
+}
+
+.block-of-text.resolution-1-tablet.yes {
+  left: 1324px;
+  top: 542px;
+}
+
+.block-of-text.resolution-1-desktop.yes {
+  top: 20px;
+}
+
+.block-of-text.yes.resolution-1-mobile {
+  top: 20px;
+}
+
+.block-of-text.no.resolution-1-mobile {
+  top: 215px;
+}
+
+.block-of-text.resolution-1-desktop.no {
+  top: 271px;
+}
+
+.block-of-text.resolution-1-desktop .section-title {
   font-family: var(--h1-desktop-font-family);
   font-size: var(--h1-desktop-font-size);
   font-style: var(--h1-desktop-font-style);
@@ -41,7 +79,16 @@
   line-height: var(--h1-desktop-line-height);
 }
 
-.block-of-text .resolution-1-mobile {
+.block-of-text.resolution-1-tablet .section-title {
+  font-family: var(--h1-tablet-font-family);
+  font-size: var(--h1-tablet-font-size);
+  font-style: var(--h1-tablet-font-style);
+  font-weight: var(--h1-tablet-font-weight);
+  letter-spacing: var(--h1-tablet-letter-spacing);
+  line-height: var(--h1-tablet-line-height);
+}
+
+.block-of-text.resolution-1-mobile .section-title {
   font-family: var(--h1-mobile-font-family);
   font-size: var(--h1-mobile-font-size);
   font-style: var(--h1-mobile-font-style);
@@ -50,11 +97,20 @@
   line-height: var(--h1-mobile-line-height);
 }
 
-.block-of-text .two-lines {
+.block-of-text.resolution-1-tablet .element-annual-report {
+  font-family: var(--h6-tablet-font-family);
+  font-size: var(--h6-tablet-font-size);
+  font-style: var(--h6-tablet-font-style);
+  font-weight: var(--h6-tablet-font-weight);
+  letter-spacing: var(--h6-tablet-letter-spacing);
+  line-height: var(--h6-tablet-line-height);
+}
+
+.block-of-text.two-lines .element-annual-report {
   width: 1097px;
 }
 
-.block-of-text .resolution-2-desktop {
+.block-of-text.resolution-1-desktop .element-annual-report {
   font-family: var(--h6-desktop-font-family);
   font-size: var(--h6-desktop-font-size);
   font-style: var(--h6-desktop-font-style);
@@ -63,20 +119,20 @@
   line-height: var(--h6-desktop-line-height);
 }
 
-.block-of-text .no {
+.block-of-text.no .element-annual-report {
   width: fit-content;
 }
 
-.block-of-text .yes {
+.block-of-text.yes .element-annual-report {
   white-space: nowrap;
   width: fit-content;
 }
 
-.block-of-text .resolution-2-mobile {
-  font-family: var(--h6-mobile-font-family);
-  font-size: var(--h6-mobile-font-size);
-  font-style: var(--h6-mobile-font-style);
-  font-weight: var(--h6-mobile-font-weight);
-  letter-spacing: var(--h6-mobile-letter-spacing);
-  line-height: var(--h6-mobile-line-height);
+.block-of-text.resolution-1-mobile .element-annual-report {
+  font-family: var(--h6-mobilev-font-family);
+  font-size: var(--h6-mobilev-font-size);
+  font-style: var(--h6-mobilev-font-style);
+  font-weight: var(--h6-mobilev-font-weight);
+  letter-spacing: var(--h6-mobilev-letter-spacing);
+  line-height: var(--h6-mobilev-line-height);
 }

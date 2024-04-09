@@ -1,0 +1,1 @@
+export { IntroMobilePx } from "./IntroMobilePx";

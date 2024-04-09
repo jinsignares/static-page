@@ -13,32 +13,49 @@ export const StatSet = ({
   type,
   className,
   statColor = "white",
+  statTypeNumbersColorClassName,
   statText = "$381M",
   statText1 = "for Clean Cars For All Program and Clean School Bus Program",
+  statTypeNumbersColorClassNameOverride,
   statText2 = "$381M",
   statText3 = "for Clean Cars For All Program and Clean School Bus Program",
   statColor1 = "white",
-  statType = "numbers",
-  statTypeNumbersColorClassName,
-  statTypeNumbersColorClassNameOverride,
   statTypeQuoteColorClassName,
+  statType = "numbers",
+  statSectionTitleClassName,
+  statSectionTitleClassNameOverride,
+  statColor2 = "white",
+  statText4 = "$381M",
+  statText5 = "for Clean Cars For All Program and Clean School Bus Program",
+  statTypeQuoteColorClassNameOverride,
+  statText6 = "$381M",
+  statText7 = "for Clean Cars For All Program and Clean School Bus Program",
+  statColor3 = "white",
+  statDivClassName,
+  statText8 = "$381M",
+  statText9 = "for Clean Cars For All Program and Clean School Bus Program",
+  statDivClassNameOverride,
+  statSectionTitleClassName1,
+  statText10,
 }) => {
   return (
-    <div className={`stat-set resolution-13-${resolution} ${className}`}>
+    <div className={`stat-set resolution-21-${resolution} ${type} ${className}`}>
       {type === "set-of-3" && (
         <>
           <Stat
             className={statTypeNumbersColorClassName}
             color={statColor}
             resolution={resolution === "mobile" ? "mobile" : "desktop"}
+            sectionTitleClassName={statDivClassNameOverride}
             text={statText}
             text1={statText1}
             type="numbers"
           />
           <Stat
             className={statTypeNumbersColorClassNameOverride}
-            color="white"
+            color={statColor2}
             resolution={resolution === "mobile" ? "mobile" : "desktop"}
+            sectionTitleClassName={statSectionTitleClassName1}
             text={statText2}
             text1={statText3}
             type="numbers"
@@ -47,8 +64,11 @@ export const StatSet = ({
             className={statTypeQuoteColorClassName}
             color={statColor1}
             resolution={resolution === "mobile" ? "mobile" : "desktop"}
-            text="$381M"
-            text1="for Clean Cars For All Program and Clean School Bus Program"
+            sectionTitleClassName={statSectionTitleClassName}
+            sectionTitleClassNameOverride={statSectionTitleClassNameOverride}
+            text={statText4}
+            text1={statText5}
+            text2={statText10}
             type={statType}
           />
         </>
@@ -57,17 +77,19 @@ export const StatSet = ({
       {type === "set-of-2" && (
         <>
           <Stat
+            className={statTypeQuoteColorClassNameOverride}
             color="white"
             resolution={resolution === "desktop" ? "desktop" : "mobile"}
-            text="$381M"
-            text1="for Clean Cars For All Program and Clean School Bus Program"
+            text={statText6}
+            text1={statText7}
             type="numbers"
           />
           <Stat
-            color="white"
+            className={statDivClassName}
+            color={statColor3}
             resolution={resolution === "desktop" ? "desktop" : "mobile"}
-            text="$381M"
-            text1="for Clean Cars For All Program and Clean School Bus Program"
+            text={statText8}
+            text1={statText9}
             type="numbers"
           />
         </>
@@ -86,4 +108,13 @@ StatSet.propTypes = {
   statText3: PropTypes.string,
   statColor1: PropTypes.string,
   statType: PropTypes.string,
+  statColor2: PropTypes.string,
+  statText4: PropTypes.string,
+  statText5: PropTypes.string,
+  statText6: PropTypes.string,
+  statText7: PropTypes.string,
+  statColor3: PropTypes.string,
+  statText8: PropTypes.string,
+  statText9: PropTypes.string,
+  statText10: PropTypes.string,
 };

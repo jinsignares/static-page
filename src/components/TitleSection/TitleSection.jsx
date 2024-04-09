@@ -13,50 +13,61 @@ export const TitleSection = ({
   layout,
   className,
   frameClassName,
-  blockOfTextSectionTitleClassName,
+  blockOfTextText = "INTRODUCTION",
   blockOfTextElementAnnualReportClassName,
-  blockOfTextText = "MESSAGE FROM OUR NEW EXECUTIVE OFFICER",
-  blockOfTextText1 = "INTRODUCTION",
+  blockOfTextSectionTitleClassName,
   blockOfTextResolutionMobileClassName,
-  blockOfTextTextClassName,
-  blockOfTextResolution = "mobile",
-  blockOfTextSectionTitleClassNameOverride,
+  blockOfTextText1 = "MESSAGE FROM OUR NEW EXECUTIVE OFFICER",
+  blockOfTextText2 = "INTRODUCTION",
   blockOfTextElementAnnualReportClassNameOverride,
-  blockOfTextText2 = "MESSAGE FROM OUR NEW EXECUTIVE OFFICER",
-  blockOfTextText3 = "INTRODUCTION",
+  blockOfTextSectionTitleClassNameOverride,
   blockOfTextResolutionMobileClassNameOverride,
+  blockOfTextText3 = "MESSAGE FROM OUR NEW EXECUTIVE OFFICER",
   frameClassNameOverride,
+  hasFrame = true,
+  blockOfTextText4,
+  blockOfTextSubtitle = "yes",
+  blockOfTextTextClassName,
+  blockOfTextText5,
+  blockOfTextSubtitle1 = "yes",
 }) => {
   return (
-    <div className={`title-section ${layout} resolution-3-${resolution} ${className}`}>
-      {["img-l", "stacked"].includes(layout) && (
-        <>
-          <div className={`div ${frameClassName}`} />
-          <BlockOfText
-            className={blockOfTextResolutionMobileClassName}
-            elementAnnualReportClassName={blockOfTextElementAnnualReportClassName}
-            resolution={blockOfTextResolution}
-            sectionTitleClassName={blockOfTextSectionTitleClassName}
-            subtitle="yes"
-            text={blockOfTextText1}
-            text1={blockOfTextText}
-            textClassName={blockOfTextTextClassName}
-          />
-        </>
-      )}
+    <div className={`title-section ${layout} resolution-4-${resolution} ${className}`}>
+      {["img-l", "stacked"].includes(layout) && <div className={`div ${frameClassName}`} />}
 
       {layout === "img-r" && (
+        <BlockOfText
+          className={blockOfTextResolutionMobileClassNameOverride}
+          elementAnnualReportClassName={blockOfTextElementAnnualReportClassNameOverride}
+          resolution="desktop"
+          sectionTitleClassName={blockOfTextSectionTitleClassNameOverride}
+          subtitle={blockOfTextSubtitle1}
+          text={blockOfTextText2}
+          text1={blockOfTextText3}
+          text2={blockOfTextText5}
+          textClassName={blockOfTextTextClassName}
+        />
+      )}
+
+      {hasFrame && (
         <>
-          <BlockOfText
-            className={blockOfTextResolutionMobileClassNameOverride}
-            elementAnnualReportClassName={blockOfTextElementAnnualReportClassNameOverride}
-            resolution="desktop"
-            sectionTitleClassName={blockOfTextSectionTitleClassNameOverride}
-            subtitle="yes"
-            text={blockOfTextText3}
-            text1={blockOfTextText2}
-          />
-          <div className={`frame-2 ${frameClassNameOverride}`} />
+          <>
+            {["img-l", "stacked"].includes(layout) && (
+              <BlockOfText
+                className={blockOfTextResolutionMobileClassName}
+                elementAnnualReportClassName={blockOfTextElementAnnualReportClassName}
+                resolution={resolution === "desktop" ? "desktop" : resolution === "tablet" ? "tablet" : "mobile"}
+                sectionTitleClassName={blockOfTextSectionTitleClassName}
+                subtitle={blockOfTextSubtitle}
+                text={blockOfTextText}
+                text1={blockOfTextText1}
+                text2={blockOfTextText4}
+                textClassName={`${["desktop", "mobile", "tablet"].includes(resolution) && "class-3"}`}
+              />
+            )}
+
+            {layout === "img-r" && <div className={`frame-2 ${frameClassNameOverride}`} />}
+          </>
         </>
       )}
     </div>
@@ -64,11 +75,15 @@ export const TitleSection = ({
 };
 
 TitleSection.propTypes = {
-  resolution: PropTypes.oneOf(["desktop", "mobile-sm", "mobile"]),
+  resolution: PropTypes.oneOf(["tablet", "desktop", "mobile-sm", "mobile"]),
   layout: PropTypes.oneOf(["img-r", "stacked", "img-l"]),
   blockOfTextText: PropTypes.string,
   blockOfTextText1: PropTypes.string,
-  blockOfTextResolution: PropTypes.string,
   blockOfTextText2: PropTypes.string,
   blockOfTextText3: PropTypes.string,
+  hasFrame: PropTypes.bool,
+  blockOfTextText4: PropTypes.string,
+  blockOfTextSubtitle: PropTypes.string,
+  blockOfTextText5: PropTypes.string,
+  blockOfTextSubtitle1: PropTypes.string,
 };

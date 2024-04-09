@@ -15,7 +15,7 @@ export const ElementImage = ({
   img = "/img/rectangle-255.png",
 }) => {
   return (
-    <div className={`element-image resolution-35-${resolution} ${className}`}>
+    <div className={`element-image resolution-45-${resolution} ${className}`}>
       <img
         className={`rectangle-8 ${rectangleClassName}`}
         alt="Rectangle"

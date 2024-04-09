@@ -7,25 +7,25 @@ import PropTypes from "prop-types";
 import React from "react";
 import "./style.css";
 
-export const Footer = ({ resolution, className }) => {
+export const Footer = ({ resolution, className, sectionTitleClassName, BAAQMDLogoClassName }) => {
   return (
-    <div className={`footer resolution-107-${resolution} ${className}`}>
-      <p className="section-title-61">
+    <div className={`footer resolution-119-${resolution} ${className}`}>
+      <p className="section-title-65">
         375 Beale Street, Suite 600
         <br />
         San Francisco, CA 94105
       </p>
-      <div className="section-title-62">
-        {resolution === "desktop" && (
-          <p className="text-wrapper-19">
+      <div className={`section-title-66 ${sectionTitleClassName}`}>
+        {["desktop-1025", "desktop"].includes(resolution) && (
+          <p className="text-wrapper-39">
             (415) 749-5000 | 1-800-HELP-AIR | 877-4N0-BURN
             <br />
             Accessibility • Terms of Use • Privacy Policy
           </p>
         )}
 
-        {resolution === "mobile" && (
-          <p className="text-wrapper-19">
+        {["mobile", "tablet"].includes(resolution) && (
+          <p className="text-wrapper-39">
             (415) 749-5000
             <br />
             1-800-HELP-AIR
@@ -41,11 +41,15 @@ export const Footer = ({ resolution, className }) => {
           </p>
         )}
       </div>
-      <img className="BAAQMD-logo-2" alt="Baaqmd logo" src="/img/baaqmd-logo-fullcolor-black-2.png" />
+      <img
+        className={`BAAQMD-logo-2 ${BAAQMDLogoClassName}`}
+        alt="Baaqmd logo"
+        src="/img/baaqmd-logo-fullcolor-black-2.png"
+      />
     </div>
   );
 };
 
 Footer.propTypes = {
-  resolution: PropTypes.oneOf(["desktop", "mobile"]),
+  resolution: PropTypes.oneOf(["tablet", "desktop-1025", "desktop", "mobile"]),
 };

@@ -1,0 +1,61 @@
+.quote {
+  align-items: flex-start;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  left: 20px;
+  position: relative;
+}
+
+.quote .section-title-67 {
+  color: var(--white);
+  font-family: "Anton", Helvetica;
+  font-size: 145px;
+  font-weight: 400;
+  height: 126px;
+  letter-spacing: 7.25px;
+  line-height: 159.5px;
+  position: relative;
+  white-space: nowrap;
+  width: 68px;
+}
+
+.quote .section-title-68 {
+  align-self: stretch;
+  color: var(--white);
+  font-family: var(--pull-quote-desktop-font-family);
+  font-size: var(--pull-quote-desktop-font-size);
+  font-style: var(--pull-quote-desktop-font-style);
+  font-weight: var(--pull-quote-desktop-font-weight);
+  letter-spacing: var(--pull-quote-desktop-letter-spacing);
+  line-height: var(--pull-quote-desktop-line-height);
+  position: relative;
+}
+
+.quote.type-4-rounded {
+  border-radius: 20px;
+  height: 290px;
+  justify-content: center;
+  padding: 0px 40px;
+  top: 530px;
+  width: 447px;
+}
+
+.quote.type-4-default {
+  height: 490px;
+  padding: 80px;
+  top: 20px;
+  width: 480px;
+}
+
+.quote.type-4-default .section-title-67 {
+  margin-top: -1.08px;
+}
+
+.quote.type-4-rounded .section-title-68 {
+  margin-top: -60px;
+}
+
+.quote.type-4-default .section-title-68 {
+  margin-top: -55px;
+}

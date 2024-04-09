@@ -5,7 +5,7 @@ export default {
   component: OpeningText,
   argTypes: {
     resolution: {
-      options: ["desktop", "mobile"],
+      options: ["desktop", "tablet", "mobile"],
       control: { type: "select" },
     },
   },
