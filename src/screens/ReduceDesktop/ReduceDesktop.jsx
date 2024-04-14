@@ -45,18 +45,6 @@ export const ReduceDesktop = () => {
         overflow: screenWidth >= 1025 ? "hidden" : undefined,
       }}
     >
-      <Header
-        className="header-6"
-        resolution={
-          screenWidth >= 1025
-            ? "desktop-1025"
-            : (screenWidth >= 641 && screenWidth < 769) || screenWidth < 641
-            ? "mobile"
-            : screenWidth >= 769 && screenWidth < 1025
-            ? "tablet"
-            : undefined
-        }
-      />
       {((screenWidth >= 641 && screenWidth < 769) ||
         (screenWidth >= 769 && screenWidth < 1025) ||
         screenWidth < 641) && (
@@ -2128,7 +2116,6 @@ export const ReduceDesktop = () => {
             className="internal-menu-5"
             resolution="desktop"
           />
-          <Footer className="footer-9" resolution="desktop" />
         </>
       )}
 
@@ -4736,16 +4723,6 @@ export const ReduceDesktop = () => {
             arrowElementTypeForward="/img/arrow-element-1.png"
             className="internal-menu-5"
             resolution="mobile"
-          />
-          <Footer
-            className="footer-10"
-            resolution={
-              screenWidth < 641
-                ? "mobile"
-                : (screenWidth >= 641 && screenWidth < 769) || (screenWidth >= 769 && screenWidth < 1025)
-                ? "tablet"
-                : undefined
-            }
           />
         </>
       )}

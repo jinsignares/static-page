@@ -46,16 +46,6 @@ export const AirQualityDesktop = () => {
         (screenWidth >= 769 && screenWidth < 1025) ||
         screenWidth < 641) && (
         <>
-          <Header
-            className="header-instance"
-            resolution={
-              (screenWidth >= 641 && screenWidth < 769) || (screenWidth >= 769 && screenWidth < 1025)
-                ? "tablet"
-                : screenWidth < 641
-                ? "mobile"
-                : undefined
-            }
-          />
           <TitleSection
             blockOfTextElementAnnualReportClassName="title-section-instance"
             blockOfTextResolutionMobileClassName="title-section-5"
@@ -78,11 +68,6 @@ export const AirQualityDesktop = () => {
 
       {screenWidth >= 1025 && (
         <>
-          <Header
-            className="header-instance"
-            resolution="desktop-1025"
-            to="/air-quality-desktop-1025-px-u40works-from-1025pxu43u41"
-          />
           <TitleSection
             blockOfTextElementAnnualReportClassNameOverride="title-section-instance"
             blockOfTextResolutionMobileClassNameOverride="title-section-6"
@@ -1157,12 +1142,6 @@ export const AirQualityDesktop = () => {
             className="internal-menu-instance"
             resolution="mobile"
           />
-          <Footer
-            BAAQMDLogoClassName="footer-instance"
-            className="footer-2"
-            resolution="desktop"
-            sectionTitleClassName="footer-instance"
-          />
         </>
       )}
 
@@ -1836,7 +1815,6 @@ export const AirQualityDesktop = () => {
             className="internal-menu-instance"
             resolution="mobile"
           />
-          <Footer className="footer-3" resolution="tablet" />
         </>
       )}
 
@@ -2382,7 +2360,6 @@ export const AirQualityDesktop = () => {
             className="internal-menu-instance"
             resolution="mobile"
           />
-          <Footer className="footer-3" resolution="mobile" />
         </>
       )}
     </div>

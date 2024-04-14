@@ -34,18 +34,6 @@ export const AboutDesktop = () => {
             : undefined,
       }}
     >
-      <Header
-        className="header-5"
-        resolution={
-          (screenWidth >= 641 && screenWidth < 769) || screenWidth < 641
-            ? "mobile"
-            : screenWidth >= 769 && screenWidth < 1025
-            ? "tablet"
-            : screenWidth >= 1025
-            ? "desktop-1025"
-            : undefined
-        }
-      />
       <TitleSection
         blockOfTextElementAnnualReportClassName={`${
           ((screenWidth >= 641 && screenWidth < 769) ||
@@ -3986,25 +3974,6 @@ export const AboutDesktop = () => {
             ? "desktop"
             : undefined
         }
-      />
-      <Footer
-        BAAQMDLogoClassName={`${screenWidth >= 1025 && "class-87"}`}
-        className={`${
-          ((screenWidth >= 641 && screenWidth < 769) ||
-            (screenWidth >= 769 && screenWidth < 1025) ||
-            screenWidth < 641) &&
-          "class-88"
-        } ${screenWidth >= 1025 && "class-89"}`}
-        resolution={
-          screenWidth < 641
-            ? "mobile"
-            : (screenWidth >= 641 && screenWidth < 769) || (screenWidth >= 769 && screenWidth < 1025)
-            ? "tablet"
-            : screenWidth >= 1025
-            ? "desktop"
-            : undefined
-        }
-        sectionTitleClassName={`${screenWidth >= 1025 && "class-87"}`}
       />
     </div>
   );

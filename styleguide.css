@@ -1,6 +1,20 @@
 :root {
   --black: rgba(0, 0, 0, 1);
   --blue: rgba(29, 103, 199, 1);
+  --brick: rgba(232, 117, 81, 1);
+  --dark-blue: rgba(10, 33, 91, 1);
+  --dark-gray: rgba(75, 72, 72, 1);
+  --gray: rgba(127, 122, 127, 1);
+  --green: rgba(0, 110, 110, 1);
+  --light-blue: rgba(148, 179, 239, 1);
+  --lighter-blue: rgba(228, 238, 252, 1);
+  --lighter-brick: rgba(243, 229, 224, 1);
+  --lighter-green: rgba(224, 241, 240, 1);
+  --lighter-grey: rgba(230, 226, 230, 1);
+  --lighter-teal: rgba(223, 252, 244, 1);
+  --neutrascinza: rgba(189, 189, 189, 1);
+  --teal: rgba(173, 251, 232, 1);
+  --white: rgba(255, 255, 255, 1);
   --body-text-desktop-bold-font-family: "Poppins", Helvetica;
   --body-text-desktop-bold-font-size: 21px;
   --body-text-desktop-bold-font-style: normal;
@@ -31,7 +45,6 @@
   --body-text-tablet-font-weight: 400;
   --body-text-tablet-letter-spacing: 0.72px;
   --body-text-tablet-line-height: 170.00000476837158%;
-  --brick: rgba(232, 117, 81, 1);
   --caption-desktop-bold-font-family: "Poppins", Helvetica;
   --caption-desktop-bold-font-size: 19px;
   --caption-desktop-bold-font-style: normal;
@@ -68,10 +81,6 @@
   --caption-tablet-font-weight: 400;
   --caption-tablet-letter-spacing: 0.64px;
   --caption-tablet-line-height: 135.0000023841858%;
-  --dark-blue: rgba(10, 33, 91, 1);
-  --dark-gray: rgba(75, 72, 72, 1);
-  --gray: rgba(127, 122, 127, 1);
-  --green: rgba(0, 110, 110, 1);
   --h1-desktop-font-family: "Anton", Helvetica;
   --h1-desktop-font-size: 120px;
   --h1-desktop-font-style: normal;
@@ -198,13 +207,6 @@
   --h6-tablet-font-weight: 500;
   --h6-tablet-letter-spacing: 5px;
   --h6-tablet-line-height: 139.9999976158142%;
-  --light-blue: rgba(148, 179, 239, 1);
-  --lighter-blue: rgba(228, 238, 252, 1);
-  --lighter-brick: rgba(243, 229, 224, 1);
-  --lighter-green: rgba(224, 241, 240, 1);
-  --lighter-grey: rgba(230, 226, 230, 1);
-  --lighter-teal: rgba(223, 252, 244, 1);
-  --neutrascinza: rgba(189, 189, 189, 1);
   --pull-quote-desktop-bold-font-family: "Poppins", Helvetica;
   --pull-quote-desktop-bold-font-size: 26px;
   --pull-quote-desktop-bold-font-style: normal;
@@ -241,6 +243,4 @@
   --pull-quote-tablet-font-weight: 400;
   --pull-quote-tablet-letter-spacing: 0.92px;
   --pull-quote-tablet-line-height: 150%;
-  --teal: rgba(173, 251, 232, 1);
-  --white: rgba(255, 255, 255, 1);
 }

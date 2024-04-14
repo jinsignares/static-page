@@ -38,23 +38,6 @@ export const CommunityDesktop = () => {
             : undefined,
       }}
     >
-      <Header
-        className={`${
-          ((screenWidth >= 641 && screenWidth < 769) ||
-            (screenWidth >= 769 && screenWidth < 1025) ||
-            screenWidth < 641) &&
-          "class-120"
-        } ${screenWidth >= 1025 && "class-121"}`}
-        resolution={
-          (screenWidth >= 641 && screenWidth < 769) || (screenWidth >= 769 && screenWidth < 1025)
-            ? "tablet"
-            : screenWidth >= 1025
-            ? "desktop-1025"
-            : screenWidth < 641
-            ? "mobile"
-            : undefined
-        }
-      />
       <TitleSection
         blockOfTextElementAnnualReportClassName="title-section-36"
         blockOfTextResolutionMobileClassName={`${
@@ -286,7 +269,6 @@ export const CommunityDesktop = () => {
             className="internal-menu-6"
             resolution="mobile"
           />
-          <Footer className="footer-11" resolution="tablet" />
         </>
       )}
 
@@ -444,12 +426,6 @@ export const CommunityDesktop = () => {
             className="internal-menu-6"
             resolution="desktop"
           />
-          <Footer
-            BAAQMDLogoClassName="footer-13"
-            className="footer-12"
-            resolution="desktop"
-            sectionTitleClassName="footer-13"
-          />
         </>
       )}
 
@@ -594,7 +570,6 @@ export const CommunityDesktop = () => {
             className="internal-menu-6"
             resolution="mobile"
           />
-          <Footer className="footer-11" resolution="mobile" />
         </>
       )}
     </div>

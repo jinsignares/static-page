@@ -44,18 +44,6 @@ export const IntroMobilePx = () => {
         (screenWidth >= 769 && screenWidth < 1025) ||
         screenWidth < 641) && (
         <>
-          <Header
-            className={`${
-              ((screenWidth >= 641 && screenWidth < 769) || (screenWidth >= 769 && screenWidth < 1025)) && "class-46"
-            } ${screenWidth < 641 && "header-4"}`}
-            resolution={
-              (screenWidth >= 641 && screenWidth < 769) || (screenWidth >= 769 && screenWidth < 1025)
-                ? "tablet"
-                : screenWidth < 641
-                ? "mobile"
-                : undefined
-            }
-          />
           <TitleSection
             blockOfTextElementAnnualReportClassName="title-section-13"
             blockOfTextResolutionMobileClassName="title-section-16"
@@ -308,17 +296,11 @@ export const IntroMobilePx = () => {
             className="internal-menu-2"
             resolution="mobile"
           />
-          <Footer className="footer-4" resolution="tablet" />
         </>
       )}
 
       {screenWidth >= 1025 && (
         <>
-          <Header
-            className="header-4"
-            resolution="desktop-1025"
-            to="/air-quality-desktop-1025-px-u40works-from-1025pxu43u41"
-          />
           <TitleSection
             blockOfTextElementAnnualReportClassName="title-section-13"
             blockOfTextResolutionMobileClassName="title-section-18"
@@ -438,12 +420,6 @@ export const IntroMobilePx = () => {
             className="internal-menu-2"
             resolution="mobile"
           />
-          <Footer
-            BAAQMDLogoClassName="footer-6"
-            className="footer-5"
-            resolution="desktop"
-            sectionTitleClassName="footer-6"
-          />
         </>
       )}
 
@@ -509,7 +485,6 @@ export const IntroMobilePx = () => {
             className="internal-menu-2"
             resolution="mobile"
           />
-          <Footer className="footer-4" resolution="mobile" />
         </>
       )}
     </div>

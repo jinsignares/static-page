@@ -11,47 +11,18 @@ export const HomeMobilePx = () => {
   const screenWidth = useWindowWidth();
 
   return (
-    <div
-      className="HOME-MOBILE-px"
-      style={{
-        backgroundColor:
-          (screenWidth >= 641 && screenWidth < 769) || (screenWidth >= 769 && screenWidth < 1025) || screenWidth < 641
-            ? "var(--white)"
-            : screenWidth >= 1025
-            ? "var(--neutrascinza)"
-            : undefined,
-        minWidth:
-          screenWidth < 641
-            ? "320px"
-            : screenWidth >= 641 && screenWidth < 769
-            ? "641px"
-            : screenWidth >= 769 && screenWidth < 1025
-            ? "769px"
-            : screenWidth >= 1025
-            ? "1025px"
-            : undefined,
-      }}
-    >
+    <div className="home-wrapper">
       {((screenWidth >= 641 && screenWidth < 769) ||
         (screenWidth >= 769 && screenWidth < 1025) ||
         screenWidth < 641) && (
         <>
-          <Header
-            className="header-2"
-            resolution={
-              screenWidth < 641
-                ? "mobile"
-                : (screenWidth >= 641 && screenWidth < 769) || (screenWidth >= 769 && screenWidth < 1025)
-                ? "tablet"
-                : undefined
-            }
-          />
           <BlockOfText
             className="block-of-text-instance"
             resolution={
               screenWidth < 641
                 ? "mobile"
-                : (screenWidth >= 641 && screenWidth < 769) || (screenWidth >= 769 && screenWidth < 1025)
+                : (screenWidth >= 641 && screenWidth < 769) ||
+                  (screenWidth >= 769 && screenWidth < 1025)
                 ? "tablet"
                 : undefined
             }
@@ -63,7 +34,8 @@ export const HomeMobilePx = () => {
             resolution={
               screenWidth < 641
                 ? "mobile"
-                : (screenWidth >= 641 && screenWidth < 769) || (screenWidth >= 769 && screenWidth < 1025)
+                : (screenWidth >= 641 && screenWidth < 769) ||
+                  (screenWidth >= 769 && screenWidth < 1025)
                 ? "tablet"
                 : undefined
             }
@@ -82,7 +54,8 @@ export const HomeMobilePx = () => {
             resolution={
               screenWidth < 641
                 ? "mobile"
-                : (screenWidth >= 641 && screenWidth < 769) || (screenWidth >= 769 && screenWidth < 1025)
+                : (screenWidth >= 641 && screenWidth < 769) ||
+                  (screenWidth >= 769 && screenWidth < 1025)
                 ? "tablet"
                 : undefined
             }
@@ -102,12 +75,15 @@ export const HomeMobilePx = () => {
             resolution={
               screenWidth < 641
                 ? "mobile"
-                : (screenWidth >= 641 && screenWidth < 769) || (screenWidth >= 769 && screenWidth < 1025)
+                : (screenWidth >= 641 && screenWidth < 769) ||
+                  (screenWidth >= 769 && screenWidth < 1025)
                 ? "tablet"
                 : undefined
             }
             sectionTitleClassName={`${screenWidth < 641 && "block-of-text-4"} ${
-              ((screenWidth >= 641 && screenWidth < 769) || (screenWidth >= 769 && screenWidth < 1025)) && "class-43"
+              ((screenWidth >= 641 && screenWidth < 769) ||
+                (screenWidth >= 769 && screenWidth < 1025)) &&
+              "class-43"
             }`}
             subtitle="yes"
             text={
@@ -116,7 +92,8 @@ export const HomeMobilePx = () => {
                   AND <br />
                   COMMUNITIES
                 </>
-              ) : (screenWidth >= 641 && screenWidth < 769) || (screenWidth >= 769 && screenWidth < 1025) ? (
+              ) : (screenWidth >= 641 && screenWidth < 769) ||
+                (screenWidth >= 769 && screenWidth < 1025) ? (
                 "AND COMMUNITIES"
               ) : undefined
             }
@@ -136,7 +113,8 @@ export const HomeMobilePx = () => {
               padding:
                 screenWidth < 641
                   ? "80px 24px"
-                  : (screenWidth >= 641 && screenWidth < 769) || (screenWidth >= 769 && screenWidth < 1025)
+                  : (screenWidth >= 641 && screenWidth < 769) ||
+                    (screenWidth >= 769 && screenWidth < 1025)
                   ? "80px 60px"
                   : undefined,
             }}
@@ -153,7 +131,8 @@ export const HomeMobilePx = () => {
               resolution={
                 screenWidth < 641
                   ? "mobile"
-                  : (screenWidth >= 641 && screenWidth < 769) || (screenWidth >= 769 && screenWidth < 1025)
+                  : (screenWidth >= 641 && screenWidth < 769) ||
+                    (screenWidth >= 769 && screenWidth < 1025)
                   ? "tablet"
                   : undefined
               }
@@ -171,16 +150,22 @@ export const HomeMobilePx = () => {
 
       {screenWidth >= 1025 && (
         <>
-          <Header
-            className="header-3"
-            resolution="desktop-1025"
-            to="/air-quality-desktop-1025-px-u40works-from-1025pxu43u41"
-          />
           <div className="row">
-            <BlockOfText className="block-of-text-8" resolution="tablet" subtitle="no" text="PROTECTING" />
+            <BlockOfText
+              className="block-of-text-8"
+              resolution="tablet"
+              subtitle="no"
+              text="PROTECTING"
+            />
             <div className="image-square-2" />
-            <BlockOfText className="block-of-text-9" resolution="tablet" subtitle="no" text="OUR AIR," />
+            <BlockOfText
+              className="block-of-text-9"
+              resolution="tablet"
+              subtitle="no"
+              text="OUR AIR,"
+            />
           </div>
+
           <div className="row-2">
             <div className="image-large" />
             <div className="frame-65">
@@ -205,6 +190,7 @@ export const HomeMobilePx = () => {
               />
             </div>
           </div>
+
           <div className="row-3">
             <div className="frame-67">
               <Topics
@@ -226,33 +212,24 @@ export const HomeMobilePx = () => {
                 text1="In 2022, we continued to partner with Bay Area communities most impacted by pollution and sought new paths forward to reduce climate-warming greenhouse gases. Our innovative grant programs enabled residents and businesses to lower emissions and overall carbon footprint through funds for cleaner engines and electric vehicles to programs that educate residents on how to reduce their impact."
               />
             </div>
-            <img className="adobestock" alt="Adobestock" src="/img/adobestock-526164757-1.png" />
+            <img
+              className="adobestock"
+              alt="Adobestock"
+              src="/img/adobestock-526164757-1.png"
+            />
           </div>
+
           <div className="row-4">
             <div className="rectangle-23" />
-            <img className="rectangle-24" alt="Rectangle" src="/img/rectangle-251.png" />
+            <img
+              className="rectangle-24"
+              alt="Rectangle"
+              src="/img/rectangle-251.png"
+            />
             <div className="rectangle-25" />
           </div>
         </>
       )}
-
-      <Footer
-        className={`${
-          ((screenWidth >= 641 && screenWidth < 769) ||
-            (screenWidth >= 769 && screenWidth < 1025) ||
-            screenWidth < 641) &&
-          "class-44"
-        } ${screenWidth >= 1025 && "class-45"}`}
-        resolution={
-          screenWidth < 641
-            ? "mobile"
-            : (screenWidth >= 641 && screenWidth < 769) || (screenWidth >= 769 && screenWidth < 1025)
-            ? "tablet"
-            : screenWidth >= 1025
-            ? "desktop-1025"
-            : undefined
-        }
-      />
     </div>
   );
 };

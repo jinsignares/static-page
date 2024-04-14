@@ -33,23 +33,6 @@ export const ProtectDesktop = () => {
         overflow: screenWidth >= 1025 || (screenWidth >= 769 && screenWidth < 1025) ? "hidden" : undefined,
       }}
     >
-      <Header
-        className={`${
-          ((screenWidth >= 641 && screenWidth < 769) ||
-            (screenWidth >= 769 && screenWidth < 1025) ||
-            screenWidth < 641) &&
-          "class-90"
-        } ${screenWidth >= 1025 && "class-91"}`}
-        resolution={
-          (screenWidth >= 641 && screenWidth < 769) || screenWidth < 641
-            ? "mobile"
-            : screenWidth >= 769 && screenWidth < 1025
-            ? "tablet"
-            : screenWidth >= 1025
-            ? "desktop-1025"
-            : undefined
-        }
-      />
       {((screenWidth >= 641 && screenWidth < 769) ||
         (screenWidth >= 769 && screenWidth < 1025) ||
         screenWidth < 641) && (
@@ -731,7 +714,6 @@ export const ProtectDesktop = () => {
             className="internal-menu-4"
             resolution="desktop"
           />
-          <Footer className="footer-7" resolution="desktop" />
         </>
       )}
 
@@ -912,16 +894,6 @@ export const ProtectDesktop = () => {
             arrowElementTypeForward="/img/arrow-element-1.png"
             className="internal-menu-4"
             resolution="mobile"
-          />
-          <Footer
-            className="footer-8"
-            resolution={
-              screenWidth < 641
-                ? "mobile"
-                : (screenWidth >= 641 && screenWidth < 769) || (screenWidth >= 769 && screenWidth < 1025)
-                ? "tablet"
-                : undefined
-            }
           />
         </>
       )}
