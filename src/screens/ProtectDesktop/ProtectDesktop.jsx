@@ -1,8 +1,6 @@
 import React from "react";
 import { useWindowWidth } from "../../breakpoints";
 import { Arrows } from "../../components/Arrows";
-import { Footer } from "../../components/Footer";
-import { Header } from "../../components/Header";
 import { HightlightBlurb } from "../../components/HightlightBlurb";
 import { InternalMenu } from "../../components/InternalMenu";
 import { OpeningSection } from "../../components/OpeningSection";
@@ -282,11 +280,8 @@ export const ProtectDesktop = () => {
                   <Topics
                     button={false}
                     className="instance-node-13"
-                    divClassNameOverride="topics-14"
-                    hasJamesCarySmith={false}
-                    headline="medium"
-                    resolution="desktop"
-                    text1="From this funding, we are expecting to receive:"
+                    textBodyClassName="topics-14"
+                    textBody="From this funding, we are expecting to receive:"
                   />
                 </div>
                 <StatSection
@@ -391,11 +386,8 @@ export const ProtectDesktop = () => {
                   <Topics
                     button={false}
                     className="topics-15"
-                    divClassNameOverride="topics-16"
-                    hasJamesCarySmith={false}
-                    headline="medium"
-                    resolution="desktop"
-                    text1="From this funding, we are expecting to receive:"
+                    textBodyClassName="topics-16"
+                    textBody="From this funding, we are expecting to receive:"
                   />
                 </div>
                 <StatSection
@@ -458,11 +450,8 @@ export const ProtectDesktop = () => {
                     <Topics
                       button={false}
                       className="instance-node-13"
-                      divClassNameOverride="topics-16"
-                      hasJamesCarySmith={false}
-                      headline="medium"
-                      resolution="desktop"
-                      text1="From this funding, we are expecting to receive:"
+                      textBodyClassName="topics-16"
+                      textBody="From this funding, we are expecting to receive:"
                     />
                   </div>
                   <StatSection
@@ -785,27 +774,13 @@ export const ProtectDesktop = () => {
               <Topics
                 button={false}
                 className="instance-node-13"
-                divClassNameOverride="topics-17"
-                headline={
-                  screenWidth < 641
-                    ? "large"
-                    : (screenWidth >= 641 && screenWidth < 769) || (screenWidth >= 769 && screenWidth < 1025)
-                    ? "medium"
-                    : undefined
-                }
-                jamesCarySmithClassNameOverride={`${screenWidth < 641 && "class-96"} ${
+                textBodyClassName="topics-17"
+                headerTextClassName={`${screenWidth < 641 && "class-96"} ${
                   ((screenWidth >= 641 && screenWidth < 769) || (screenWidth >= 769 && screenWidth < 1025)) &&
                   "topics-17"
                 }`}
-                resolution={
-                  screenWidth < 641
-                    ? "mobile"
-                    : (screenWidth >= 641 && screenWidth < 769) || (screenWidth >= 769 && screenWidth < 1025)
-                    ? "tablet"
-                    : undefined
-                }
-                text="WILDFIRE SMOKE RESPONSE"
-                text1="In response to the recent wildfires in Canada affecting much of the East Coast and Midwest, we worked with California legislators at the federal level to reintroduce several smoke-related bills to expand clean air centers, home air filtration, and monitoring. While previous attempts were not successful, the additional regions of the U.S. experiencing wildfire smoke impacts have heightened awareness of this issue beyond the West Coast, which may assist in eventual funding in the federal budget."
+                headerText="WILDFIRE SMOKE RESPONSE"
+                textBody="In response to the recent wildfires in Canada affecting much of the East Coast and Midwest, we worked with California legislators at the federal level to reintroduce several smoke-related bills to expand clean air centers, home air filtration, and monitoring. While previous attempts were not successful, the additional regions of the U.S. experiencing wildfire smoke impacts have heightened awareness of this issue beyond the West Coast, which may assist in eventual funding in the federal budget."
               />
             </div>
           </div>
@@ -825,27 +800,13 @@ export const ProtectDesktop = () => {
               <Topics
                 button={false}
                 className="instance-node-13"
-                divClassNameOverride="topics-17"
-                headline={
-                  screenWidth < 641
-                    ? "large"
-                    : (screenWidth >= 641 && screenWidth < 769) || (screenWidth >= 769 && screenWidth < 1025)
-                    ? "medium"
-                    : undefined
-                }
-                jamesCarySmithClassNameOverride={`${screenWidth < 641 && "class-96"} ${
+                textBodyClassName="topics-17"
+                headerTextClassName={`${screenWidth < 641 && "class-96"} ${
                   ((screenWidth >= 641 && screenWidth < 769) || (screenWidth >= 769 && screenWidth < 1025)) &&
                   "topics-17"
                 }`}
-                resolution={
-                  screenWidth < 641
-                    ? "mobile"
-                    : (screenWidth >= 641 && screenWidth < 769) || (screenWidth >= 769 && screenWidth < 1025)
-                    ? "tablet"
-                    : undefined
-                }
-                text="BLUE SKIES BLUE WHALES PROGRAM"
-                text1="In addition to introducing a bill at the state level to expand voluntary vessel speed reduction programs, our staff have worked along with the Santa Barbara County Air Pollution Control District to inform legislators at the federal level of our existing local program, and to solicit greater federal support through a budget appropriation or a bill to provide greater agency support."
+                headerText="BLUE SKIES BLUE WHALES PROGRAM"
+                textBody="In addition to introducing a bill at the state level to expand voluntary vessel speed reduction programs, our staff have worked along with the Santa Barbara County Air Pollution Control District to inform legislators at the federal level of our existing local program, and to solicit greater federal support through a budget appropriation or a bill to provide greater agency support."
               />
             </div>
           </div>
@@ -865,27 +826,13 @@ export const ProtectDesktop = () => {
               <Topics
                 button={false}
                 className="instance-node-13"
-                divClassNameOverride="topics-17"
-                headline={
-                  screenWidth < 641
-                    ? "large"
-                    : (screenWidth >= 641 && screenWidth < 769) || (screenWidth >= 769 && screenWidth < 1025)
-                    ? "medium"
-                    : undefined
-                }
-                jamesCarySmithClassNameOverride={`${screenWidth < 641 && "class-96"} ${
+                textBodyClassName="topics-17"
+                headerTextClassName={`${screenWidth < 641 && "class-96"} ${
                   ((screenWidth >= 641 && screenWidth < 769) || (screenWidth >= 769 && screenWidth < 1025)) &&
                   "topics-17"
                 }`}
-                resolution={
-                  screenWidth < 641
-                    ? "mobile"
-                    : (screenWidth >= 641 && screenWidth < 769) || (screenWidth >= 769 && screenWidth < 1025)
-                    ? "tablet"
-                    : undefined
-                }
-                text="STATE BUDGET"
-                text1="Despite a tough budget environment at the state level, we were successful in working with other air districts to maintain funding for the AB 617 Community Air Protection Program at prior levels, which will allow us to continue support for the four AB 617 communities in the Bay Area."
+                headerText="STATE BUDGET"
+                textBody="Despite a tough budget environment at the state level, we were successful in working with other air districts to maintain funding for the AB 617 Community Air Protection Program at prior levels, which will allow us to continue support for the four AB 617 communities in the Bay Area."
               />
             </div>
           </div>

@@ -34,23 +34,14 @@ export const TopicsSection = ({
         <Topics
           button={false}
           className={`${alignment === "left" ? "class-22" : "class-23"}`}
-          divClassNameOverride={`${resolution === "mobile" && title && "class-19"} ${
+          textBodyClassName={`${resolution === "mobile" && title && "class-19"} ${
             resolution === "mobile" && !title && "class-20"
           } ${resolution === "tablet" && !title && "class-21"}`}
-          hasJamesCarySmith={!title ? false : undefined}
-          headline={
-            alignment === "center" || (alignment === "left" && headline === "medium")
-              ? "medium"
-              : resolution === "desktop" && headline === "large"
-              ? "large"
-              : undefined
-          }
-          jamesCarySmithClassNameOverride={`${resolution === "mobile" && title && "class-17"} ${
+          headerTextClassName={`${resolution === "mobile" && title && "class-17"} ${
             resolution === "tablet" && headline === "large" && "class-18"
           }`}
-          resolution={resolution === "tablet" ? "tablet" : "desktop"}
-          text={topicsText1}
-          text1={topicsText}
+          headerText={topicsText1}
+          textBody={topicsText}
         />
       )}
 

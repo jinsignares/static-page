@@ -42,7 +42,7 @@
   flex-direction: row;
 }
 
-.contact-phone-numbers .bar:last-child, .footer-links .dot:last-child {
+.contact-phone-numbers .contact-phone-wrapper:last-child .bar, .footer-links .footer-link-wrapper:last-child .dot {
   display: none;
 }
 

@@ -38,7 +38,7 @@ export const TitleSection = ({
       {layout === "img-r" && (
         <BlockOfText
           className={blockOfTextResolutionMobileClassNameOverride}
-          elementAnnualReportClassName={blockOfTextElementAnnualReportClassNameOverride}
+          subtitleClassName={blockOfTextElementAnnualReportClassNameOverride}
           resolution="desktop"
           sectionTitleClassName={blockOfTextSectionTitleClassNameOverride}
           subtitle={blockOfTextSubtitle1}
@@ -55,7 +55,7 @@ export const TitleSection = ({
             {["img-l", "stacked"].includes(layout) && (
               <BlockOfText
                 className={blockOfTextResolutionMobileClassName}
-                elementAnnualReportClassName={blockOfTextElementAnnualReportClassName}
+                subtitleClassName={blockOfTextElementAnnualReportClassName}
                 resolution={resolution === "desktop" ? "desktop" : resolution === "tablet" ? "tablet" : "mobile"}
                 sectionTitleClassName={blockOfTextSectionTitleClassName}
                 subtitle={blockOfTextSubtitle}

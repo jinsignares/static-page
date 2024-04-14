@@ -15,23 +15,23 @@ export const Footer = () => {
         <div className="footer-contact-info-wrapper">
           <div className="contact-phone-numbers">
             {contactPhones.map((phone) => (
-              <>
-                <Link key={phone.id} className="phone-number" to={`tel:+1${phone.number}`}>
+              <div className="contact-phone-wrapper" key={phone.id}>
+                <Link className="phone-number" to={`tel:+1${phone.number}`}>
                   {phone.title}
                 </Link>
                 <span className="bar">|</span>
-              </>
+              </div>
             ))}
           </div>
 
           <div className="footer-links">
             {footerLinks.map((link) => (
-              <>
-                <Link key={link.id} className="footer-link" to={link.to}>
+              <div className="footer-link-wrapper" key={link.id}>
+                <Link className="footer-link" to={link.to}>
                   {link.title}
                 </Link>
                 <span className="dot">•</span>
-              </>
+              </div>
             ))}
           </div>
         </div>

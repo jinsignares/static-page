@@ -3,11 +3,9 @@ import { useWindowWidth } from "../../breakpoints";
 import { ArrowsCarrousel } from "../../components/ArrowsCarrousel";
 import { ElementImage } from "../../components/ElementImage";
 import { ElementImages } from "../../components/ElementImages";
-import { Footer } from "../../components/Footer";
 import { GraphChart } from "../../components/GraphChart";
 import { GraphChartLine } from "../../components/GraphChartLine";
 import { GraphPie } from "../../components/GraphPie";
-import { Header } from "../../components/Header";
 import { HightlightBlurb } from "../../components/HightlightBlurb";
 import { InternalMenu } from "../../components/InternalMenu";
 import { OpeningSection } from "../../components/OpeningSection";
@@ -610,7 +608,6 @@ export const AirQualityDesktop = () => {
           <TopicsSection
             alignment="center"
             className="topics-section-instance"
-            headline="large"
             resolution="desktop"
             title
             topicsClassName="topics-section-2"

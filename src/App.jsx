@@ -16,12 +16,12 @@ export const App = () => {
       <Header />
       <Routes>
         <Route path="/" element={<HomeMobilePx />} />
-        <Route path="/air-quality" element={<AirQualityDesktop />} />
         <Route path="/introduction" element={<IntroMobilePx />} />
-        <Route path="/about-us" element={<AboutDesktop />} />
-        <Route path="/protect" element={<ProtectDesktop />} />
-        <Route path="/reduce" element={<ReduceDesktop />} />
+        <Route path="/air-quality" element={<AirQualityDesktop />} />
         <Route path="/community" element={<CommunityDesktop />} />
+        <Route path="/reduce" element={<ReduceDesktop />} />
+        <Route path="/protect" element={<ProtectDesktop />} />
+        <Route path="/about-us" element={<AboutDesktop />} />
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -2,8 +2,6 @@ import React from "react";
 import { useWindowWidth } from "../../breakpoints";
 import { Arrows } from "../../components/Arrows";
 import { ElementImage } from "../../components/ElementImage";
-import { Footer } from "../../components/Footer";
-import { Header } from "../../components/Header";
 import { HightlightBlurb } from "../../components/HightlightBlurb";
 import { InternalMenu } from "../../components/InternalMenu";
 import { OpeningSection } from "../../components/OpeningSection";
@@ -95,12 +93,10 @@ export const CommunityDesktop = () => {
                 <Topics
                   button={false}
                   className="instance-node-25"
-                  divClassNameOverride="topics-27"
-                  headline="medium"
-                  jamesCarySmithClassNameOverride="topics-27"
-                  resolution="tablet"
-                  text="WEST OAKLAND"
-                  text1="In West Oakland, through our AB 617 project that began four years ago, we continued our partnership with West Oakland Environmental Indicators Project (WOEIP) with monthly meetings and implementation teams to support emissions reduction strategies. WOEIP’s Health Equity Advisory Committee focused on the public health aspects of hyperlocal emissions reductions and outreach and recruitment efforts to increase West Oakland resident engagement."
+                  textBodyClassName="topics-27"
+                  headerTextClassName="topics-27"
+                  headerText="WEST OAKLAND"
+                  textBody="In West Oakland, through our AB 617 project that began four years ago, we continued our partnership with West Oakland Environmental Indicators Project (WOEIP) with monthly meetings and implementation teams to support emissions reduction strategies. WOEIP’s Health Equity Advisory Committee focused on the public health aspects of hyperlocal emissions reductions and outreach and recruitment efforts to increase West Oakland resident engagement."
                 />
               </div>
             </div>
@@ -110,12 +106,10 @@ export const CommunityDesktop = () => {
                 <Topics
                   button={false}
                   className="instance-node-25"
-                  divClassNameOverride="topics-27"
-                  headline="medium"
-                  jamesCarySmithClassNameOverride="topics-27"
-                  resolution="tablet"
-                  text="RICHMOND-NORTH RICHMOND-SAN PABLO"
-                  text1="In Richmond-North Richmond-San Pablo, we continued to partner with 21 steering committee members that represent Richmond, North Richmond and San Pablo working to develop and finalize the Community Emission Reduction Plan. The plan remains focused on six priority areas that include mobile, public health, marine and rail, commercial and industrial, fuel refining, and land use and urban greening. Within the last year, an additional subset of strategies has been developed that include compliance and enforcement, penalties, emissions inventory improvement and reporting."
+                  textBodyClassName="topics-27"
+                  headerTextClassName="topics-27"
+                  headerText="RICHMOND-NORTH RICHMOND-SAN PABLO"
+                  textBody="In Richmond-North Richmond-San Pablo, we continued to partner with 21 steering committee members that represent Richmond, North Richmond and San Pablo working to develop and finalize the Community Emission Reduction Plan. The plan remains focused on six priority areas that include mobile, public health, marine and rail, commercial and industrial, fuel refining, and land use and urban greening. Within the last year, an additional subset of strategies has been developed that include compliance and enforcement, penalties, emissions inventory improvement and reporting."
                 />
               </div>
             </div>
@@ -125,11 +119,9 @@ export const CommunityDesktop = () => {
                 <Topics
                   button={false}
                   className="instance-node-25"
-                  divClassNameOverride="topics-28"
-                  headline="medium"
-                  resolution="tablet"
-                  text="EAST OAKLAND"
-                  text1="In East Oakland, we collaborated with Communities for a Better Environment and a 26-member steering committee to start a Community Emissions Reduction Plan to address air quality and environmental justice issues. We developed the vision and principles, confirmed the community boundary, completed the emissions inventory, and compiled community knowledge on pollution sources and community assets into a community mapping project of the area."
+                  textBodyClassName="topics-28"
+                  headerText="EAST OAKLAND"
+                  textBody="In East Oakland, we collaborated with Communities for a Better Environment and a 26-member steering committee to start a Community Emissions Reduction Plan to address air quality and environmental justice issues. We developed the vision and principles, confirmed the community boundary, completed the emissions inventory, and compiled community knowledge on pollution sources and community assets into a community mapping project of the area."
                 />
               </div>
             </div>
@@ -139,18 +131,16 @@ export const CommunityDesktop = () => {
                 <Topics
                   button={false}
                   className="instance-node-25"
-                  divClassNameOverride="topics-27"
-                  headline="medium"
-                  jamesCarySmithClassNameOverride="topics-27"
-                  resolution="tablet"
-                  text={
+                  textBodyClassName="topics-27"
+                  headerTextClassName="topics-27"
+                  headerText={
                     <>
                       BAYVIEW HUNTERS POINT/
                       <br />
                       SOUTHEAST SAN FRANCISCO
                     </>
                   }
-                  text1="In Bayview Hunters Point/Southeast San Francisco, we worked with community co-leads from the Marie Harrison Community Foundation and Bayview Hunters Point Community Advocates to recruit members to the Community Steering Committee (BVHP CSC) to develop a Community Emissions Reduction Plan. We have held two gatherings with the BVHP CSC members to introduce them to the project and began holding monthly meetings in September."
+                  textBody="In Bayview Hunters Point/Southeast San Francisco, we worked with community co-leads from the Marie Harrison Community Foundation and Bayview Hunters Point Community Advocates to recruit members to the Community Steering Committee (BVHP CSC) to develop a Community Emissions Reduction Plan. We have held two gatherings with the BVHP CSC members to introduce them to the project and began holding monthly meetings in September."
                 />
               </div>
             </div>
@@ -408,10 +398,8 @@ export const CommunityDesktop = () => {
             <Topics
               button={false}
               className="instance-node-25"
-              headline="medium"
-              resolution="desktop"
-              text="COMMUNITY ADVISORY COUNCIL"
-              text1="The Community Advisory Council (CAC), consisting of 17 members from across the Bay Area, was created in 2021 to advise our leadership on community-related matters, advance an equity-forward policy agenda, and provide input on key policies and programs. In 2023, the CAC recommended, and our Board approved, the CAC’s foundational documents: the Community Advisory Council Charter and the Community Advisory Council Compensation Policy and Procedures. The Board also approved the Resolution Establishing a Governance Structure for the Community Advisory Council. The CAC ad hoc committees developed an annual work plan and environmental justice policy goals for integration into our strategic plan. In September, the CAC held its inaugural retreat, an event focused on environmental justice and community action."
+              headerText="COMMUNITY ADVISORY COUNCIL"
+              textBody="The Community Advisory Council (CAC), consisting of 17 members from across the Bay Area, was created in 2021 to advise our leadership on community-related matters, advance an equity-forward policy agenda, and provide input on key policies and programs. In 2023, the CAC recommended, and our Board approved, the CAC’s foundational documents: the Community Advisory Council Charter and the Community Advisory Council Compensation Policy and Procedures. The Board also approved the Resolution Establishing a Governance Structure for the Community Advisory Council. The CAC ad hoc committees developed an annual work plan and environmental justice policy goals for integration into our strategic plan. In September, the CAC held its inaugural retreat, an event focused on environmental justice and community action."
             />
           </div>
           <ElementImage
@@ -438,12 +426,10 @@ export const CommunityDesktop = () => {
                 <Topics
                   button={false}
                   className="instance-node-25"
-                  divClassNameOverride="topics-27"
-                  headline="large"
-                  jamesCarySmithClassNameOverride="topics-30"
-                  resolution="mobile"
-                  text="WEST OAKLAND"
-                  text1="In West Oakland, through our AB 617 project that began four years ago, we continued our partnership with West Oakland Environmental Indicators Project (WOEIP) with monthly meetings and implementation teams to support emissions reduction strategies. WOEIP’s Health Equity Advisory Committee focused on the public health aspects of hyperlocal emissions reductions and outreach and recruitment efforts to increase West Oakland resident engagement."
+                  textBodyClassName="topics-27"
+                  headerTextClassName="topics-30"
+                  headerText="WEST OAKLAND"
+                  textBody="In West Oakland, through our AB 617 project that began four years ago, we continued our partnership with West Oakland Environmental Indicators Project (WOEIP) with monthly meetings and implementation teams to support emissions reduction strategies. WOEIP’s Health Equity Advisory Committee focused on the public health aspects of hyperlocal emissions reductions and outreach and recruitment efforts to increase West Oakland resident engagement."
                 />
               </div>
             </div>
@@ -453,12 +439,10 @@ export const CommunityDesktop = () => {
                 <Topics
                   button={false}
                   className="instance-node-25"
-                  divClassNameOverride="topics-27"
-                  headline="large"
-                  jamesCarySmithClassNameOverride="topics-30"
-                  resolution="mobile"
-                  text="RICHMOND-NORTH RICHMOND-SAN PABLO"
-                  text1="In Richmond-North Richmond-San Pablo, we continued to partner with 21 steering committee members that represent Richmond, North Richmond and San Pablo working to develop and finalize the Community Emission Reduction Plan. The plan remains focused on six priority areas that include mobile, public health, marine and rail, commercial and industrial, fuel refining, and land use and urban greening. Within the last year, an additional subset of strategies has been developed that include compliance and enforcement, penalties, emissions inventory improvement and reporting."
+                  textBodyClassName="topics-27"
+                  headerTextClassName="topics-30"
+                  headerText="RICHMOND-NORTH RICHMOND-SAN PABLO"
+                  textBody="In Richmond-North Richmond-San Pablo, we continued to partner with 21 steering committee members that represent Richmond, North Richmond and San Pablo working to develop and finalize the Community Emission Reduction Plan. The plan remains focused on six priority areas that include mobile, public health, marine and rail, commercial and industrial, fuel refining, and land use and urban greening. Within the last year, an additional subset of strategies has been developed that include compliance and enforcement, penalties, emissions inventory improvement and reporting."
                 />
               </div>
             </div>
@@ -468,12 +452,10 @@ export const CommunityDesktop = () => {
                 <Topics
                   button={false}
                   className="instance-node-25"
-                  divClassNameOverride="topics-28"
-                  headline="large"
-                  jamesCarySmithClassNameOverride="topics-31"
-                  resolution="mobile"
-                  text="EAST OAKLAND"
-                  text1="In East Oakland, we collaborated with Communities for a Better Environment and a 26-member steering committee to start a Community Emissions Reduction Plan to address air quality and environmental justice issues. We developed the vision and principles, confirmed the community boundary, completed the emissions inventory, and compiled community knowledge on pollution sources and community assets into a community mapping project of the area."
+                  textBodyClassName="topics-28"
+                  headerTextClassName="topics-31"
+                  headerText="EAST OAKLAND"
+                  textBody="In East Oakland, we collaborated with Communities for a Better Environment and a 26-member steering committee to start a Community Emissions Reduction Plan to address air quality and environmental justice issues. We developed the vision and principles, confirmed the community boundary, completed the emissions inventory, and compiled community knowledge on pollution sources and community assets into a community mapping project of the area."
                 />
               </div>
             </div>
@@ -483,18 +465,16 @@ export const CommunityDesktop = () => {
                 <Topics
                   button={false}
                   className="instance-node-25"
-                  divClassNameOverride="topics-27"
-                  headline="large"
-                  jamesCarySmithClassNameOverride="topics-30"
-                  resolution="mobile"
-                  text={
+                  textBodyClassName="topics-27"
+                  headerTextClassName="topics-30"
+                  headerText={
                     <>
                       BAYVIEW HUNTERS POINT/
                       <br />
                       SOUTHEAST SAN FRANCISCO
                     </>
                   }
-                  text1="In Bayview Hunters Point/Southeast San Francisco, we worked with community co-leads from the Marie Harrison Community Foundation and Bayview Hunters Point Community Advocates to recruit members to the Community Steering Committee (BVHP CSC) to develop a Community Emissions Reduction Plan. We have held two gatherings with the BVHP CSC members to introduce them to the project and began holding monthly meetings in September."
+                  textBody="In Bayview Hunters Point/Southeast San Francisco, we worked with community co-leads from the Marie Harrison Community Foundation and Bayview Hunters Point Community Advocates to recruit members to the Community Steering Committee (BVHP CSC) to develop a Community Emissions Reduction Plan. We have held two gatherings with the BVHP CSC members to introduce them to the project and began holding monthly meetings in September."
                 />
               </div>
             </div>

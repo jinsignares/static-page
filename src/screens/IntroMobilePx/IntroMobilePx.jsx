@@ -1,7 +1,5 @@
 import React from "react";
 import { useWindowWidth } from "../../breakpoints";
-import { Footer } from "../../components/Footer";
-import { Header } from "../../components/Header";
 import { InternalMenu } from "../../components/InternalMenu";
 import { Quote } from "../../components/Quote";
 import { TitleSection } from "../../components/TitleSection";
@@ -370,11 +368,8 @@ export const IntroMobilePx = () => {
             <Topics
               button={false}
               className="topics-12"
-              divClassNameOverride="topics-13"
-              hasJamesCarySmith={false}
-              headline="medium"
-              resolution="desktop"
-              text1={
+              textBodyClassName="topics-13"
+              textBody={
                 <>
                   As part of our efforts to increase transparency around our enforcement work, we developed an online
                   tool that allows the public to view air quality violations and penalties issued to local facilities.

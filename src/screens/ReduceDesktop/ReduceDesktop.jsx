@@ -2,11 +2,9 @@ import React from "react";
 import { useWindowWidth } from "../../breakpoints";
 import { ArrowsCarrousel } from "../../components/ArrowsCarrousel";
 import { ElementImage } from "../../components/ElementImage";
-import { Footer } from "../../components/Footer";
 import { GraphChart } from "../../components/GraphChart";
 import { GraphChartLine } from "../../components/GraphChartLine";
 import { GraphChartTotal } from "../../components/GraphChartTotal";
-import { Header } from "../../components/Header";
 import { HightlightBlurb } from "../../components/HightlightBlurb";
 import { InternalMenu } from "../../components/InternalMenu";
 import { PropertyDefaultWrapper } from "../../components/PropertyDefaultWrapper";
@@ -1077,12 +1075,10 @@ export const ReduceDesktop = () => {
                 <Topics
                   button={false}
                   className="instance-node-17"
-                  divClassNameOverride="instance-node-18"
-                  headline="medium"
-                  jamesCarySmithClassNameOverride="instance-node-18"
-                  resolution="desktop"
-                  text="SCHOOL BUS PROGRAM"
-                  text1="We awarded over $15 million in funding to support zero- and low-emission school buses, protecting student health and achieving significant air quality benefits for this highly sensitive group."
+                  textBodyClassName="instance-node-18"
+                  headerTextClassName="instance-node-18"
+                  headerText="SCHOOL BUS PROGRAM"
+                  textBody="We awarded over $15 million in funding to support zero- and low-emission school buses, protecting student health and achieving significant air quality benefits for this highly sensitive group."
                 />
               </div>
               <Stat
@@ -2739,27 +2735,13 @@ export const ReduceDesktop = () => {
               <Topics
                 button={false}
                 className="instance-node-17"
-                divClassNameOverride="instance-node-18"
-                headline={
-                  screenWidth < 641
-                    ? "large"
-                    : (screenWidth >= 641 && screenWidth < 769) || (screenWidth >= 769 && screenWidth < 1025)
-                    ? "medium"
-                    : undefined
-                }
-                jamesCarySmithClassNameOverride={`${screenWidth < 641 && "class-100"} ${
+                textBodyClassName="instance-node-18"
+                headerTextClassName={`${screenWidth < 641 && "class-100"} ${
                   ((screenWidth >= 641 && screenWidth < 769) || (screenWidth >= 769 && screenWidth < 1025)) &&
                   "instance-node-18"
                 }`}
-                resolution={
-                  screenWidth < 641
-                    ? "mobile"
-                    : (screenWidth >= 641 && screenWidth < 769) || (screenWidth >= 769 && screenWidth < 1025)
-                    ? "tablet"
-                    : undefined
-                }
-                text="SCHOOL BUS PROGRAM"
-                text1="We awarded over $15 million in funding to support zero- and low-emission school buses, protecting student health and achieving significant air quality benefits for this highly sensitive group."
+                headerText="SCHOOL BUS PROGRAM"
+                textBody="We awarded over $15 million in funding to support zero- and low-emission school buses, protecting student health and achieving significant air quality benefits for this highly sensitive group."
               />
             </div>
             <Stat

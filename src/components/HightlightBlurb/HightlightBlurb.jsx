@@ -62,7 +62,6 @@ export const HightlightBlurb = ({
               button={false}
               className="topics-instance"
               divClassNameOverride="instance-node"
-              headline="medium"
               jamesCarySmithClassNameOverride="instance-node"
               resolution="desktop"
               text="WILDFIRE SMOKE RESPONSE"
@@ -137,11 +136,9 @@ export const HightlightBlurb = ({
               button={false}
               className={topicsResolutionDesktopClassName}
               divClassNameOverride="instance-node"
-              headline="medium"
               jamesCarySmithClassNameOverride="instance-node"
-              resolution="desktop"
-              text={topicsText1}
-              text1={topicsText}
+              headerText={topicsText1}
+              textBody={topicsText}
             />
           )}
         </div>
