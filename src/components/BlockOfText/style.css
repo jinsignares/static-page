@@ -39,7 +39,6 @@
 }
 
 .block-of-text.yes .subtitle-wrapper {
-  white-space: nowrap;
   width: fit-content;
 }
 

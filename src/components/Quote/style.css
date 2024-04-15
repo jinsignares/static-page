@@ -3,8 +3,7 @@
   background-color: var(--black);
   display: flex;
   flex-direction: column;
-  left: 20px;
-  position: relative;
+  
 }
 
 .quote .section-title-67 {
@@ -15,7 +14,6 @@
   height: 126px;
   letter-spacing: 7.25px;
   line-height: 159.5px;
-  position: relative;
   white-space: nowrap;
   width: 68px;
 }
@@ -29,7 +27,6 @@
   font-weight: var(--pull-quote-desktop-font-weight);
   letter-spacing: var(--pull-quote-desktop-letter-spacing);
   line-height: var(--pull-quote-desktop-line-height);
-  position: relative;
 }
 
 .quote.type-4-rounded {
@@ -37,14 +34,12 @@
   height: 290px;
   justify-content: center;
   padding: 0px 40px;
-  top: 530px;
   width: 447px;
 }
 
 .quote.type-4-default {
   height: 490px;
   padding: 80px;
-  top: 20px;
   width: 480px;
 }
 
@@ -58,4 +53,15 @@
 
 .quote.type-4-default .section-title-68 {
   margin-top: -55px;
+}
+
+@media (max-width: 1080px) {
+  .quote .section-title-68 {
+    font-family: var(--pull-quote-mobile-font-family);
+    font-size: var(--pull-quote-mobile-font-size);
+    font-style: var(--pull-quote-mobile-font-style);
+    font-weight: var(--pull-quote-mobile-font-weight);
+    letter-spacing: var(--pull-quote-mobile-letter-spacing);
+    line-height: var(--pull-quote-mobile-line-height);
+  }
 }
