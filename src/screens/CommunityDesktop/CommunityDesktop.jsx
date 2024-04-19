@@ -253,12 +253,7 @@ export const CommunityDesktop = () => {
             topicsText1="COMMUNITY ADVISORY COUNCIL"
           />
           <ElementImage className="element-image-6" rectangle="/img/rectangle-255-3-2.png" resolution="mobile" />
-          <InternalMenu
-            arrowElementTypeBack="/img/arrow-element-16.png"
-            arrowElementTypeForward="/img/arrow-element-17.png"
-            className="internal-menu-6"
-            resolution="mobile"
-          />
+          <InternalMenu/>
         </>
       )}
 
@@ -408,12 +403,7 @@ export const CommunityDesktop = () => {
             rectangleClassName="element-image-8"
             resolution="destop"
           />
-          <InternalMenu
-            arrowElementTypeBack="/img/arrow-element.png"
-            arrowElementTypeForward="/img/arrow-element-1.png"
-            className="internal-menu-6"
-            resolution="desktop"
-          />
+          <InternalMenu/>
         </>
       )}
 
@@ -544,12 +534,7 @@ export const CommunityDesktop = () => {
             topicsText1="COMMUNITY ADVISORY COUNCIL"
           />
           <ElementImage className="element-image-6" rectangle="/img/rectangle-255-3-2.png" resolution="mobile" />
-          <InternalMenu
-            arrowElementTypeBack="/img/arrow-element-14.png"
-            arrowElementTypeForward="/img/arrow-element-15.png"
-            className="internal-menu-6"
-            resolution="mobile"
-          />
+          <InternalMenu/>
         </>
       )}
     </div>

@@ -1133,12 +1133,7 @@ export const AirQualityDesktop = () => {
             subTopicTitleText2="EXCEEDANCES OF AIR QUALITY STANDARDS"
             title="left"
           />
-          <InternalMenu
-            arrowElementTypeBack="/img/arrow-element.png"
-            arrowElementTypeForward="/img/arrow-element-1.png"
-            className="internal-menu-instance"
-            resolution="mobile"
-          />
+          <InternalMenu/>
         </>
       )}
 
@@ -1806,12 +1801,7 @@ export const AirQualityDesktop = () => {
               visible49={false}
             />
           </div>
-          <InternalMenu
-            arrowElementTypeBack="/img/arrow-element-24.png"
-            arrowElementTypeForward="/img/arrow-element-25.png"
-            className="internal-menu-instance"
-            resolution="mobile"
-          />
+          <InternalMenu/>
         </>
       )}
 
@@ -2351,12 +2341,7 @@ export const AirQualityDesktop = () => {
             subTopicTitleTypeDefaultClassName="instance-node-9"
             title="with-graph"
           />
-          <InternalMenu
-            arrowElementTypeBack="/img/arrow-element-34.png"
-            arrowElementTypeForward="/img/arrow-element-35.png"
-            className="internal-menu-instance"
-            resolution="mobile"
-          />
+          <InternalMenu/>
         </>
       )}
     </div>

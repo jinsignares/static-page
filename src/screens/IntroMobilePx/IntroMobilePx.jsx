@@ -1,15 +1,12 @@
 import React from "react";
-import { useWindowWidth } from "../../breakpoints";
 import { InternalMenu } from "../../components/InternalMenu";
 import { Quote } from "../../components/Quote";
-import { TitleSection } from "../../components/TitleSection";
-import { Topics } from "../../components/Topics";
 import { BlockOfText } from "../../components/BlockOfText";
-import { TopicsSection } from "../../components/TopicsSection";
+
 import "./style.css";
+import "../../common/main.css"
 
 export const IntroMobilePx = () => {
-  const screenWidth = useWindowWidth();
 
   return (
     <div className="introduction-container">
@@ -23,20 +20,20 @@ export const IntroMobilePx = () => {
         />
       </div>
 
-      <div className="opening-section-6">
-        <div className="opening-text-4">
-          <div className="frame-68">
-            <div className="AB-community-5">EXECUTIVE SUMMARY 2023</div>
-            <p className="we-continued-to-work-6">
-              <span className="text-wrapper-28">This year was a year of </span>
-              <span className="text-wrapper-29">renewal and change</span>
-              <span className="text-wrapper-28">
+      <div className="opening-section">
+        <div className="opening-text">
+          <div className="frame-inner">
+            <div className="frame-title-large">EXECUTIVE SUMMARY 2023</div>
+            <p className="text-body-large">
+              <span>This year was a year of </span>
+              <span className="text-wrapper-blue-bold">renewal and change</span>
+              <span>
                 {" "}
                 at the Air District. I joined as Executive Officer in February
                 and am joined by a new executive team. This new executive team
                 will help steer our work towards{" "}
               </span>
-              <span className="text-wrapper-29">
+              <span className="text-wrapper-blue-bold">
                 increasing transparency, collaboration, and protection for
                 communities with environmental justice concerns.
               </span>
@@ -45,16 +42,16 @@ export const IntroMobilePx = () => {
         </div>
       </div>
 
-      <div className="topics-section-10">
-        <div className="frame-wrapper-2">
-          <div className="frame-68">
+      <div className="topics-section-wrapper">
+        <div className="frame-wrapper">
+          <div className="frame-inner">
             <p className="frame-inner-wrapper">
-              <span className="text-wrapper-24">
+              <span className="text-wrapper-bold">
                 Our mission is to significantly reduce the disproportionate
                 levels of air pollution that many communities face and provide
                 clean air for all Bay Area residents.{" "}
               </span>
-              <span className="text-wrapper-30">
+              <span className="text-wrapper-body">
                 Through the AB 617 Community Health Protection Program and other
                 community-focused programs, we will continue to implement
                 stronger air quality protections for those most impacted. This
@@ -94,11 +91,11 @@ export const IntroMobilePx = () => {
           type="default"
           />
       </div>
-      <div className="topics-section-10 phillip-text">
-        <div className="frame-wrapper-2">
-          <div className="frame-68">
+      <div className="topics-section-wrapper">
+        <div className="frame-wrapper">
+          <div className="frame-inner">
             <p className="frame-inner-wrapper">
-              <span className="text-wrapper-30">
+              <span className="text-wrapper-body">
                 As part of our efforts to increase transparency around our
                 enforcement work, we developed an online tool that allows the
                 public to view air quality violations and penalties issued to
@@ -130,27 +127,22 @@ export const IntroMobilePx = () => {
         </div>
       </div>
       <div className="signature-2" />
-      <div className="topics-section-10 signature-wrapper">
-        <div className="frame-wrapper-2">
-          <div className="frame-68">
+      <div className="topics-section-wrapper signature-wrapper">
+        <div className="frame-wrapper">
+          <div className="frame-inner">
             <p className="frame-inner-wrapper">
-            <span className="text-wrapper-24">
+            <span className="text-wrapper-bold">
                 Dr. Philip Fine
                 <br />
               </span>
-              <span className="text-wrapper-30">
+              <span className="text-wrapper-body">
                 Executive Officer /Air Pollution Control Officer
               </span>
             </p>
           </div>
         </div>
       </div>
-      <InternalMenu
-        arrowElementTypeBack="/img/arrow-element.png"
-        arrowElementTypeForward="/img/arrow-element-1.png"
-        className="internal-menu-2"
-        resolution="mobile"
-      />
+      <InternalMenu/>
     </div>
   );
 };

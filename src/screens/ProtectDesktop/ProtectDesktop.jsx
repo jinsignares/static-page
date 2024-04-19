@@ -697,12 +697,7 @@ export const ProtectDesktop = () => {
               />
             </div>
           </div>
-          <InternalMenu
-            arrowElementTypeBack="/img/arrow-element.png"
-            arrowElementTypeForward="/img/arrow-element-1.png"
-            className="internal-menu-4"
-            resolution="desktop"
-          />
+          <InternalMenu/>
         </>
       )}
 
@@ -836,12 +831,7 @@ export const ProtectDesktop = () => {
               />
             </div>
           </div>
-          <InternalMenu
-            arrowElementTypeBack="/img/arrow-element.png"
-            arrowElementTypeForward="/img/arrow-element-1.png"
-            className="internal-menu-4"
-            resolution="mobile"
-          />
+          <InternalMenu/>
         </>
       )}
     </div>

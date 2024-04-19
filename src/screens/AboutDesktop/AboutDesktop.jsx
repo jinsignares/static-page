@@ -3951,30 +3951,7 @@ export const AboutDesktop = () => {
           )}
         </div>
       </div>
-      <InternalMenu
-        arrowElementTypeBack={
-          (screenWidth >= 641 && screenWidth < 769) || (screenWidth >= 769 && screenWidth < 1025) || screenWidth < 641
-            ? "/img/arrow-element-6.png"
-            : screenWidth >= 1025
-            ? "/img/arrow-element.png"
-            : undefined
-        }
-        arrowElementTypeForward={
-          (screenWidth >= 641 && screenWidth < 769) || (screenWidth >= 769 && screenWidth < 1025) || screenWidth < 641
-            ? "/img/arrow-element-7.png"
-            : screenWidth >= 1025
-            ? "/img/arrow-element-1.png"
-            : undefined
-        }
-        className="internal-menu-3"
-        resolution={
-          (screenWidth >= 641 && screenWidth < 769) || (screenWidth >= 769 && screenWidth < 1025) || screenWidth < 641
-            ? "mobile"
-            : screenWidth >= 1025
-            ? "desktop"
-            : undefined
-        }
-      />
+      <InternalMenu />
     </div>
   );
 };

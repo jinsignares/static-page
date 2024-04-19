@@ -2,115 +2,61 @@
   align-items: center;
   background-color: var(--dark-blue);
   display: flex;
-  justify-content: space-between;
-  left: 20px;
-  position: relative;
-}
-
-.internal-menu .arrow-element-2 {
-  flex: 0 0 auto !important;
-  height: unset !important;
-  left: unset !important;
-  position: relative !important;
-  top: unset !important;
-  width: unset !important;
-}
-
-.internal-menu .group-19 {
-  height: 44px;
-  position: relative;
-  width: 44px;
-}
-
-.internal-menu .rectangle-10 {
-  background-color: var(--white);
-  height: 11px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 13px;
-}
-
-.internal-menu .rectangle-11 {
-  background-color: var(--white);
-  height: 11px;
-  left: 0;
-  position: absolute;
-  top: 16px;
-  width: 13px;
-}
-
-.internal-menu .rectangle-12 {
-  background-color: var(--white);
-  height: 11px;
-  left: 0;
-  position: absolute;
-  top: 33px;
-  width: 13px;
-}
-
-.internal-menu .rectangle-13 {
-  background-color: var(--white);
-  height: 11px;
-  left: 16px;
-  position: absolute;
-  top: 0;
-  width: 13px;
-}
-
-.internal-menu .rectangle-14 {
-  background-color: var(--white);
-  height: 11px;
-  left: 16px;
-  position: absolute;
-  top: 16px;
-  width: 13px;
-}
-
-.internal-menu .rectangle-15 {
-  background-color: var(--white);
-  height: 11px;
-  left: 16px;
-  position: absolute;
-  top: 33px;
-  width: 13px;
-}
-
-.internal-menu .rectangle-16 {
-  background-color: var(--white);
-  height: 11px;
-  left: 31px;
-  position: absolute;
-  top: 0;
-  width: 13px;
-}
-
-.internal-menu .rectangle-17 {
-  background-color: var(--white);
-  height: 11px;
-  left: 31px;
-  position: absolute;
-  top: 16px;
-  width: 13px;
-}
-
-.internal-menu .rectangle-18 {
-  background-color: var(--white);
-  height: 11px;
-  left: 31px;
-  position: absolute;
-  top: 33px;
-  width: 13px;
-}
-
-.internal-menu.resolution-118-desktop {
+  width: 100%;
   padding: 40px 60px;
-  top: 20px;
-  width: 1920px;
+  justify-content: space-between;
 }
 
-.internal-menu.resolution-118-mobile {
-  padding: 40px 20px;
-  top: 168px;
-  width: 375px;
+button {
+  background-color: transparent;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  color: var(--white);
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+button:hover {
+  background-color: var(--white);
+  color: var(--dark-blue);
+}
+
+.menu-arrow-svg {
+  height: 50px;
+  width: 50px;
+}
+
+.menu-viewer {
+  padding: 0;
+  width: 100px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-viewer:hover .square-block {
+  background-color: var(--dark-blue);
+}
+
+.grid-group {
+  padding: 7px;
+  height: 50px;
+  width: 50px;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  gap: 3px;
+  transition: all .2s ease-in-out;
+}
+
+.square-block {
+  transition: all .2s ease-in-out;
+  background-color: var(--white);
+}
+
+@media (max-width: 1080px) {
+  .internal-menu {
+    padding: 40px 20px;
+  }
 }

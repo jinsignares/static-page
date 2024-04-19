@@ -22,7 +22,7 @@ export const OpeningText = ({
   ABCommunityClassName,
 }) => {
   return (
-    <div className={`opening-text resolution-6-${resolution} ${className}`}>
+    <div className={`opening-text-wrapper resolution-6-${resolution} ${className}`}>
       <div className={`frame-3 ${frameClassName}`}>
         <p className={`AB-community ${ABCommunityClassName}`}>{text}</p>
         <p className={`we-continued-to-work ${weContinuedToWorkClassName}`}>

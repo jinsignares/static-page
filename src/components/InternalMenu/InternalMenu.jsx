@@ -1,34 +1,51 @@
-/*
-We're constantly improving the code you see. 
-Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
-*/
-
 import PropTypes from "prop-types";
 import React from "react";
-import { ArrowElement } from "../ArrowElement";
 import "./style.css";
 
-export const InternalMenu = ({
-  resolution,
-  className,
-  arrowElementTypeBack = "/img/arrow-element.png",
-  arrowElementTypeForward = "/img/arrow-element-1.png",
-}) => {
+export const InternalMenu = ({ className }) => {
   return (
-    <div className={`internal-menu resolution-118-${resolution} ${className}`}>
-      <ArrowElement className="arrow-element-2" type="back" typeBack={arrowElementTypeBack} />
-      <div className="group-19">
-        <div className="rectangle-10" />
-        <div className="rectangle-11" />
-        <div className="rectangle-12" />
-        <div className="rectangle-13" />
-        <div className="rectangle-14" />
-        <div className="rectangle-15" />
-        <div className="rectangle-16" />
-        <div className="rectangle-17" />
-        <div className="rectangle-18" />
-      </div>
-      <ArrowElement className="arrow-element-2" type="forward" typeForward={arrowElementTypeForward} />
+    <div className={`internal-menu ${className}`}>
+      <button type="button" className="menu-arrow-left">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth="2"
+          stroke="currentColor"
+          className="menu-arrow-svg"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18"
+          />
+        </svg>
+      </button>
+      <button className="menu-viewer">
+        <div className="grid-group">
+          {Array(9)
+            .fill()
+            .map((_, index) => (
+              <div key={index} className="square-block" />
+            ))}
+        </div>
+      </button>
+      <button type="button" className="menu-arrow-right">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth="2"
+          stroke="currentColor"
+          className="menu-arrow-svg"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+          />
+        </svg>
+      </button>
     </div>
   );
 };

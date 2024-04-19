@@ -1,0 +1,1 @@
+export { ImageDescSection } from "./ImageDescSection";
