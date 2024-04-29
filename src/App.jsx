@@ -9,6 +9,7 @@ import { AboutDesktop } from "./screens/AboutDesktop";
 import { ProtectDesktop } from "./screens/ProtectDesktop";
 import { ReduceDesktop } from "./screens/ReduceDesktop";
 import { CommunityDesktop } from "./screens/CommunityDesktop";
+import { Achievements } from "./screens/Achievements";
 
 export const App = () => {
   return (
@@ -17,6 +18,7 @@ export const App = () => {
       <Routes>
         <Route path="/" element={<HomeMobilePx />} />
         <Route path="/introduction" element={<IntroMobilePx />} />
+        <Route path="/achievements" element={<Achievements />} />
         <Route path="/air-quality" element={<AirQualityDesktop />} />
         <Route path="/community" element={<CommunityDesktop />} />
         <Route path="/reduce" element={<ReduceDesktop />} />

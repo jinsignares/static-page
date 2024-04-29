@@ -56,16 +56,16 @@
 }
 
 /* Media Queries for Header*/
-@media (max-width: 1440px) {
+@media (min-width: 1441px) {
   .header {
     height: 110px;
     padding: 24px 16px;
   }
-  
+
   .nav-wrapper {
     gap: 20px;
   }
-  
+
   .nav-links {
     display: flex;
     gap: 20px;
@@ -73,7 +73,7 @@
   }
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1440px) {
   .header {
     height: 90px;
     padding: 24px 16px;

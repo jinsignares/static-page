@@ -28,10 +28,21 @@
     "@storybook/react": "7.0.3",
     "@storybook/react-webpack5": "7.0.3",
     "@storybook/testing-library": "0.2.0",
+    "autoprefixer": "^10.4.19",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.34.1",
     "htmlnano": "2.0.3",
     "parcel": "^2.8.0",
     "parcel-reporter-static-files-copy": "^1.5.0",
+    "postcss": "^8.4.38",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.14",
     "process": "^0.11.10",
-    "storybook": "7.0.3"
+    "storybook": "7.0.3",
+    "tailwindcss": "^3.4.3"
   }
 }

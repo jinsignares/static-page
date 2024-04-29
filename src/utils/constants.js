@@ -1,9 +1,11 @@
 export const links = [
   { id: "introduction", title: "INTRODUCTION", to: "/introduction" },
+  { id: "achievements", title: "ACHIEVEMENTS", to: "/achievements" },
   { id: "air-quality", title: "AIR QUALITY", to: "/air-quality" },
   { id: "community", title: "COMMUNITY", to: "/community" },
-  { id: "reduce", title: "REDUCE", to: "/reduce" },
-  { id: "protect", title: "PROTECT", to: "/protect" },
+  { id: "incentives", title: "INCENTIVES", to: "/incentives" },
+  { id: "by-the-numbers", title: "BY THE NUMBERS", to: "/by-the-numbers" },
+  { id: "advocacy", title: "ADVOCACY", to: "/advocacy" },
   { id: "about-us", title: "ABOUT US", to: "/about-us" },
 ];
 
